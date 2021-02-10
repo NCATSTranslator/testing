@@ -1,0 +1,22 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e00": {
+                    "subject": "n00",
+                    "object": "n01",
+                    "predicate": "biolink:treats"
+                }
+            },
+            "nodes": {
+                "n00": {
+                    "id": "CHEBI:25812",
+                    "category": "biolink:ChemicalSubstance"
+                },
+                "n01": {
+                    "category": "biolink:Disease"
+                }
+            }
+        }
+    }
+}

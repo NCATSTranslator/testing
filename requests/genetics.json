@@ -1,0 +1,22 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e00": {
+                    "object": "n01",
+                    "predicate": "biolink:gene_associated_with_condition",
+                    "subject": "n00"
+                }
+            },
+            "nodes": {
+                "n00": {
+                    "category": "biolink:Gene",
+                    "id": "NCBIGene:1803"
+                },
+                "n01": {
+                    "category": "biolink:Disease"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e0": {
+                    "predicate": "biolink:interacts_with",
+                    "subject": "n0",
+                    "object": "n1"
+                }
+            },
+            "nodes": {
+                "n0": {
+                    "category": "biolink:Drug"
+                },
+                "n1": {
+                    "category": "biolink:Gene",
+                    "id": "ENSEMBL:ENSG00000106665"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "edges": {},
+            "nodes": {}
+        },
+        "results": []
+    }
+}

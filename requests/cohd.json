@@ -1,0 +1,22 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n00": {
+                    "id": "DOID:9053",
+                    "category": "biolink:Disease"
+                },
+                "n01": {
+                    "category": "biolink:Procedure"
+                }
+            },
+            "edges": {
+                "e00": {
+                    "predicate": "biolink:correlated_with",
+                    "subject": "n00",
+                    "object": "n01"
+                }
+            }
+        }
+    }
+}

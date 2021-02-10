@@ -1,0 +1,15 @@
+{
+    "automat_ctd": "https://automat.renci.org/ctd/query",
+    "automat_textminingkp": "https://automat.renci.org/textminingkp/query",
+    "big_gim_ii_drug_response": "https://api.bte.ncats.io/v1/smartapi/adf20dd6ff23dfe18e8e012bde686e31/query",
+    "big_gim_ii_tumor_gene_mutation": "https://api.bte.ncats.io/v1/smartapi/5219cefb9d2b8d5df08c3a956fdd20f3/query",
+    "bte": "https://api.bte.ncats.io/v1/query/",
+    "chp": "http://chp.thayer.dartmouth.edu/query/",
+    "clinical_risk_ehr": "https://api.bte.ncats.io/v1/smartapi/1bef5ecbb0b9aee90023ce9faa2c8974/query",
+    "cohd": "http://cohd.io/api/translator/query",
+    "genetics": "https://translator.broadinstitute.org/genetics_provider/trapi/v1.0/query",
+    "icees": "https://icees.renci.org:16340/knowledge_graph_one_hop?reasoner=true",
+    "molepro": "https://translator.broadinstitute.org/molepro/trapi/v1.0/query",
+    "ontology": "https://stars-app.renci.org/sparql-kp/query",
+    "wellness": "https://api.bte.ncats.io/v1/smartapi/4974ebbf2c1ae31a25a7a7b2d9e4b0d4/query"
+}

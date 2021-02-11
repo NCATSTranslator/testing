@@ -1,0 +1,1 @@
+{ "message": { "query_graph": { "edges": { "e00": { "subject": "n00", "object": "n01", "predicate": "biolink:associated_with_decreased_risk_for" } }, "nodes": { "n00": { "category": "biolink:Drug" }, "n01": { "category": "biolink:Disease", "id": "MONDO:0004981" } } } } }

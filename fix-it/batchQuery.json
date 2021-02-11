@@ -1,0 +1,1 @@
+{ "message": { "query_graph": { "nodes": { "n0": { "category": "biolink:ChemicalSubstance" }, "n1": { "id": [ "DOID:0060060", "DOID:0060224" ], "category": "biolink:Disease" } }, "edges": { "e00": { "subject": "n0", "object": "n1" } } } } }

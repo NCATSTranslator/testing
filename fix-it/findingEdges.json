@@ -1,0 +1,1 @@
+{ "message": { "query_graph": { "nodes": { "n0": { "category": "biolink:ChemicalSubstance", "id": "CHEBI:3215" }, "n3": { "id": "PR:000031567", "category": "biolink:GeneOrGeneProduct" } }, "edges": { "e03": { "subject": "n0", "object": "n3" } } } } }

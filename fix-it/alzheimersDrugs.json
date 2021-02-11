@@ -1,0 +1,1 @@
+{ "message": { "query_graph": { "edges": { "e00": { "subject": "n01", "object": "n00", "predicate": "biolink:treats" } }, "nodes": { "n00": { "id": "MONDO:0004975", "category": "biolink:Disease" }, "n01": { "category": "biolink:ChemicalSubstance" } } } } }

@@ -1,0 +1,1 @@
+{ "message": { "query_graph": { "nodes": { "n0": { "id":"UMLS:C0034678", "category":"biolink:GeneFamily" }, "n1": { "category": "biolink:Gene" } }, "edges": { "e0": { "subject": "n0", "object": "n1", "predicate": "biolink:subclass_of" } } } } }

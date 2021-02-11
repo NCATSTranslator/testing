@@ -1,0 +1,22 @@
+{
+	"message": {
+		"query_graph": {
+			"nodes": {
+				"n0": {
+					"category": "biolink:ChemicalSubstance"
+				},
+				"n1": {
+					"id": "UMLS:C0032961",
+					"category":"biolink:Disease"
+				}
+			},
+			"edges": {
+				"e00": {
+					"subject": "n0",
+					"object": "n1",
+					"predicate":"biolink:contraindicated_for"
+				}
+			}
+		}
+	}
+}

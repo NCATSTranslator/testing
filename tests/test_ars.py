@@ -24,7 +24,7 @@ BASE_PATH=os.path.dirname(os.path.realpath(__file__))
 
 
 def get_files(relativePath):
-    print("get_files")
+    #print("get_files")
     files=[]
     my_dir = BASE_PATH+relativePath
     for filename in os.listdir(my_dir):
@@ -32,16 +32,18 @@ def get_files(relativePath):
     return files
 
 async def test_not_none():
-    print("test_not_none")
+    #print("test_not_none")
     files = get_files("/../ars-requests/not-none")
     for file in files:
-        print("+++ Checking "+file)
+        print("+++ Checking "+file+" for non-zero result counts")
+        print("+++ File is as follows: \n")
         with open(file, "r") as f:
             query = json.load(f)
+            print(json.dumps(query, indent=4, sort_keys=True))
             await has_results(query)
 
 async def call_ars(payload, url=ARS_URL+"submit"):
-    print("call_ars")
+    #print("call_ars")
     async with httpx.AsyncClient(verify=False) as client:
         response = await client.post(
             url,
@@ -56,7 +58,7 @@ async def must_contain_curie(curie,query):
     results = get_children(query)
 
 async def has_results(query):
-    print("has_results")
+    #print("has_results")
     children = await get_children(query)
     for child in children:
         agent = child[0]
@@ -64,17 +66,17 @@ async def has_results(query):
         try:
             results = childData['fields']['data']['message']['results']
             if(not len(results)>0):
-                print(agent +" has no results for \n")
-                print(json.dumps(query, indent=4, sort_keys=True))
+                print(agent +" has no results for this query")
+                #print(json.dumps(query, indent=4, sort_keys=True))
             else:
                 print(agent +" has "+str(len(results))+" results")
         except (TypeError, KeyError) as e:
-            print(agent +" has no results for \n")
-            print(json.dumps(query, indent=4, sort_keys=True))
+            print(agent +" has no results for this query")
+            #print(json.dumps(query, indent=4, sort_keys=True))
 
 
 async def get_children(query,url=None):
-    print("get_children")
+    #print("get_children")
     children = []
     response = await call_ars(query)
     pk = response['pk']

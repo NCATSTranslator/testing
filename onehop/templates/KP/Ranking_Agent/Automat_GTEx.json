@@ -1,0 +1,104 @@
+{
+    "url": "https://automat.renci.org/gtex",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_splicing_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_expression_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_nearby_variant_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_expression_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_non_coding_variant_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_synonymous_variant_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_missense_variant_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_splice_site_variant_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:non_coding_transcript_variant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:disruptive_inframe_deletion",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_nonsense_variant_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:conservative_inframe_insertion",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:conservative_inframe_deletion",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:disruptive_inframe_insertion",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

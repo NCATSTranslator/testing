@@ -1,0 +1,216 @@
+{
+    "url": "https://automat.renci.org/ontological-hierarchy",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:superclass_of",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

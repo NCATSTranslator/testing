@@ -1,0 +1,13 @@
+{
+    "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/litvar/api/v1",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

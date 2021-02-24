@@ -1,0 +1,20 @@
+{
+    "url": "https://automat.renci.org/intact",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:molecularly_interacts_with",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "url": "https://www.ebi.ac.uk/ols/api",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_subclass",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

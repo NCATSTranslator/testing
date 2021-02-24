@@ -1,0 +1,90 @@
+{
+    "url": "https://automat.renci.org/pharos",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_activity_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:directly_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_activity_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_activity_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:condition_associated_with_gene",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:directly_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:condition_associated_with_gene",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:condition_associated_with_gene",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

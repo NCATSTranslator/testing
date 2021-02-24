@@ -1,0 +1,13 @@
+{
+    "url": "https://www.ebi.ac.uk/QuickGO/services",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_subclass",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

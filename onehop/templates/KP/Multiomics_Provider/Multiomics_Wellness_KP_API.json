@@ -1,0 +1,902 @@
+{
+    "url": "https://biothings.ncats.io/multiomics_wellness_kp",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "url": "https://automat.renci.org/hetio",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:expresses",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:expressed_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:expressed_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:expressed_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:negatively_regulates_entity_to_entity",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:positively_regulates_entity_to_entity",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:condition_associated_with_gene",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:expresses",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:negatively_regulates_entity_to_entity",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:positively_regulates_entity_to_entity",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:negatively_regulates_entity_to_entity",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:positively_regulates_entity_to_entity",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:expresses",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

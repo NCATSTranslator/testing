@@ -1,0 +1,20 @@
+{
+    "url": "https://biothings.ncats.io/dgidb",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

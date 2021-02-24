@@ -1,0 +1,20 @@
+{
+    "url": "https://automat.renci.org/foodb",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

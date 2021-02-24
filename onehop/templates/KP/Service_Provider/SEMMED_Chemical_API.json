@@ -1,0 +1,657 @@
+{
+    "url": "https://biothings.ncats.io/semmedchemical",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:disrupted_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:disrupted_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:disrupts",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:disrupts",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:disrupts",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:disrupts",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:disrupts",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:disrupts",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:disrupts",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:disrupts",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:negatively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:negatively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:negatively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:negatively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:negatively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:negatively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:negatively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:negatively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:negatively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:negatively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:negatively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:negatively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:negatively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:negatively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:negatively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:negatively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:positively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:positively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:positively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:positively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:positively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:positively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:positively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:positively_regulated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:positively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:positively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:positively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:positively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:positively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:positively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:positively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:positively_regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:prevents",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:produces",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:produces",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:produces",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:produces",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:produces",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:treats",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

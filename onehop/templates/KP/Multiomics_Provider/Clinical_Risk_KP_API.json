@@ -1,0 +1,2162 @@
+{
+    "url": "https://biothings.ncats.io/clinical_risk_kp",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:Attribute",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DrugExposure",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DrugExposure",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Observation",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Symptom",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Attribute",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DrugExposure",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DrugExposure",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Observation",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Symptom",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:affects_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_increased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalFinding",
+            "object_category": "biolink:ClinicalFinding",
+            "predicate": "biolink:associated_with_decreased_risk_for",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://translator.broadinstitute.org/genetics_provider/trapi/v1.0",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:condition_associated_with_gene",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Pathway",
+            "predicate": "biolink:genetic_association",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:genetic_association",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:genetic_association",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:condition_associated_with_gene",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Pathway",
+            "predicate": "biolink:genetic_association",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

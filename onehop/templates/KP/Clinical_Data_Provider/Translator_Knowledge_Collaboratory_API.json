@@ -1,0 +1,27 @@
+{
+    "url": "https://api.collaboratory.semanticscience.org",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:treats",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "https://w3.org/biolink/treats",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "https://w3id.org/biolink/treats",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

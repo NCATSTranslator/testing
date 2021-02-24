@@ -1,0 +1,664 @@
+{
+    "url": "https://automat.renci.org/ctd",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_activity_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_activity_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_molecular_interaction",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_expression_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_expression_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_molecular_interaction",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_localization_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_localization_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_secretion_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_activity_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_localization_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_secretion_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_secretion_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_stability_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_molecular_modification_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_mutation_rate_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_expression_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:molecularly_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_stability_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_molecular_modification_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_metabolic_processing_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_response_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_response_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_metabolic_processing_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_stability_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_uptake_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_uptake_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_metabolic_processing_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_response_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_synthesis_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_splicing_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_molecular_modification_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_mutation_rate_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_splicing_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_synthesis_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_mutation_rate_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:negatively_correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:treats",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:contributes_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:positively_correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:contributes_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:treats",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:positively_correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:negatively_correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_response_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_response_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_response_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_localization_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_activity_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:molecularly_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_synthesis_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_metabolic_processing_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_activity_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_metabolic_processing_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_metabolic_processing_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_uptake_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_secretion_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_synthesis_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_activity_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_uptake_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_molecular_interaction",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_secretion_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_secretion_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_uptake_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_synthesis_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_molecular_interaction",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_stability_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_molecular_modification_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_localization_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_molecular_modification_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_molecular_modification_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:negatively_correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:treated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:positively_correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:treated_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:positively_correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:negatively_correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:contributes_to",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

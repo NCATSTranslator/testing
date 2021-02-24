@@ -1,0 +1,20 @@
+{
+    "url": "https://biothings.ncats.io/ebigene2phenotype",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "url": "https://automat.renci.org/hgnc",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:GeneFamily",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:GeneFamily",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

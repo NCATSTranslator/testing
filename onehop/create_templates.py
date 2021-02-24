@@ -130,5 +130,7 @@ def create_templates():
         if spec['info']['x-translator']['component'] == 'ARA':
             create_ARA_template(spec,kp_titles)
 
+#There should be a path that checks to see if there's already a test_triples for the source and only checks to see
+# if it needs to be modified?  Or in general need some better idea of change management.
 if __name__ == '__main__':
     create_templates()

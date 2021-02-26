@@ -1,0 +1,21 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n00": {
+                    "id": "MONDO:0007523",
+                    "category": "biolink:Disease"
+                },
+                "n01": {
+                    "category": "biolink:PhenotypicFeature"
+                }
+            },
+            "edges": {
+                "e00": {
+                    "subject": "n00",
+                    "object": "n01"
+                }
+            }
+        }
+    }
+}

@@ -7,7 +7,7 @@ import asyncio
 import requests
 import time
 import logging
-logging.basicConfig(filename='test_ars.log',level=logging.INFO)
+logging.basicConfig(filename='test_ars.log',level=logging.DEBUG)
 #We really shouldn't be doing this, but just for now...
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
@@ -16,17 +16,6 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 ARS_URL="https://ars-dev.transltr.io/ars/api/"
 BASE_PATH=os.path.dirname(os.path.realpath(__file__))
 NORMALIZER_URL="https://nodenormalization-sri.renci.org/get_normalized_nodes"
-
-
-# with open("kps.json", "r") as stream:
-#     KPS = json.load(stream)
-# PAIRS = []
-# for kp_name, url in KPS.items():
-#     filename = Path("requests") / f"{kp_name}.json"
-#     with open(filename, "r") as stream:
-#         payload = json.load(stream)
-#     PAIRS.append((kp_name, url, payload))
-
 
 
 def keys_exist(element, *keys):
@@ -73,18 +62,42 @@ def get_files(relativePath):
         files.append(os.path.join(my_dir,filename))
     return files
 
+
 async def test_not_none():
     logging.debug("test_not_none")
+    print ("+++ +++ CHECKING FOR NON-ZERO RESULTS")
     files = get_files("/../ars-requests/not-none")
+    report_cards = []
     for file in files:
         print("+++ Checking "+file+" for non-zero result counts")
         print("+++ File is as follows: \n")
         with open(file, "r") as f:
             query = json.load(f)
             print(json.dumps(query, indent=4, sort_keys=True))
-            await has_results(query)
+            report_card = await has_results(query)
+            print(json.dumps(report_card,indent=4,sort_keys=True))
+            report_cards.append(report_card)
+    return report_cards
+
 async def test_must_have_curie():
+    print(" +++ +++ CHECKING FOR SPECIFIC RESULTS")
     logging.debug("test_must_have_curie")
+    answers_filename = "answers.json"
+    dir = BASE_PATH+"/../ars-requests/must-have"
+    report_cards =[]
+
+    answers_file= os.path.join(dir,answers_filename)
+    with open(answers_file,"r") as f:
+        answers_list=json.load(f)
+    for query_file,answers in answers_list.items():
+        with open(dir+"/"+query_file) as f:
+            query = json.load(f)
+        print("+++ Checking "+query_file+ " for "+str(answers))
+        report_card = await must_contain_curie(answers,query)
+        print(json.dumps(report_card, indent=4, sort_keys=True))
+        report_cards.append(report_card)
+
+
 
 
 async def call_ars(payload, url=ARS_URL+"submit"):
@@ -99,49 +112,61 @@ async def call_ars(payload, url=ARS_URL+"submit"):
     return response.json()
 
 
-async def must_contain_curie(curie,query):
+async def must_contain_curie(curies,query):
+    logging.debug("must_contain_curie")
+    logging.debug("curies ="+str(curies))
+    logging.debug("query= "+json.dumps(query, indent=4, sort_keys=True))
     children = await get_children(query)
-    synonyms = get_synonyms(curie)
+    synonyms=[]
+    for curie in curies:
+        syns = get_synonyms(curie)
+        synonyms.extend(syns)
     report_card={}
     for entry in children:
         passed = False
         agent = entry[0]
         child = entry[1]
+        logging.debug("agent "+agent)
         nodes = get_safe(child,"fields","data","message","knowledge_graph","nodes")
         if nodes is not None:
-            passed = any(item in synonyms for item in nodes)
+            #logging.debug("nodes: "+str(nodes))
+            logging.debug("looking for "+str(synonyms))
+            logging.debug("nodes "+str(nodes.keys()))
+            passed = any(item in synonyms for item in nodes.keys())
+        if passed:
+            report_card[agent]="Pass"
         else:
-            passed = False
-        report_card[agent]=passed
-
-
-
+            report_card[agent]="Fail"
+    return report_card
 
 async def has_results(query):
     logging.debug("has_results")
-    passed = []
-    failed = []
+    report_card = {}
     children = await get_children(query)
     for child in children:
+        passed = False
         agent = child[0]
         childData=child[1]
         results = get_safe(childData,"fields","data","message","results")
         if(results is not None):
             if(len(results)>0):
-                print(agent+ " has "+str(len(results))+" results")
+                logging.debug(agent+ " has "+str(len(results))+" results")
+                passed = True
             else:
-                print(agent +" has no results for this query")
-                #print(json.dumps(childData, indent=4, sort_keys=True))
-
+                logging.debug(agent +" has no results for this query")
         else:
-            #print("NONE")
             status = get_safe(childData,"fields","status")
-            print(agent +" has no results for this query.  Status reported as: "+status+"\n"
-                         "Further details in log file.")
+            #print(agent +" has no results for this query.  Status reported as: "+status+"\n"
+            #             "Further details in log file.")
             logging.warning("++++ "+agent+" had a status of "+status+" for query")
             logging.warning(json.dumps(query, indent=4, sort_keys=True))
             logging.warning("Full response is as follows:")
             logging.warning(json.dumps(childData, indent=4, sort_keys=True))
+        if passed:
+            report_card[agent]="Pass"
+        else:
+            report_card[agent]="Fail"
+    return report_card
 
 async def get_children(query,url=None,timeout=None):
     logging.debug("get_children")
@@ -223,7 +248,8 @@ def get_synonyms(curie):
 
 @pytest.mark.asyncio
 async def main():
-    result = await test_not_none()
+    await test_not_none()
+    await test_must_have_curie()
 
 
 if __name__ == '__main__':

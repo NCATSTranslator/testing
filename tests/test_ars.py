@@ -5,7 +5,6 @@ import httpx
 import pytest
 import asyncio
 import requests
-import time
 import logging
 logging.basicConfig(filename='test_ars.log',level=logging.DEBUG)
 #We really shouldn't be doing this, but just for now...
@@ -14,7 +13,11 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 #ARS_URL="https://ars.transltr.io/ars/api/"
 ARS_URL="https://ars-dev.transltr.io/ars/api/"
-BASE_PATH=os.path.dirname(os.path.realpath(__file__))
+#BASE_PATH=os.path.dirname(os.path.realpath(__file__))
+BASE_PATH=os.path.dirname(
+    os.path.dirname(
+    os.path.realpath(__file__)
+))
 NORMALIZER_URL="https://nodenormalization-sri.renci.org/get_normalized_nodes"
 
 
@@ -62,28 +65,35 @@ def get_files(relativePath):
         files.append(os.path.join(my_dir,filename))
     return files
 
-
-async def test_not_none():
+@pytest.mark.asyncio
+async def test_not_none(caplog):
+    caplog.set_level(logging.ERROR)
     logging.debug("test_not_none")
     print ("+++ +++ CHECKING FOR NON-ZERO RESULTS")
-    files = get_files("/../ars-requests/not-none")
+    files = get_files("/ars-requests/not-none")
     report_cards = []
     for file in files:
         print("+++ Checking "+file+" for non-zero result counts")
-        print("+++ File is as follows: \n")
+        logging.debug("+++ File is as follows: \n")
         with open(file, "r") as f:
             query = json.load(f)
-            print(json.dumps(query, indent=4, sort_keys=True))
+            logging.debug(json.dumps(query, indent=4, sort_keys=True))
             report_card = await has_results(query)
             print(json.dumps(report_card,indent=4,sort_keys=True))
             report_cards.append(report_card)
+    for card in report_cards:
+        for agent, grade in card.items():
+            assert grade=="Pass"
     return report_cards
 
-async def test_must_have_curie():
+
+@pytest.mark.asyncio
+async def test_must_have_curie(caplog):
+    caplog.set_level(logging.ERROR)
     print(" +++ +++ CHECKING FOR SPECIFIC RESULTS")
     logging.debug("test_must_have_curie")
     answers_filename = "answers.json"
-    dir = BASE_PATH+"/../ars-requests/must-have"
+    dir = BASE_PATH+"/ars-requests/must-have"
     report_cards =[]
 
     answers_file= os.path.join(dir,answers_filename)
@@ -96,7 +106,9 @@ async def test_must_have_curie():
         report_card = await must_contain_curie(answers,query)
         print(json.dumps(report_card, indent=4, sort_keys=True))
         report_cards.append(report_card)
-
+    for card in report_cards:
+        for agent, grade in card.items():
+            assert grade=="Pass"
 
 
 
@@ -248,8 +260,14 @@ def get_synonyms(curie):
 
 @pytest.mark.asyncio
 async def main():
-    await test_not_none()
-    await test_must_have_curie()
+    none_report_cards = await test_not_none()
+    must_report_cards =await test_must_have_curie()
+    # for report_card in none_report_cards:
+    #     for agent,grade in report_card.items():
+    #         assert grade == "Pass"
+    # for report_card in must_report_cards:
+    #     for agent,grade in report_card.items():
+    #         assert grade == "Pass"
 
 
 if __name__ == '__main__':

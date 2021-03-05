@@ -1,0 +1,27 @@
+{
+    "url": "https://automat.renci.org/human-goa",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:actively_involved_in",
+            "subject": "NCBIGene:3949",
+            "object": "GO:0006629"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:enables",
+            "subject": "NCBIGene:3949",
+            "object": "GO:0005041"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:3949",
+            "object": "GO:0034362"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://translator.broadinstitute.org/genetics_data_provider",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "disease",
+            "object_category": "gene",
+            "predicate": "associated",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "disease",
+            "object_category": "pathway",
+            "predicate": "associated",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "gene",
+            "object_category": "disease",
+            "predicate": "associated",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "gene",
+            "object_category": "phenotypic_feature",
+            "predicate": "associated",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "pathway",
+            "object_category": "disease",
+            "predicate": "associated",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "pathway",
+            "object_category": "phenotypic_feature",
+            "predicate": "associated",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "phenotypic_feature",
+            "object_category": "gene",
+            "predicate": "associated",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "phenotypic_feature",
+            "object_category": "pathway",
+            "predicate": "associated",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

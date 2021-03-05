@@ -1,0 +1,34 @@
+{
+    "url": "https://automat.renci.org/kegg",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:derives_into",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:derives_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_synthesis_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

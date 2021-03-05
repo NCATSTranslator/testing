@@ -1,0 +1,34 @@
+{
+    "url": "https://myvariant.info/v1",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:SequenceVariant",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:variant_affect_drug_response",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

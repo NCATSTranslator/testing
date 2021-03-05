@@ -1,0 +1,69 @@
+{
+    "url": "https://biothings.ncats.io/uberon",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_subclass",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:developes_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:produces",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "url": "https://biothings.ncats.io/go_mf",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_subclass",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

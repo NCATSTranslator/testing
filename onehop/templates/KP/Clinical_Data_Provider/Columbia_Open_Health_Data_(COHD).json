@@ -1,0 +1,181 @@
+{
+    "url": "http://tr-kp-clinical.ncats.io/api",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Procedure",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:Procedure",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Procedure",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PopulationOfIndividualOrganisms",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PopulationOfIndividualOrganisms",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PopulationOfIndividualOrganisms",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PopulationOfIndividualOrganisms",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PopulationOfIndividualOrganisms",
+            "object_category": "biolink:Procedure",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Procedure",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Procedure",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Procedure",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Procedure",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Procedure",
+            "object_category": "biolink:Procedure",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

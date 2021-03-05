@@ -1,0 +1,90 @@
+{
+    "url": "https://automat.renci.org/biolink",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:contributes_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:biomarker_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:contributes_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:condition_associated_with_gene",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:has_biomarker",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

@@ -1,0 +1,2897 @@
+{
+    "url": "https://automat.renci.org/uberongraph",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:produces",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:derives_into",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:capable_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:produces",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:derives_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:lacks_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:capable_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_completed",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_not_completed",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:produces",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:derives_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:lacks_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:derives_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:derives_into",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:capable_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:occurs_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects_localization_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:occurs_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:regulates_process_to_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:precedes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:preceded_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:negatively_regulates_process_to_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:occurs_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:negatively_regulates_process_to_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:precedes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:regulates_process_to_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:preceded_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:occurs_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:affects_localization_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:capable_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:produced_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:derives_into",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:capable_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:occurs_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:preceded_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:precedes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:negatively_regulates_process_to_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:regulates_process_to_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:occurs_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:negatively_regulates_process_to_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:regulates_process_to_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:precedes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:preceded_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:occurs_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:location_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affected_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

@@ -15,6 +15,20 @@
             "predicate": "biolink:gene_associated_with_condition",
             "subject": "NCBIGene:1803",
             "object": "EFO:0000378"
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:genetic_association",
+            "subject": "GO:0045944",
+            "object": "EFO:0008039"
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:genetic_association",
+            "subject": "GO:0003205",
+            "object": "EFO:0000275"
         }
     ]
 }

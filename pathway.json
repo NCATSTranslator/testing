@@ -1,0 +1,19 @@
+message: {
+query_graph: {
+nodes: {
+n00: {
+category: "biolink:Gene",
+id: "NCBIGene:1017"
+},
+n03: {
+category: "biolink:Pathway"
+}
+},
+edges: {
+e02: {
+object: "n03",
+subject: "n00",
+predicate: "biolink:functional_association"
+}
+}
+}

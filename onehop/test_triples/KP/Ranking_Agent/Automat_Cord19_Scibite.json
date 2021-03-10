@@ -1,0 +1,377 @@
+{
+    "url": "https://automat.renci.org/cord19-scibite",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:2637",
+            "object": "CHEMBL.COMPOUND:CHEMBL1240832"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "CHEMBL.COMPOUND:CHEMBL332750",
+            "object": "GO:0032640"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+            "object": "MONDO:0030603"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "CHEMBL.COMPOUND:CHEMBL2108924",
+            "object": "NCBITaxon:46347"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "CHEMBL.COMPOUND:CHEMBL268331",
+            "object": "NCBIGene:1514"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "CHEMBL.COMPOUND:CHEMBL2109060",
+            "object": "NCIT:C3137"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:40519",
+            "object": "GO:0004308"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "CHEMBL.COMPOUND:CHEMBL1201465",
+            "object": "GO:0000502"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:17076",
+            "object": "IDO:0000519"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:GeneProduct",
+            "predicate": "biolink:related_to",
+            "subject": "CHEMBL.COMPOUND:CHEMBL2108075",
+            "object": "UniProtKB:P0DTC1"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0032640",
+            "object": "NCBITaxon:119260"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0006412",
+            "object": "GO:0000502"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0032640",
+            "object": "GO:0001775"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0032640",
+            "object": "NCBIGene:2736"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0019076",
+            "object": "GO:0004308"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0032640",
+            "object": "MONDO:0008383"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0001896",
+            "object": "MESH:D001329"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:GeneProduct",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0006351",
+            "object": "UniProtKB:P0DTC1"
+        },
+        {
+            "subject_category": "biolink:LifeStage",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "IDO:0000519",
+            "object": "GO:0019086"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0005543",
+            "object": "NCBITaxon:46347"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0005559",
+            "object": "GO:0000502"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0005108",
+            "object": "NCBIGene:3445"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0020590",
+            "object": "MONDO:0002041"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0005009",
+            "object": "MESH:D001329"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0008889",
+            "object": "GO:0004308"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:GeneProduct",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0005719",
+            "object": "UniProtKB:P0DTC1"
+        },
+        {
+            "subject_category": "biolink:LifeStage",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "IDO:0000519",
+            "object": "MONDO:0009665"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:119267",
+            "object": "NCBITaxon:46347"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:11176",
+            "object": "GO:0004308"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:46347",
+            "object": "NCBIGene:2222"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:2",
+            "object": "MESH:D001329"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:10240",
+            "object": "GO:0000502"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:GeneProduct",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:76804",
+            "object": "UniProtKB:P0DTC1"
+        },
+        {
+            "subject_category": "biolink:LifeStage",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "IDO:0000519",
+            "object": "NCBITaxon:13757"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:6892",
+            "object": "GO:0000502"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:4048",
+            "object": "NCBIGene:9536"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:4759",
+            "object": "GO:0004308"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:6690",
+            "object": "MESH:D001329"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:GeneProduct",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:5500",
+            "object": "UniProtKB:P0DTC1"
+        },
+        {
+            "subject_category": "biolink:LifeStage",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "IDO:0000519",
+            "object": "NCBIGene:8863"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "NCIT:C3137",
+            "object": "GO:0016165"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0025464",
+            "object": "GO:0000502"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:GeneProduct",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0031925",
+            "object": "UniProtKB:P0DTC5"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "NCIT:C3137",
+            "object": "HP:0040303"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0002018",
+            "object": "IDO:0000519"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0097153",
+            "object": "GO:0000502"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0016798",
+            "object": "GO:0004308"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:GeneProduct",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0003723",
+            "object": "UniProtKB:P0DTC1"
+        },
+        {
+            "subject_category": "biolink:LifeStage",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "IDO:0000519",
+            "object": "GO:0046589"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0016605",
+            "object": "GO:0000502"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:GeneProduct",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0005789",
+            "object": "UniProtKB:P0DTC1"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0045098",
+            "object": "IDO:0000519"
+        },
+        {
+            "subject_category": "biolink:GeneProduct",
+            "object_category": "biolink:GeneProduct",
+            "predicate": "biolink:related_to",
+            "subject": "UniProtKB:P0DTC1",
+            "object": "UniProtKB:P0DTC9"
+        }
+    ]
+}

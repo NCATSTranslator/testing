@@ -1,0 +1,13 @@
+{
+    "url": "https://automat.renci.org/chemical-normalization",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:similar_to",
+            "subject": "CHEBI:50985",
+            "object": "CHEBI:33609"
+        }
+    ]
+}

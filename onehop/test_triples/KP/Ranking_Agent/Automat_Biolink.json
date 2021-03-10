@@ -1,0 +1,69 @@
+{
+    "url": "https://automat.renci.org/biolink",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:contributes_to",
+            "subject": "NCBIGene:338694",
+            "object": "MONDO:0004989"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:causes",
+            "subject": "NCBIGene:4358",
+            "object": "MONDO:0009747"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "NCBIGene:3557",
+            "object": "MONDO:0001409"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "NCBIGene:5979",
+            "object": "MONDO:0019003"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:biomarker_for",
+            "subject": "NCBIGene:4576",
+            "object": "MONDO:0010792"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:contributes_to",
+            "subject": "NCBIGene:114108587",
+            "object": "EFO:0009270"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "NCBIGene:55906",
+            "object": "HP:0000482"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "MONDO:0054748",
+            "object": "MONDO:0004989"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "MONDO:0009267",
+            "object": "HP:0004382"
+        }
+    ]
+}

@@ -1,0 +1,608 @@
+{
+    "url": "https://automat.renci.org/ctd",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_activity_of",
+            "subject": "CHEBI:31823",
+            "object": "NCBIGene:3558"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_activity_of",
+            "subject": "CHEBI:37537",
+            "object": "NCBIGene:3558"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_molecular_interaction",
+            "subject": "CHEBI:28119",
+            "object": "NCBIGene:54971"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_expression_of",
+            "subject": "CHEBI:39867",
+            "object": "NCBIGene:580"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_expression_of",
+            "subject": "CHEBI:2504",
+            "object": "NCBIGene:580"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_molecular_interaction",
+            "subject": "PUBCHEM.COMPOUND:58886963",
+            "object": "NCBIGene:3557"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_localization_of",
+            "subject": "CHEBI:17246",
+            "object": "NCBIGene:581"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "CHEBI:15367",
+            "object": "NCBIGene:581"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_localization_of",
+            "subject": "CHEBI:35189",
+            "object": "NCBIGene:581"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_secretion_of",
+            "subject": "MESH:D000534",
+            "object": "NCBIGene:3557"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_activity_of",
+            "subject": "CHEBI:94128",
+            "object": "NCBIGene:581"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_localization_of",
+            "subject": "CHEBI:52717",
+            "object": "NCBIGene:56616"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_degradation_of",
+            "subject": "CHEBI:3330",
+            "object": "NCBIGene:581"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_secretion_of",
+            "subject": "CHEMBL.COMPOUND:CHEMBL3183525",
+            "object": "NCBIGene:3557"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_secretion_of",
+            "subject": "CHEMBL.COMPOUND:CHEMBL152423",
+            "object": "NCBIGene:3558"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_stability_of",
+            "subject": "CHEBI:34936",
+            "object": "NCBIGene:3558"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_molecular_modification_of",
+            "subject": "CHEBI:50131",
+            "object": "NCBIGene:8290"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_mutation_rate_of",
+            "subject": "CHEBI:46661",
+            "object": "NCBIGene:8314"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_expression_of",
+            "subject": "CHEBI:28119",
+            "object": "NCBIGene:91012"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:molecularly_interacts_with",
+            "subject": "CHEBI:17246",
+            "object": "NCBIGene:581"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_stability_of",
+            "subject": "CHEMBL.COMPOUND:CHEMBL513300",
+            "object": "NCBIGene:3558"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_molecular_modification_of",
+            "subject": "CHEBI:29865",
+            "object": "NCBIGene:3014"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_metabolic_processing_of",
+            "subject": "CHEBI:15545",
+            "object": "NCBIGene:16"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_response_to",
+            "subject": "MESH:D005620",
+            "object": "NCBIGene:3558"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_response_to",
+            "subject": "CHEBI:27641",
+            "object": "NCBIGene:355"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_degradation_of",
+            "subject": "CHEBI:27656",
+            "object": "NCBIGene:581"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_metabolic_processing_of",
+            "subject": "MESH:C009374",
+            "object": "NCBIGene:590"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_stability_of",
+            "subject": "CHEBI:30052",
+            "object": "NCBIGene:9843"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_uptake_of",
+            "subject": "CHEBI:78673",
+            "object": "NCBIGene:2990"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_uptake_of",
+            "subject": "CHEBI:15367",
+            "object": "NCBIGene:4057"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_metabolic_processing_of",
+            "subject": "CHEBI:7034",
+            "object": "NCBIGene:43"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "MESH:C089730",
+            "object": "NCBIGene:4023"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_response_to",
+            "subject": "CHEBI:80774",
+            "object": "NCBIGene:581"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_synthesis_of",
+            "subject": "CHEMBL.COMPOUND:CHEMBL260287",
+            "object": "NCBIGene:3569"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_splicing_of",
+            "subject": "CHEBI:77012",
+            "object": "NCBIGene:7494"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_molecular_modification_of",
+            "subject": "CHEBI:27958",
+            "object": "NCBIGene:84152"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_mutation_rate_of",
+            "subject": "CHEBI:29865",
+            "object": "NCBIGene:3251"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_splicing_of",
+            "subject": "CHEBI:29865",
+            "object": "NCBIGene:7490"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_synthesis_of",
+            "subject": "CHEBI:16716",
+            "object": "NCBIGene:213"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_mutation_rate_of",
+            "subject": "CHEBI:16731",
+            "object": "NCBIGene:3251"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_transport_of",
+            "subject": "CHEBI:46195",
+            "object": "NCBIGene:56616"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_transport_of",
+            "subject": "CHEBI:27882",
+            "object": "NCBIGene:627"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:negatively_correlated_with",
+            "subject": "CHEBI:38397",
+            "object": "HP:0000855"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:treats",
+            "subject": "CHEBI:32151",
+            "object": "HP:0000017"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:contributes_to",
+            "subject": "CHEBI:5441",
+            "object": "HP:0000017"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:positively_correlated_with",
+            "subject": "CHEBI:25434",
+            "object": "HP:0000613"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affects",
+            "subject": "CHEBI:25944",
+            "object": "HP:0000855"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:contributes_to",
+            "subject": "MESH:D013792",
+            "object": "MONDO:0001476"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:treats",
+            "subject": "CHEBI:3962",
+            "object": "MONDO:0001476"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affects",
+            "subject": "MESH:D000393",
+            "object": "MONDO:0000839"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:positively_correlated_with",
+            "subject": "MESH:D004785",
+            "object": "MONDO:0000839"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:negatively_correlated_with",
+            "subject": "CHEBI:35255",
+            "object": "MONDO:0000153"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_response_to",
+            "subject": "NCBIGene:8314",
+            "object": "CHEBI:83766"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_response_to",
+            "subject": "NCBIGene:9173",
+            "object": "MESH:D000485"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_response_to",
+            "subject": "NCBIGene:3557",
+            "object": "CHEBI:9195"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_localization_of",
+            "subject": "NCBIGene:3558",
+            "object": "CHEBI:30185"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_activity_of",
+            "subject": "NCBIGene:3558",
+            "object": "CHEBI:15367"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:molecularly_interacts_with",
+            "subject": "NCBIGene:1815",
+            "object": "CHEBI:18243"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_synthesis_of",
+            "subject": "NCBIGene:1066",
+            "object": "CHEBI:16836"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_degradation_of",
+            "subject": "NCBIGene:1066",
+            "object": "MESH:C530888"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_metabolic_processing_of",
+            "subject": "NCBIGene:1066",
+            "object": "CHEBI:16113"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_activity_of",
+            "subject": "NCBIGene:1066",
+            "object": "MESH:C009374"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_metabolic_processing_of",
+            "subject": "NCBIGene:1066",
+            "object": "CHEBI:9195"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_metabolic_processing_of",
+            "subject": "NCBIGene:1066",
+            "object": "CHEBI:82635"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_uptake_of",
+            "subject": "NCBIGene:2",
+            "object": "MESH:D028321"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_secretion_of",
+            "subject": "NCBIGene:19",
+            "object": "CHEBI:16113"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_transport_of",
+            "subject": "NCBIGene:19",
+            "object": "CHEBI:136912"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_synthesis_of",
+            "subject": "NCBIGene:4056",
+            "object": "CHEBI:16978"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_activity_of",
+            "subject": "NCBIGene:8824",
+            "object": "CHEBI:80630"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "NCBIGene:24",
+            "object": "CHEBI:17898"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_uptake_of",
+            "subject": "NCBIGene:10351",
+            "object": "CHEBI:791"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_molecular_interaction",
+            "subject": "NCBIGene:5243",
+            "object": "PUBCHEM.COMPOUND:115344"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_secretion_of",
+            "subject": "NCBIGene:5243",
+            "object": "CHEBI:28748"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_secretion_of",
+            "subject": "NCBIGene:5243",
+            "object": "CHEBI:4551"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_transport_of",
+            "subject": "NCBIGene:5243",
+            "object": "DRUGBANK:DB09161"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_uptake_of",
+            "subject": "NCBIGene:5243",
+            "object": "CHEMBL.COMPOUND:CHEMBL499458"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_synthesis_of",
+            "subject": "NCBIGene:2194",
+            "object": "CHEBI:35366"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "NCBIGene:590",
+            "object": "CHEBI:15355"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_molecular_interaction",
+            "subject": "NCBIGene:1129",
+            "object": "CHEBI:135361"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_stability_of",
+            "subject": "NCBIGene:9429",
+            "object": "CHEBI:68478"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_molecular_modification_of",
+            "subject": "NCBIGene:127",
+            "object": "CHEBI:17246"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_localization_of",
+            "subject": "NCBIGene:183",
+            "object": "CHEBI:30185"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_degradation_of",
+            "subject": "NCBIGene:213",
+            "object": "MESH:C037258"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:decreases_molecular_modification_of",
+            "subject": "NCBIGene:1544",
+            "object": "CHEBI:27732"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_molecular_modification_of",
+            "subject": "NCBIGene:1571",
+            "object": "CHEBI:17967"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:contributes_to",
+            "subject": "MONDO:0018151",
+            "object": "MONDO:0005252"
+        }
+    ]
+}

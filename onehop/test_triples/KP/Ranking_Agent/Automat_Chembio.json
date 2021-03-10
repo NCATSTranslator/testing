@@ -1,0 +1,13 @@
+{
+    "url": "https://automat.renci.org/chembio",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:directly_interacts_with",
+            "subject": "CHEBI:3767",
+            "object": "NCBIGene:2"
+        }
+    ]
+}

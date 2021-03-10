@@ -1,0 +1,846 @@
+{
+    "url": "https://automat.renci.org/cord19-scigraph",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:52214",
+            "object": "NCBIGene:367"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:124991",
+            "object": "CHEBI:28689"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:124991",
+            "object": "UBERON:2000452"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:29320",
+            "object": "CL:0000235"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:EnvironmentalFeature",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:36976",
+            "object": "ENVO:00000104"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:124991",
+            "object": "MONDO:0005393"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:36976",
+            "object": "NCBITaxon:order"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Food",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:15428",
+            "object": "FOODON:03411328"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:46756",
+            "object": "GO:0019012"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:59132",
+            "object": "HP:0002098"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:33697",
+            "object": "GO:0006954"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:26986",
+            "object": "GO:0005102"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:27026",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:52999",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:35235",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:367",
+            "object": "MONDO:0043678"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:367",
+            "object": "HP:0003584"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:367",
+            "object": "CL:0000233"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:55806",
+            "object": "GO:0005102"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:EnvironmentalFeature",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:367",
+            "object": "ENVO:00000499"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:367",
+            "object": "NCBITaxon:169388"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:367",
+            "object": "NCBIGene:92335"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:367",
+            "object": "UBERON:0002395"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:367",
+            "object": "GO:0007600"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Food",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:3661",
+            "object": "FOODON:03411328"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:367",
+            "object": "GO:0042603"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:5978",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:7099",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGene:5978",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000235",
+            "object": "MONDO:0020122"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "UBERON:0002398",
+            "object": "HP:0002098"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "UBERON:0000479",
+            "object": "CL:0000235"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0019013",
+            "object": "GO:0005102"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:EnvironmentalFeature",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000764",
+            "object": "ENVO:00000104"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "UBERON:0000479",
+            "object": "NCBITaxon:order"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "UBERON:0000479",
+            "object": "CL:0000235"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000968",
+            "object": "GO:0019012"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "UBERON:0001557",
+            "object": "GO:0006954"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "UBERON:0001825",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Food",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000236",
+            "object": "FOODON:03411328"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "PO:0025034",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0042571",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000235",
+            "object": "MONDO:0020122"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000235",
+            "object": "HP:0003700"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000235",
+            "object": "GO:0070508"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0001063",
+            "object": "GO:0005102"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000556",
+            "object": "CL:0000235"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000968",
+            "object": "GO:0019012"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:EnvironmentalFeature",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000764",
+            "object": "ENVO:00000104"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000235",
+            "object": "NCBITaxon:29907"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000990",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000545",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000738",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Food",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000236",
+            "object": "FOODON:03411328"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:00000104",
+            "object": "MONDO:0015698"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:00000104",
+            "object": "HP:0011008"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:00000167",
+            "object": "GO:0005102"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:EnvironmentalFeature",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:00002005",
+            "object": "ENVO:00000104"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:00000463",
+            "object": "GO:0019012"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:00000104",
+            "object": "GO:0036268"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:00000104",
+            "object": "NCBITaxon:3750"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:01000739",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:Food",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:00000114",
+            "object": "FOODON:03411328"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:01000254",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "ENVO:00000027",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0100014",
+            "object": "GO:0006954"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0007276",
+            "object": "MONDO:0005393"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Food",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0025491",
+            "object": "FOODON:03411328"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0002251",
+            "object": "GO:0019012"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0004784",
+            "object": "HP:0002098"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0005249",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0018186",
+            "object": "NCBITaxon:order"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0002269",
+            "object": "GO:0005102"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0009739",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0005108",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:11320",
+            "object": "HP:0002098"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:12637",
+            "object": "GO:0005102"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:7157",
+            "object": "GO:0019012"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:91061",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:10239",
+            "object": "NCBITaxon:order"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:11320",
+            "object": "GO:0006954"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:Food",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:6239",
+            "object": "FOODON:03411328"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:9605",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:210",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:Food",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "FOODON:03411328",
+            "object": "HP:0011967"
+        },
+        {
+            "subject_category": "biolink:Food",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "FOODON:03411328",
+            "object": "GO:0020014"
+        },
+        {
+            "subject_category": "biolink:Food",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "FOODON:03411328",
+            "object": "GO:0020008"
+        },
+        {
+            "subject_category": "biolink:Food",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "FOODON:03412846",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:Food",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "FOODON:03411328",
+            "object": "GO:0005483"
+        },
+        {
+            "subject_category": "biolink:Food",
+            "object_category": "biolink:Food",
+            "predicate": "biolink:related_to",
+            "subject": "FOODON:03420155",
+            "object": "FOODON:03411328"
+        },
+        {
+            "subject_category": "biolink:Food",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "FOODON:03420279",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:Food",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "FOODON:03412846",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0019012",
+            "object": "HP:0031915"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0019013",
+            "object": "GO:0005102"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0019012",
+            "object": "GO:0046802"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0005923",
+            "object": "GO:0019012"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0005731",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0005923",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0042571",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0002098",
+            "object": "HP:0005945"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0012837",
+            "object": "GO:0006954"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0001425",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0000005",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0001824",
+            "object": "GO:0005102"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0012838",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0016049",
+            "object": "GO:0005102"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0023052",
+            "object": "GO:0006954"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0060004",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0007610",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0007568",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0005102",
+            "object": "GO:0140319"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0005138",
+            "object": "ECTO:0000726"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0043336",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0043336",
+            "object": "HsapDv:0000000"
+        },
+        {
+            "subject_category": "biolink:PopulationOfIndividualOrganisms",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "HANCESTRO:0003",
+            "object": "HANCESTRO:0008"
+        },
+        {
+            "subject_category": "biolink:PopulationOfIndividualOrganisms",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "HANCESTRO:0463",
+            "object": "ECTO:0000001"
+        },
+        {
+            "subject_category": "biolink:LifeStage",
+            "object_category": "biolink:PopulationOfIndividualOrganisms",
+            "predicate": "biolink:related_to",
+            "subject": "HsapDv:0000000",
+            "object": "HANCESTRO:0003"
+        },
+        {
+            "subject_category": "biolink:LifeStage",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "HsapDv:0000000",
+            "object": "ECTO:0000537"
+        },
+        {
+            "subject_category": "biolink:ChemicalExposure",
+            "object_category": "biolink:ChemicalExposure",
+            "predicate": "biolink:related_to",
+            "subject": "ECTO:0000537",
+            "object": "ECTO:0001108"
+        },
+        {
+            "subject_category": "biolink:LifeStage",
+            "object_category": "biolink:LifeStage",
+            "predicate": "biolink:related_to",
+            "subject": "HsapDv:0000000",
+            "object": "HsapDv:0000080"
+        }
+    ]
+}

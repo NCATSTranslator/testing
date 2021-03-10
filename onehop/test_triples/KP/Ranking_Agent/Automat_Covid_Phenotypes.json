@@ -1,0 +1,20 @@
+{
+    "url": "https://automat.renci.org/covid-phenotypes",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "MONDO:0100096",
+            "object": "HP:0012735"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "MONDO:0100096",
+            "object": "MONDO:0005379"
+        }
+    ]
+}

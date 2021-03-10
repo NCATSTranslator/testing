@@ -1,0 +1,13 @@
+{
+    "url": "https://automat.renci.org/foodb",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:OrganismTaxon",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "NCBITaxon:105667",
+            "object": "CHEMBL.COMPOUND:CHEMBL1866455"
+        }
+    ]
+}

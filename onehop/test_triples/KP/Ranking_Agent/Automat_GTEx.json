@@ -1,0 +1,104 @@
+{
+    "url": "https://automat.renci.org/gtex",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_splicing_of",
+            "subject": "CAID:CA16727036",
+            "object": "NCBIGene:653635"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_expression_of",
+            "subject": "CAID:CA15112158",
+            "object": "NCBIGene:79501"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_nearby_variant_of",
+            "subject": "CAID:CA16738620",
+            "object": "NCBIGene:79501"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_expression_of",
+            "subject": "CAID:CA16779372",
+            "object": "NCBIGene:653635"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_non_coding_variant_of",
+            "subject": "CAID:CA16719925",
+            "object": "NCBIGene:653635"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_synonymous_variant_of",
+            "subject": "CAID:CA503333",
+            "object": "NCBIGene:148398"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_missense_variant_of",
+            "subject": "CAID:CA503034",
+            "object": "NCBIGene:148398"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_splice_site_variant_of",
+            "subject": "CAID:CA502733",
+            "object": "NCBIGene:148398"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:non_coding_transcript_variant",
+            "subject": "CAID:CA16715227",
+            "object": "NCBIGene:254173"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:disruptive_inframe_deletion",
+            "subject": "CAID:CA502733",
+            "object": "NCBIGene:148398"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:is_nonsense_variant_of",
+            "subject": "CAID:CA516933",
+            "object": "NCBIGene:126789"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:conservative_inframe_insertion",
+            "subject": "CAID:CA533867",
+            "object": "NCBIGene:85452"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:conservative_inframe_deletion",
+            "subject": "CAID:CA543291",
+            "object": "NCBIGene:140625"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:disruptive_inframe_insertion",
+            "subject": "CAID:CA860624",
+            "object": "NCBIGene:63948"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "url": "http://tr-kp-clinical.ncats.io/api",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "CHEBI:72296",
+            "object": "PUBCHEM.COMPOUND:135565674"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "CHEBI:72296",
+            "object": "HP:0002625"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "CHEBI:72296",
+            "object": "RXCUI:1364431"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Procedure",
+            "predicate": "biolink:correlated_with",
+            "subject": "CHEBI:72296",
+            "object": "UMLS:C0150457"
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "MONDO:0004981",
+            "object": "PUBCHEM.COMPOUND:208898"
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "MONDO:0004981",
+            "object": "HP:0030149"
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "MONDO:0004981",
+            "object": "RXCUI:1743562"
+        },
+        {
+            "subject_category": "biolink:DiseaseOrPhenotypicFeature",
+            "object_category": "biolink:Procedure",
+            "predicate": "biolink:correlated_with",
+            "subject": "MONDO:0004981",
+            "object": "UMLS:C0150457"
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "RXCUI:1743562",
+            "object": "PUBCHEM.COMPOUND:41781"
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "RXCUI:1743562",
+            "object": "MONDO:0005310"
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "RXCUI:1743562",
+            "object": "RXCUI:1046405"
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Procedure",
+            "predicate": "biolink:correlated_with",
+            "subject": "RXCUI:1743562",
+            "object": "UMLS:C0040591"
+        },
+        {
+            "subject_category": "biolink:Procedure",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "UMLS:C0040591",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Procedure",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "UMLS:C0040591",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Procedure",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "UMLS:C0040591",
+            "object": "RXCUI:1743562"
+        },
+        {
+            "subject_category": "biolink:Procedure",
+            "object_category": "biolink:Procedure",
+            "predicate": "biolink:correlated_with",
+            "subject": "UMLS:C0040591",
+            "object": "UMLS:C0015357"UMLS:C0039492,UMLS:C0040591, UMLS:C0185000, UMLS:C0189336, UMLS:C0189338, UMLS:C0189386
+        }
+    ]
+}

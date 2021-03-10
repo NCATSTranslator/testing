@@ -1,0 +1,34 @@
+{
+    "url": "https://automat.renci.org/hmdb",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:interacts_with",
+            "subject": "CHEBI:16040",
+            "object": "NCBIGene:29974"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:16113",
+            "object": "HP:0003124"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Pathway",
+            "predicate": "biolink:participates_in",
+            "subject": "CHEBI:6896",
+            "object": "SMPDB:SMP0000735"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:30830",
+            "object": "MONDO:0010083"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "url": "https://automat.renci.org/gtopdb",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_part",
+            "subject": "DRUGBANK:DB09222",
+            "object": "gtpo:6750"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_gene_product",
+            "subject": "NCBIGene:2335",
+            "object": "CHEBI:5058"
+        }
+    ]
+}

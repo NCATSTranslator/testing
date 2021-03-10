@@ -70,9 +70,17 @@ To aid KPs in creating these json files, we have generated templates in `templat
 }
 ```
 
+Note that the templates are built from KP metadata and are a good starting place, but they are not necessarily a perfect match to the desired test triples.
+In particular, if a template contains an entry for two edges, where one edge can be fully calculated given the other, then there is no reason to include 
+test data for the derived edge.  For instance, there is no need to include test data for an edge in one direction, and its inverse in the other direction. Here
+we will be assuming (and testing) the ability of the KP to handle inverted edges whether they are specified or not.  Similarly, if a KP has
+"increases_expression_of" edges, there is no need to include "affects_expression_of" in the test triples, unless there is data that is only known at the
+more general level.  If, say, there are triples where all that is known is an "affects_expression_of" predicate, then that should be included.
+
 So the steps for a KP:
 1. copy a template json from `templates` into a corresponding location in `test_triples`
-2. fill in the subject and object entries for each triple with a real identifiers that should be retrievable from the KP
+2. filter out logically derivable template entries
+3. fill in the subject and object entries for each triple with a real identifiers that should be retrievable from the KP
 
 ## ARA Instructions
 

@@ -1,0 +1,55 @@
+{
+    "url": "https://automat.renci.org/viral-proteome",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "UniProtKB:A3KCJ9",
+            "object": "NCBITaxon:401406"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:GeneFamily",
+            "predicate": "biolink:part_of",
+            "subject": "UniProtKB:L0CH04",
+            "object": "UniRef100:Q8Q8Z6"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:similar_to",
+            "subject": "UniProtKB:P08563",
+            "object": "UniProtKB:Q0EDP4"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:actively_involved_in",
+            "subject": "UniProtKB:A7IWU3",
+            "object": "GO:0006304"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:enabled_by",
+            "subject": "GO:0030911",
+            "object": "UniProtKB:P04014"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0005887",
+            "object": "UniProtKB:A0A0M3T968"
+        },
+        {
+            "subject_category": "biolink:GeneFamily",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "UniRef100:Q8Q8Z6",
+            "object": "NCBITaxon:11676"
+        }
+    ]
+}

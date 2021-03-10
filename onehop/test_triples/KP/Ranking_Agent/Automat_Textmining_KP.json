@@ -1,0 +1,202 @@
+{
+    "url": "https://automat.renci.org/textminingkp",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:GeneOrGeneProduct",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "PR:000029351",
+            "object": "UBERON:0005156"
+        },
+        {
+            "subject_category": "biolink:GeneOrGeneProduct",
+            "object_category": "biolink:GeneOrGeneProduct",
+            "predicate": "biolink:related_to",
+            "subject": "PR:000029351",
+            "object": "PR:000037037"
+        },
+        {
+            "subject_category": "biolink:GeneOrGeneProduct",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "BFO:0000015",
+            "object": "CHEBI:52077"
+        },
+        {
+            "subject_category": "biolink:GeneOrGeneProduct",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "BFO:0000015",
+            "object": "GO:0009179"
+        },
+        {
+            "subject_category": "biolink:GeneOrGeneProduct",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "BFO:0000030",
+            "object": "GO:0043263"
+        },
+        {
+            "subject_category": "biolink:GeneOrGeneProduct",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "BFO:0000030",
+            "object": "GO:0005326"
+        },
+        {
+            "subject_category": "biolink:GeneOrGeneProduct",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "BFO:0000030",
+            "object": "CL:0011003"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "UBERON:0001905",
+            "object": "UBERON:0003905"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0032940",
+            "object": "UBERON:0000955"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:26895",
+            "object": "UBERON:0015048"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0005326",
+            "object": "UBERON:0010000"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0011003",
+            "object": "UBERON:0005177"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0002102",
+            "object": "UBERON:0004121"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:25213",
+            "object": "CHEBI:35497"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:25213",
+            "object": "GO:0032940"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:63534",
+            "object": "GO:0005326"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:37734",
+            "object": "CL:0011003"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:18367",
+            "object": "GO:0043263"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0008366",
+            "object": "GO:0032940"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0009058",
+            "object": "GO:0043263"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0003008",
+            "object": "GO:0005326"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0011003",
+            "object": "GO:0051179"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0043263",
+            "object": "MOP:0000543"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000000",
+            "object": "GO:0043263"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0043230",
+            "object": "GO:0043263"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0004857",
+            "object": "GO:0005326"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000540",
+            "object": "GO:0005326"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000066",
+            "object": "CL:0011003"
+        }
+    ]
+}

@@ -1,0 +1,160 @@
+{
+    "url": "https://automat.renci.org/mychem",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:causes_adverse_event",
+            "subject": "CHEBI:9620",
+            "object": "UMLS:C4523957"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:prevents",
+            "subject": "CHEBI:31783",
+            "object": "UMLS:C4523957"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:treats",
+            "subject": "CHEBI:90960",
+            "object": "HP:0002094"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:contraindicated_for",
+            "subject": "CHEBI:135172",
+            "object": "HP:0002094"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:causes_adverse_event",
+            "subject": "CHEMBL.COMPOUND:CHEMBL1753",
+            "object": "MONDO:0005326"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:prevents",
+            "subject": "CHEBI:32588",
+            "object": "MONDO:0005326"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:treats",
+            "subject": "CHEBI:31184",
+            "object": "MONDO:0006547"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:contraindicated_for",
+            "subject": "CHEMBL.COMPOUND:CHEMBL1753",
+            "object": "MONDO:0005326"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:directly_interacts_with",
+            "subject": "CHEBI:32589",
+            "object": "NCBIGene:6557"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_activity_of",
+            "subject": "CHEBI:3213",
+            "object": "NCBIGene:6558"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_activity_of",
+            "subject": "CHEBI:59445",
+            "object": "NCBIGene:6557"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:16027",
+            "object": "NCBIGene:5292"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_activity_of",
+            "subject": "CHEBI:90951",
+            "object": "NCBIGene:1080"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_molecular_modification_of",
+            "subject": "CHEBI:17245",
+            "object": "NCBIGene:4151"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_molecular_modification_of",
+            "subject": "CHEBI:25567",
+            "object": "NCBIGene:3043"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_transport_of",
+            "subject": "CHEBI:133009",
+            "object": "NCBIGene:10599"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_synthesis_of",
+            "subject": "CHEBI:31947",
+            "object": "NCBIGene:2520"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_response_to",
+            "subject": "CHEBI:9738",
+            "object": "NCBIGene:150"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_stability_of",
+            "subject": "DRUGBANK:DB13133",
+            "object": "NCBIGene:2157"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_metabolic_processing_of",
+            "subject": "CHEBI:15671",
+            "object": "NCBIGene:27087"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "NCBIGene:6558",
+            "object": "CHEBI:32588"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:increases_transport_of",
+            "subject": "NCBIGene:6582",
+            "object": "CHEBI:90879"
+        }
+    ]
+}

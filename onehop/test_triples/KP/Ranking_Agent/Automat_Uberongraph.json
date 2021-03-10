@@ -1,0 +1,1742 @@
+{
+    "url": "https://automat.renci.org/uberongraph",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "UBERON:0009959",
+            "object": "UBERON:0001731"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "UBERON:0010061",
+            "object": "UBERON:0001731"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "UBERON:0008847",
+            "object": "UBERON:0000323"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "UBERON:0010061",
+            "object": "UBERON:0001731"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "UBERON:0022337",
+            "object": "UBERON:0004121"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:coexists_with",
+            "subject": "UBERON:0010721",
+            "object": "UBERON:0003606"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:produces",
+            "subject": "UBERON:0012641",
+            "object": "UBERON:0012646"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000124",
+            "object": "CL:0000340"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:overlaps",
+            "subject": "UBERON:0014914",
+            "object": "CL:0002625"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:has_part",
+            "subject": "UBERON:0014914",
+            "object": "CL:0002625"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:develops_from",
+            "subject": "CL:0000124",
+            "object": "CL:0000340"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:located_in",
+            "subject": "CL:0000091",
+            "object": "CL:0000115"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:part_of",
+            "subject": "GO:0098723",
+            "object": "CL:0008002"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:produces",
+            "subject": "CL:0000140",
+            "object": "UBERON:0010365"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "CL:0000138",
+            "object": "UBERON:0000467"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:derives_from",
+            "subject": "CL:0011023",
+            "object": "CL:0000255"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0099126",
+            "object": "GO:0010647"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "UBERON:0022337",
+            "object": "GO:0003008"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:capable_of",
+            "subject": "UBERON:0003978",
+            "object": "GO:0008150"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "UBERON:0001968",
+            "object": "GO:0048609"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:overlaps",
+            "subject": "UBERON:0001727",
+            "object": "GO:0050896"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects",
+            "subject": "GO:0014010",
+            "object": "UBERON:0010314"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:causes",
+            "subject": "GO:0090634",
+            "object": "UBERON:0010314"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "UBERON:6004476",
+            "object": "NCBITaxon:7496"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "GO:0097387",
+            "object": "NCBITaxon:7496"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:overlaps",
+            "subject": "UBERON:0005212",
+            "object": "NCBITaxon:33511"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:part_of",
+            "subject": "UBERON:0005212",
+            "object": "NCBITaxon:33511"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:develops_from",
+            "subject": "UBERON:0005310",
+            "object": "NCBITaxon:131567"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:located_in",
+            "subject": "UBERON:0003668",
+            "object": "NCBITaxon:131567"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:overlaps",
+            "subject": "GO:0085036",
+            "object": "GO:0043655"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0085036",
+            "object": "GO:0043655"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_part",
+            "subject": "UBERON:0002215",
+            "object": "GO:0005585"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:develops_from",
+            "subject": "CL:0007000",
+            "object": "GO:0005623"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:part_of",
+            "subject": "GO:0085036",
+            "object": "GO:0043655"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:located_in",
+            "subject": "UBERON:0010970",
+            "object": "GO:0044309"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:coexists_with",
+            "subject": "UBERON:0010696",
+            "object": "GO:0044309"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:overlaps",
+            "subject": "UBERON:0001968",
+            "object": "CHEBI:25555"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "UBERON:0001968",
+            "object": "CHEBI:24431"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_part",
+            "subject": "UBERON:0001968",
+            "object": "CHEBI:33675"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:overlaps",
+            "subject": "UBERON:0001727",
+            "object": "GO:0038023"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0010007",
+            "object": "GO:0051003"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_part",
+            "subject": "UBERON:0001727",
+            "object": "GO:0038023"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "GO:0010007",
+            "object": "GO:0051003"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:0043024",
+            "object": "GO:0044391"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects",
+            "subject": "HP:0011887",
+            "object": "UBERON:0000481"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "EFO:0004306",
+            "object": "UBERON:0002390"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "EFO:0005534",
+            "object": "UBERON:0000061"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:causes",
+            "subject": "MONDO:0020678",
+            "object": "UBERON:0010314"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0020678",
+            "object": "UBERON:0034921"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects",
+            "subject": "MONDO:0007591",
+            "object": "UBERON:0010171"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "MONDO:0005512",
+            "object": "UBERON:0000464"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "CL:2000035",
+            "object": "UBERON:2001468"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:lacks_part",
+            "subject": "CL:0000580",
+            "object": "GO:0070820"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "CL:0002428",
+            "object": "GO:0008150"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0002625",
+            "object": "GO:0008150"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:affects",
+            "subject": "GO:0060011",
+            "object": "CL:0002625"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:causes",
+            "subject": "GO:0002456",
+            "object": "CL:0000084"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "CL:0000834",
+            "object": "GO:0030223"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:capable_of",
+            "subject": "CL:0000834",
+            "object": "GO:0030223"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_completed",
+            "subject": "CL:0000492",
+            "object": "GO:0001775"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_not_completed",
+            "subject": "CL:0000788",
+            "object": "GO:0008150"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:overlaps",
+            "subject": "CL:0000963",
+            "object": "GO:0019814"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_part",
+            "subject": "CL:0000963",
+            "object": "GO:0032991"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000041",
+            "object": "GO:0098537"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:develops_from",
+            "subject": "CL:0007000",
+            "object": "GO:0005623"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:produces",
+            "subject": "CL:0000978",
+            "object": "GO:0071753"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:derives_from",
+            "subject": "CL:0011023",
+            "object": "GO:0005623"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:lacks_part",
+            "subject": "CL:0000580",
+            "object": "GO:0070820"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:part_of",
+            "subject": "CL:0002602",
+            "object": "GO:0044309"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "EFO:0004306",
+            "object": "CL:0000764"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:affects",
+            "subject": "HP:0025029",
+            "object": "CL:0000107"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:located_in",
+            "subject": "EFO:0006566",
+            "object": "CL:0002251"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0002547",
+            "object": "CL:0002576"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:located_in",
+            "subject": "MONDO:0006402",
+            "object": "CL:0000646"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:causes",
+            "subject": "MONDO:0002547",
+            "object": "CL:0002576"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:affects",
+            "subject": "MONDO:0004183",
+            "object": "CL:0000548"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:overlaps",
+            "subject": "CL:0000178",
+            "object": "NCBITaxon:33511"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:part_of",
+            "subject": "CL:0000178",
+            "object": "NCBITaxon:33511"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:develops_from",
+            "subject": "CL:2000002",
+            "object": "NCBITaxon:131567"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0002625",
+            "object": "NCBITaxon:7711"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "CL:0002625",
+            "object": "NCBITaxon:33511"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:located_in",
+            "subject": "CL:0000581",
+            "object": "NCBITaxon:131567"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:develops_from",
+            "subject": "CL:0000124",
+            "object": "CL:0000340"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000124",
+            "object": "CL:0000340"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:overlaps",
+            "subject": "CL:0002148",
+            "object": "CL:0000548"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:part_of",
+            "subject": "CL:0000449",
+            "object": "CL:0000449"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:derives_from",
+            "subject": "CL:0011023",
+            "object": "CL:0000548"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:located_in",
+            "subject": "CL:0000091",
+            "object": "CL:0000115"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:overlaps",
+            "subject": "CL:0000963",
+            "object": "CHEBI:22221"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000963",
+            "object": "CHEBI:33304"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_part",
+            "subject": "CL:0000963",
+            "object": "CHEBI:33285"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:overlaps",
+            "subject": "GO:0097099",
+            "object": "CL:0000021"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:part_of",
+            "subject": "GO:0097099",
+            "object": "CL:0000021"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "CL:0000805",
+            "object": "GO:0038023"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "CL:0000807",
+            "object": "GO:0060089"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:capable_of",
+            "subject": "CL:0000880",
+            "object": "GO:0003674"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:occurs_in",
+            "subject": "GO:0099129",
+            "object": "UBERON:0000064"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_input",
+            "subject": "GO:0060641",
+            "object": "UBERON:0000064"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_output",
+            "subject": "GO:0048849",
+            "object": "UBERON:0005408"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects_localization_of",
+            "subject": "GO:0048310",
+            "object": "UBERON:0000465"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "GO:0000280",
+            "object": "UBERON:0000465"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:has_input",
+            "subject": "GO:0072675",
+            "object": "CL:0000092"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:has_output",
+            "subject": "GO:0098508",
+            "object": "CL:0000837"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:occurs_in",
+            "subject": "GO:1902484",
+            "object": "CL:0002625"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:regulates_process_to_process",
+            "subject": "GO:0002855",
+            "object": "GO:0002423"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:precedes",
+            "subject": "GO:0002856",
+            "object": "GO:0002423"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "GO:0007116",
+            "object": "GO:0007114"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0007116",
+            "object": "GO:0032505"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:negatively_regulates_process_to_process",
+            "subject": "GO:0002856",
+            "object": "GO:0002423"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:overlaps",
+            "subject": "GO:0072156",
+            "object": "GO:0072017"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:part_of",
+            "subject": "GO:0072156",
+            "object": "GO:0072017"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:0090539",
+            "object": "GO:0042886"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "GO:0008364",
+            "object": "NCBITaxon:7496"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0007594",
+            "object": "NCBITaxon:7496"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:has_input",
+            "subject": "GO:0002239",
+            "object": "NCBITaxon:2698737"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:0002239",
+            "object": "NCBITaxon:2698737"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:occurs_in",
+            "subject": "GO:0110088",
+            "object": "NCBITaxon:131567"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:1904565",
+            "object": "CHEBI:26816"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_input",
+            "subject": "GO:1904565",
+            "object": "CHEBI:36962"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_output",
+            "subject": "GO:0097288",
+            "object": "CHEBI:45075"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0120012",
+            "object": "CHEBI:26739"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:causes",
+            "subject": "GO:0099541",
+            "object": "CHEBI:23367"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:negatively_regulates_process_to_process",
+            "subject": "GO:2000578",
+            "object": "GO:0008569"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:precedes",
+            "subject": "GO:2000579",
+            "object": "GO:0008569"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "GO:2000579",
+            "object": "GO:0008569"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0052704",
+            "object": "GO:0052706"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:overlaps",
+            "subject": "GO:0052707",
+            "object": "GO:0052706"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_part",
+            "subject": "GO:0052707",
+            "object": "GO:0052706"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:regulates_process_to_process",
+            "subject": "GO:2000577",
+            "object": "GO:0008569"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:0019467",
+            "object": "GO:0016830"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:precedes",
+            "subject": "GO:0004875",
+            "object": "GO:0050896"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "GO:0004861",
+            "object": "GO:0050794"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:0015152",
+            "object": "GO:0015760"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:1902795",
+            "object": "GO:1990343"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:occurs_in",
+            "subject": "GO:0099592",
+            "object": "GO:0098793"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "GO:1902795",
+            "object": "GO:1990343"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_input",
+            "subject": "GO:0006337",
+            "object": "GO:0000786"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_output",
+            "subject": "GO:1902795",
+            "object": "GO:1990343"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "GO:0043572",
+            "object": "GO:0009536"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:affects",
+            "subject": "GO:0010463",
+            "object": "GO:0005623"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:causes",
+            "subject": "GO:0043953",
+            "object": "GO:0098797"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:affects_localization_of",
+            "subject": "GO:0009665",
+            "object": "GO:0009536"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "GO:1990332",
+            "object": "GO:0050789"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:affects",
+            "subject": "HP:0030886",
+            "object": "GO:0012501"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "EFO:0005188",
+            "object": "GO:0006954"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "EFO:1001384",
+            "object": "GO:0006954"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:causes",
+            "subject": "MONDO:0009916",
+            "object": "GO:0055114"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0009916",
+            "object": "GO:0055114"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:affects",
+            "subject": "MONDO:0002203",
+            "object": "GO:0030421"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "MONDO:0006899",
+            "object": "GO:0006952"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0098860",
+            "object": "NCBITaxon:2759"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:overlaps",
+            "subject": "GO:0120200",
+            "object": "NCBITaxon:131567"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:part_of",
+            "subject": "GO:0044317",
+            "object": "NCBITaxon:131567"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:affects",
+            "subject": "EFO:0000779",
+            "object": "NCBITaxon:7496"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:has_participant",
+            "subject": "EFO:1001374",
+            "object": "NCBITaxon:2"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "EFO:0002916",
+            "object": "NCBITaxon:2759"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:located_in",
+            "subject": "EFO:1000429",
+            "object": "NCBITaxon:33511"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:causes",
+            "subject": "MONDO:0004720",
+            "object": "NCBITaxon:53258"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0005512",
+            "object": "NCBITaxon:33154"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:located_in",
+            "subject": "MONDO:0006266",
+            "object": "NCBITaxon:33511"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:has_participant",
+            "subject": "MONDO:0005504",
+            "object": "NCBITaxon:201174"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:affects",
+            "subject": "MONDO:0002911",
+            "object": "NCBITaxon:131567"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0099510",
+            "object": "NCBITaxon:1"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "GO:0098860",
+            "object": "UBERON:0000465"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:capable_of",
+            "subject": "GO:0098843",
+            "object": "GO:0051234"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:develops_from",
+            "subject": "GO:0043220",
+            "object": "CL:0002375"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:overlaps",
+            "subject": "GO:0085036",
+            "object": "GO:0043655"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:part_of",
+            "subject": "GO:0085036",
+            "object": "GO:0043655"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:develops_from",
+            "subject": "GO:0042585",
+            "object": "GO:0005623"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0085036",
+            "object": "GO:0043655"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "GO:0098860",
+            "object": "NCBITaxon:2759"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:develops_from",
+            "subject": "GO:1990629",
+            "object": "NCBITaxon:131567"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:capable_of",
+            "subject": "GO:0009380",
+            "object": "GO:0009381"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "GO:0010007",
+            "object": "GO:0051003"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0010007",
+            "object": "GO:0051003"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:0036461",
+            "object": "GO:0031082"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:overlaps",
+            "subject": "GO:0098843",
+            "object": "CHEBI:33302"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0098843",
+            "object": "CHEBI:24431"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_part",
+            "subject": "GO:0098843",
+            "object": "CHEBI:22221"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0001875",
+            "object": "GO:0005623"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:affects",
+            "subject": "HP:0008972",
+            "object": "GO:0005746"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:located_in",
+            "subject": "EFO:1001461",
+            "object": "GO:0005623"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0019686",
+            "object": "GO:0005585"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:causes",
+            "subject": "MONDO:0019686",
+            "object": "GO:0005585"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:located_in",
+            "subject": "MONDO:0005308",
+            "object": "GO:0044464"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:affects",
+            "subject": "MONDO:0004183",
+            "object": "GO:0030424"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:overlaps",
+            "subject": "CHEBI:139315",
+            "object": "CHEBI:33247"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_part",
+            "subject": "CHEBI:139315",
+            "object": "CHEBI:24272"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "CHEBI:139315",
+            "object": "CHEBI:33674"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:0015651",
+            "object": "CHEBI:35267"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0015651",
+            "object": "CHEBI:33702"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "EFO:0004541",
+            "object": "CHEBI:17234"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects",
+            "subject": "HP:0410057",
+            "object": "CHEBI:36962"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects",
+            "subject": "MONDO:0007677",
+            "object": "CHEBI:26650"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0007677",
+            "object": "CHEBI:57305"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:located_in",
+            "subject": "MONDO:0007745",
+            "object": "CHEBI:33608"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:causes",
+            "subject": "MONDO:0003969",
+            "object": "CHEBI:59999"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_participant",
+            "subject": "MONDO:0021001",
+            "object": "CHEBI:24431"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:occurs_in",
+            "subject": "GO:0099510",
+            "object": "GO:0005575"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_input",
+            "subject": "GO:0043024",
+            "object": "GO:0015935"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "GO:0097099",
+            "object": "UBERON:0010000"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:negatively_regulates_process_to_process",
+            "subject": "GO:0004861",
+            "object": "GO:0051726"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:regulates_process_to_process",
+            "subject": "GO:0016176",
+            "object": "GO:0008150"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:occurs_in",
+            "subject": "GO:0099510",
+            "object": "GO:0005575"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:has_input",
+            "subject": "GO:0036461",
+            "object": "GO:0031082"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_input",
+            "subject": "GO:0050661",
+            "object": "CHEBI:33670"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:has_output",
+            "subject": "GO:0036440",
+            "object": "CHEBI:37577"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:affects",
+            "subject": "HP:0003536",
+            "object": "GO:0016836"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "EFO:0004556",
+            "object": "GO:0003674"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "MONDO:0008721",
+            "object": "GO:0070991"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0008721",
+            "object": "GO:0070991"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:affects",
+            "subject": "MONDO:0018149",
+            "object": "GO:0004553"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "GO:0099510",
+            "object": "NCBITaxon:1"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "GO:0106264",
+            "object": "GO:0106264"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:overlaps",
+            "subject": "GO:0038177",
+            "object": "GO:0005123"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_part",
+            "subject": "GO:0004875",
+            "object": "GO:0005488"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:negatively_regulates_process_to_process",
+            "subject": "GO:0055102",
+            "object": "GO:0016787"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:regulates_process_to_process",
+            "subject": "GO:0055102",
+            "object": "GO:0016788"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:precedes",
+            "subject": "GO:0055102",
+            "object": "GO:0016298"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:causes",
+            "subject": "GO:0055102",
+            "object": "GO:0016298"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_input",
+            "subject": "GO:0140296",
+            "object": "GO:0140223"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:0140296",
+            "object": "GO:0140223"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:occurs_in",
+            "subject": "GO:0086086",
+            "object": "CL:0002086"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "EFO:0005923",
+            "object": "NCBITaxon:436486"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:overlaps",
+            "subject": "HP:0001017",
+            "object": "HP:0012130"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0000996",
+            "object": "HP:0011799"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_part",
+            "subject": "HP:0001017",
+            "object": "HP:0025461"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affects",
+            "subject": "HP:0410272",
+            "object": "HP:0011793"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "EFO:0004996",
+            "object": "EFO:0005140"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:causes",
+            "subject": "EFO:0004996",
+            "object": "EFO:0005140"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:overlaps",
+            "subject": "HP:0001017",
+            "object": "MONDO:0005093"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "EFO:0008409",
+            "object": "MONDO:0005952"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_part",
+            "subject": "HP:0001017",
+            "object": "MONDO:0005570"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "EFO:0004997",
+            "object": "MONDO:0005148"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:causes",
+            "subject": "EFO:0004997",
+            "object": "MONDO:0005148"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:causes",
+            "subject": "MONDO:0001105",
+            "object": "HP:0030680"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_part",
+            "subject": "MONDO:0008542",
+            "object": "HP:0030680"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:affects",
+            "subject": "MONDO:0016648",
+            "object": "HP:0002656"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affects",
+            "subject": "HP:0410272",
+            "object": "MONDO:0006500"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "MONDO:0001105",
+            "object": "HP:0030680"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "MONDO:0005748",
+            "object": "NCBITaxon:7711"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0009968",
+            "object": "MONDO:0020678"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:causes",
+            "subject": "MONDO:0020689",
+            "object": "MONDO:0021199"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "MONDO:0019385",
+            "object": "MONDO:0021199"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:overlaps",
+            "subject": "MONDO:0008559",
+            "object": "MONDO:0005570"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_part",
+            "subject": "MONDO:0008559",
+            "object": "MONDO:0005570"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:located_in",
+            "subject": "MONDO:0005028",
+            "object": "MONDO:0021199"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:affects",
+            "subject": "MONDO:0016648",
+            "object": "MONDO:0005516"
+        }
+    ]
+}

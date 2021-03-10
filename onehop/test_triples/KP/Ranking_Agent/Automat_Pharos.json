@@ -1,0 +1,62 @@
+{
+    "url": "https://automat.renci.org/pharos",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:decreases_activity_of",
+            "subject": "CHEMBL.COMPOUND:CHEMBL2333026",
+            "object": "NCBIGene:327"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:directly_interacts_with",
+            "subject": "PUBCHEM.COMPOUND:11266452",
+            "object": "NCBIGene:5031"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_activity_of",
+            "subject": "PUBCHEM.COMPOUND:91938091",
+            "object": "NCBIGene:5031"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:affects_activity_of",
+            "subject": "CHEBI:7982",
+            "object": "NCBIGene:10280"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "CHEMBL.COMPOUND:CHEMBL1200595",
+            "object": "NCBIGene:6532"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "NCBIGene:23203",
+            "object": "PUBCHEM.COMPOUND:56589582"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "NCBIGene:9992",
+            "object": "MONDO:0012677"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:gene_associated_with_condition",
+            "subject": "NCBIGene:104909134",
+            "object": "NCIT:C35651"
+        }
+    ]
+}

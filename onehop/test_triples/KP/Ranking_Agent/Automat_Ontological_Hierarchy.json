@@ -1,0 +1,111 @@
+{
+    "url": "https://automat.renci.org/ontological-hierarchy",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "UBERON:0005453",
+            "object": "UBERON:0035769"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "GO:0005789",
+            "object": "UBERON:0000061"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "CL:1000291",
+            "object": "UBERON:0000061"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:subclass_of",
+            "subject": "CL:0002150",
+            "object": "CL:0000235"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "HP:0003596",
+            "object": "UBERON:0001062"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "GO:0097099",
+            "object": "UBERON:0000463"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:subclass_of",
+            "subject": "GO:0033017",
+            "object": "GO:0005789"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:subclass_of",
+            "subject": "CL:0002678",
+            "object": "GO:0005623"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:subclass_of",
+            "subject": "CL:0002150",
+            "object": "CL:0000235"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:subclass_of",
+            "subject": "HP:0011461",
+            "object": "HP:0030674"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:subclass_of",
+            "subject": "EFO:1001927",
+            "object": "MONDO:0005093"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:subclass_of",
+            "subject": "MONDO:0005002",
+            "object": "EFO:0009910"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:subclass_of",
+            "subject": "GO:0004315",
+            "object": "GO:0004312"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:subclass_of",
+            "subject": "MONDO:0010210",
+            "object": "MONDO:0019755"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:subclass_of",
+            "subject": "GO:0048601",
+            "object": "GO:0022414"
+        }
+    ]
+}

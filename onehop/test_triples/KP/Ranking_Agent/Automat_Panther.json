@@ -1,0 +1,69 @@
+{
+    "url": "https://automat.renci.org/panther",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:GeneFamily",
+            "object_category": "biolink:GeneFamily",
+            "predicate": "biolink:part_of",
+            "subject": "PANTHER.FAMILY:PTHR34921:SF1",
+            "object": "PANTHER.FAMILY:PTHR34921"
+        },
+        {
+            "subject_category": "biolink:GeneFamily",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:related_to",
+            "subject": "PANTHER.FAMILY:PTHR10841:SF24",
+            "object": "GO:0030672"
+        },
+        {
+            "subject_category": "biolink:GeneFamily",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:part_of",
+            "subject": "PANTHER.FAMILY:PTHR47980:SF9",
+            "object": "GO:0030672"
+        },
+        {
+            "subject_category": "biolink:GeneFamily",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:related_to",
+            "subject": "PANTHER.FAMILY:PTHR23221:SF7",
+            "object": "PANTHER.PATHWAY:P06664"
+        },
+        {
+            "subject_category": "biolink:GeneFamily",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "PANTHER.FAMILY:PTHR11109:SF11",
+            "object": "GO:1901615"
+        },
+        {
+            "subject_category": "biolink:GeneFamily",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:related_to",
+            "subject": "PANTHER.FAMILY:PTHR10572",
+            "object": "GO:0016614"
+        },
+        {
+            "subject_category": "biolink:GeneFamily",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:participates_in",
+            "subject": "PANTHER.FAMILY:PTHR11863:SF213",
+            "object": "GO:0016705"
+        },
+        {
+            "subject_category": "biolink:GeneFamily",
+            "object_category": "biolink:Pathway",
+            "predicate": "biolink:related_to",
+            "subject": "PANTHER.FAMILY:PTHR23221:SF7",
+            "object": "PANTHER.PATHWAY:P06664"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:GeneFamily",
+            "predicate": "biolink:part_of",
+            "subject": "NCBIGene:1109",
+            "object": "PANTHER.FAMILY:PTHR11732"
+        }
+    ]
+}

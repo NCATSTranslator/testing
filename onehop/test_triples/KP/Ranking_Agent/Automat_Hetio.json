@@ -1,0 +1,90 @@
+{
+    "url": "https://automat.renci.org/hetio",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:expresses",
+            "subject": "GO:0044309",
+            "object": "NCBIGene:83857"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:negatively_regulates_entity_to_entity",
+            "subject": "MONDO:0008575",
+            "object": "NCBIGene:9633"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:positively_regulates_entity_to_entity",
+            "subject": "MONDO:0008575",
+            "object": "NCBIGene:64282"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:condition_associated_with_gene",
+            "subject": "MONDO:0008575",
+            "object": "NCBIGene:50833"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "MONDO:0018646",
+            "object": "HP:0032155"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:has_phenotype",
+            "subject": "MONDO:0011565",
+            "object": "MONDO:0011122"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:expresses",
+            "subject": "GO:0044309",
+            "object": "NCBIGene:83857"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:negatively_regulates_entity_to_entity",
+            "subject": "UBERON:0002107",
+            "object": "NCBIGene:388121"
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:positively_regulates_entity_to_entity",
+            "subject": "UBERON:0002107",
+            "object": "NCBIGene:7133"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:negatively_regulates_entity_to_entity",
+            "subject": "CL:0009003",
+            "object": "NCBIGene:7133"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:positively_regulates_entity_to_entity",
+            "subject": "CL:0009003",
+            "object": "NCBIGene:7127"
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:expresses",
+            "subject": "CL:0009003",
+            "object": "NCBIGene:7132"
+        }
+    ]
+}

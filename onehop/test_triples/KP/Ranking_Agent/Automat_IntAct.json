@@ -1,0 +1,20 @@
+{
+    "url": "https://automat.renci.org/intact",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:OrganismTaxon",
+            "predicate": "biolink:in_taxon",
+            "subject": "UniProtKB:Q8JPQ9",
+            "object": "NCBITaxon:796210"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:molecularly_interacts_with",
+            "subject": "UniProtKB:Q24323",
+            "object": "UniProtKB:Q9V3T8"
+        }
+    ]
+}

@@ -91,14 +91,14 @@
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
             "subject": "UMLS:C0040591",
-            "object": ""
+            "object": "PUBCHEM.COMPOUND:441401"
         },
         {
             "subject_category": "biolink:Procedure",
             "object_category": "biolink:DiseaseOrPhenotypicFeature",
             "predicate": "biolink:correlated_with",
             "subject": "UMLS:C0040591",
-            "object": ""
+            "object": "MONDO:0001208"
         },
         {
             "subject_category": "biolink:Procedure",
@@ -112,7 +112,7 @@
             "object_category": "biolink:Procedure",
             "predicate": "biolink:correlated_with",
             "subject": "UMLS:C0040591",
-            "object": "UMLS:C0015357"UMLS:C0039492,UMLS:C0040591, UMLS:C0185000, UMLS:C0189336, UMLS:C0189338, UMLS:C0189386
+            "object": "UMLS:C0015357"
         }
     ]
 }

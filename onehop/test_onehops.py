@@ -1,10 +1,11 @@
 import pytest
 import requests
 from bmt import Toolkit
-from reasoner_validator import validate_Message
+from reasoner_validator import validate_Message, ValidationError
 
 #Toolkit takes a couple of seconds to initialize, so don't want it per-test
-tk = Toolkit()
+#note also that we are explictly controlling which version of biolink we are using.
+tk = Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/1.6.0/biolink-model.yaml')
 
 def create_one_hop_message(edge, look_up_subject = False):
     """Given a complete edge, create a valid TRAPI message for querying for the edge.
@@ -64,6 +65,9 @@ def inverse_by_new_subject(request):
         transformed_predicate = request['predicate']
     else:
         transformed_predicate = original_predicate_element['inverse']
+    #Not everything has an inverse (it should, and it will, but it doesn't right now)
+    if transformed_predicate is None:
+        return None, None, None
     transformed_request = {
         "url": "https://automat.renci.org/human-goa",
         "subject_category": request['object_category'],
@@ -73,7 +77,6 @@ def inverse_by_new_subject(request):
         "object": request['subject']
     }
     message = create_one_hop_message(transformed_request, look_up_subject=False)
-    print(message)
     #We inverted the predicate, and will be querying by the new subject, so the output will be in node b
     # but, the entity we are looking for (now the object) was originally the subject because of the inversion.
     return message, 'subject', 'b'
@@ -122,7 +125,10 @@ def is_valid_TRAPI(response_json):
     try:
         validate_Message(response_json)
         return True
-    except:
+    except ValidationError as e:
+        import json
+        #print(json.dumps(response_json,indent=4))
+        print(e)
         return False
 
 def check_provenance(ARA_case, ARA_response):
@@ -130,11 +136,16 @@ def check_provenance(ARA_case, ARA_response):
     KP.  But at the moment, there is not a standard way to do this."""
     pass
 
-def execute_TRAPI_lookup(case,creator):
+def execute_TRAPI_lookup(case,creator,rbag):
     #Create TRAPI query/response
     TRAPI_request, output_element, output_node_binding = creator(case)
-    TRAPI_response = callTRAPI(case['url'],TRAPI_request)
+    if TRAPI_request is None:
+        #The particular creator cannot make a valid message from this triple
+        return None
+    TRAPI_response  = callTRAPI(case['url'],TRAPI_request)
     #Successfully invoked the query endpoint
+    rbag.request  = TRAPI_request
+    rbag.response = TRAPI_response
     assert TRAPI_response['status_code'] == 200
     #Got back valid TRAPI Response
     response_message = TRAPI_response['response_json']['message']
@@ -148,7 +159,7 @@ def execute_TRAPI_lookup(case,creator):
 
 
 @pytest.mark.parametrize("trapi_creator", [by_subject, by_object, inverse_by_new_subject, raise_object_by_subject, raise_predicate_by_subject])
-def test_TRAPI_KPs(KP_TRAPI_case,trapi_creator):
+def test_TRAPI_KPs(KP_TRAPI_case,trapi_creator,results_bag):
     """Generic Test for TRAPI KPs. The KP_TRAPI_case fixture is created in conftest.py by looking at the test_triples
     These get successively fed to test_TRAPI.  This function is further parameterized by trapi_creator, which knows
     how to take an input edge and create some kind of TRAPI query from it.  For instance, by_subject removes the object,
@@ -156,14 +167,15 @@ def test_TRAPI_KPs(KP_TRAPI_case,trapi_creator):
     This approach will need modification if there turn out to be particular elements we want to test for different
     creators.
     """
-    execute_TRAPI_lookup(KP_TRAPI_case,trapi_creator)
+    execute_TRAPI_lookup(KP_TRAPI_case,trapi_creator,results_bag)
 
 @pytest.mark.parametrize("trapi_creator", [by_subject, by_object, inverse_by_new_subject, raise_object_by_subject, raise_predicate_by_subject])
-def test_TRAPI_ARAs(ARA_TRAPI_case, trapi_creator):
+def est_TRAPI_ARAs(ARA_TRAPI_case, trapi_creator, results_bag):
     """Generic Test for ARA TRAPI.  It does the same thing as the KP trapi, calling an ARA that should be pulling
     data from the KP.
     Then it performs a check on the result to make sure that the source is correct.
     Currently, that provenance check is a short circuit since ARAs are not reporting this in a standard way yet.
     """
-    response_message = execute_TRAPI_lookup(ARA_TRAPI_case,trapi_creator)
-    check_provenance(ARA_TRAPI_case,response_message)
+    response_message = execute_TRAPI_lookup(ARA_TRAPI_case,trapi_creator, results_bag)
+    if response_message is not None:
+        check_provenance(ARA_TRAPI_case,response_message)

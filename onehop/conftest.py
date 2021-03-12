@@ -2,22 +2,49 @@ import pytest
 import os
 import json
 from collections import defaultdict
+from pytest_harvest import get_session_results_dct
+
+def pytest_sessionfinish(session):
+    """ Gather all results and save them to a csv.
+    Works both on worker and master nodes, and also with xdist disabled"""
+
+    session_results = get_session_results_dct(session)
+    for t, v in session_results.items():
+        if v['status'] == 'failed':
+            outname = t.split('/')[-1][:-1]
+            with open(f'{outname}.results','w') as outf:
+                rb=v['fixtures']['results_bag']
+                json.dump(rb['request'],outf,indent=4)
+                outf.write(f'\nStatus Code: {rb["response"]["status_code"]}\n')
+                json.dump(rb['response']['response_json'],outf,indent=4)
+
+def pytest_addoption(parser):
+    parser.addoption("--one", action="store_true", help="Only use first edge from each KP file")
 
 def generate_TRAPI_KP_tests(metafunc):
     dtrips = os.walk('test_triples/KP')
-    edges = [ ]
+    edges = []
+    idlist = []
     for dirpath,dirnames,filenames in dtrips:
         for f in filenames:
             kpfile = f'{dirpath}/{f}'
             with open(kpfile,'r') as inf:
-                kpjson = json.load(inf)
+                try:
+                    kpjson = json.load(inf)
+                except:
+                    print('Invalid JSON')
+                    print(kpfile)
+                    exit()
             if kpjson['TRAPI']:
-                for edge in kpjson['edges']:
+                for edge_i,edge in enumerate(kpjson['edges']):
                     edge['api_name'] = f
                     edge['url'] = kpjson['url']
                     edges.append( edge )
+                    idlist.append( f'{kpfile}_{edge_i}')
+                    if metafunc.config.getoption('one'):
+                        break
     if "KP_TRAPI_case" in metafunc.fixturenames:
-        metafunc.parametrize('KP_TRAPI_case',edges)
+        metafunc.parametrize('KP_TRAPI_case',edges,ids=idlist)
     return edges
 
 #Once the smartapi tests are up, we'll want to pass them in here as well

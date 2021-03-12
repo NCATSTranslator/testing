@@ -6,7 +6,7 @@
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Disease",
             "predicate": "biolink:contributes_to",
-            "subject": "NCBIGene:338694",
+            "subject": "NCBIGene:118827818",
             "object": "MONDO:0004989"
         },
         {

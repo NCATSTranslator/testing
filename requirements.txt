@@ -2,5 +2,6 @@ biothings-explorer==1.0.2
 httpx
 pytest
 pytest-asyncio
+pytest-harvest
 bmt
 reasoner-validator

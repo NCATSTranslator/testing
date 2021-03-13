@@ -6,29 +6,29 @@
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEBI:72296",
+            "subject": "PUBCHEM.COMPOUND:208898",
             "object": "PUBCHEM.COMPOUND:135565674"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:DiseaseOrPhenotypicFeature",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEBI:72296",
-            "object": "HP:0002625"
+            "subject": "PUBCHEM.COMPOUND:208898",
+            "object": "MONDO:0004981"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:Drug",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEBI:72296",
-            "object": "RXCUI:1364431"
+            "subject": "PUBCHEM.COMPOUND:208898",
+            "object": "RXCUI:854859"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:Procedure",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEBI:72296",
-            "object": "UMLS:C0150457"
+            "subject": "PUBCHEM.COMPOUND:208898",
+            "object": "UMLS:C0419060"
         },
         {
             "subject_category": "biolink:DiseaseOrPhenotypicFeature",
@@ -42,7 +42,7 @@
             "object_category": "biolink:DiseaseOrPhenotypicFeature",
             "predicate": "biolink:correlated_with",
             "subject": "MONDO:0004981",
-            "object": "HP:0030149"
+            "object": "HP:0001692"
         },
         {
             "subject_category": "biolink:DiseaseOrPhenotypicFeature",
@@ -62,15 +62,15 @@
             "subject_category": "biolink:Drug",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
-            "subject": "RXCUI:1743562",
-            "object": "PUBCHEM.COMPOUND:41781"
+            "subject": "RXCUI:854859",
+            "object": "PUBCHEM.COMPOUND:208898"
         },
         {
             "subject_category": "biolink:Drug",
             "object_category": "biolink:DiseaseOrPhenotypicFeature",
             "predicate": "biolink:correlated_with",
             "subject": "RXCUI:1743562",
-            "object": "MONDO:0005310"
+            "object": "MONDO:0004981"
         },
         {
             "subject_category": "biolink:Drug",
@@ -84,27 +84,27 @@
             "object_category": "biolink:Procedure",
             "predicate": "biolink:correlated_with",
             "subject": "RXCUI:1743562",
-            "object": "UMLS:C0040591"
+            "object": "UMLS:C0396850"
         },
         {
             "subject_category": "biolink:Procedure",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
-            "subject": "UMLS:C0040591",
-            "object": "PUBCHEM.COMPOUND:441401"
+            "subject": "UMLS:C0419060",
+            "object": "PUBCHEM.COMPOUND:208898",
         },
         {
             "subject_category": "biolink:Procedure",
             "object_category": "biolink:DiseaseOrPhenotypicFeature",
             "predicate": "biolink:correlated_with",
-            "subject": "UMLS:C0040591",
-            "object": "MONDO:0001208"
+            "subject": "UMLS:C0150457",
+            "object": "MONDO:0004981"
         },
         {
             "subject_category": "biolink:Procedure",
             "object_category": "biolink:Drug",
             "predicate": "biolink:correlated_with",
-            "subject": "UMLS:C0040591",
+            "subject": "UMLS:C0396850",
             "object": "RXCUI:1743562"
         },
         {

@@ -5,9 +5,10 @@ import create_templates
 from biothings_explorer.smartapi_kg.dataload import load_specs
 
 tk = bmt.Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/1.6.0/biolink-model.yaml')
-tsv_file = open("missing_predicates.tsv", "w")
-tsv_writer = csv.writer(tsv_file, delimiter='\t')
-
+tsv_file_trapi = open("missing_predicates_trapi.tsv", "w")
+tsv_file_metakg = open("missing_predicates_metakg.tsv", "w")
+tsv_writer_metakg = csv.writer(tsv_file_metakg, delimiter='\t')
+tsv_writer_trapi = csv.writer(tsv_file_trapi, delimiter='\t')
 
 def aggregate_missing_predicates():
     specs = load_specs()
@@ -15,14 +16,13 @@ def aggregate_missing_predicates():
         if not 'x-translator' in spec['info']:
             continue
         url = spec['servers'][0]['url']
-        print(url)
         apititle = '_'.join(spec['info']['title'].split())
         if url.endswith('/'):
             url = url[:-1]
         predicates_url = f'{url}/predicates'
         is_trapi, predicates = create_templates.get_predicates(predicates_url)
         if is_trapi:
-            dump_trapi_predicate_results(apititle, predicates_url, predicates)
+            dump_trapi_predicate_results(predicates_url, predicates)
         else:
             dump_smartapi_predicate_results(spec['info']['title'])
 
@@ -38,11 +38,11 @@ def dump_smartapi_predicate_results(apititle):
         api = kgrecord.get('api')
         x_translator = api.get('x-translator')
         if in_biolink_model(predicate):
-            print(predicate + " is in biolink model")
+            continue
         else:
             if x_translator is not None:
                 for team in x_translator.get('team'):
-                    tsv_writer.writerow([subject, predicate, object, team])
+                    tsv_writer_metakg.writerow([subject, predicate, object, team])
 
 
 def in_biolink_model(predicate):
@@ -58,9 +58,9 @@ def dump_trapi_predicate_results(url, predicates):
                     object = target
                     subject = source
                     if in_biolink_model(predicate):
-                        print(predicate + " is in biolink model")
+                        continue
                     else:
-                        tsv_writer.writerow([subject, predicate, object, url])
+                        tsv_writer_trapi.writerow([subject, predicate, object, url])
 
 
 if __name__ == '__main__':

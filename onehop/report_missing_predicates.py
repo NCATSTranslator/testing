@@ -10,13 +10,13 @@ tsv_file_metakg = open("missing_predicates_metakg.tsv", "w")
 tsv_writer_metakg = csv.writer(tsv_file_metakg, delimiter='\t')
 tsv_writer_trapi = csv.writer(tsv_file_trapi, delimiter='\t')
 
+
 def aggregate_missing_predicates():
     specs = load_specs()
     for spec in specs:
         if not 'x-translator' in spec['info']:
             continue
         url = spec['servers'][0]['url']
-        apititle = '_'.join(spec['info']['title'].split())
         if url.endswith('/'):
             url = url[:-1]
         predicates_url = f'{url}/predicates'

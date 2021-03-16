@@ -2,13 +2,13 @@ import csv
 import bmt
 import requests
 import create_templates
+import json
 from biothings_explorer.smartapi_kg.dataload import load_specs
 
 tk = bmt.Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/1.6.0/biolink-model.yaml')
-tsv_file_trapi = open("missing_predicates_trapi.tsv", "w")
-tsv_file_metakg = open("missing_predicates_metakg.tsv", "w")
-tsv_writer_metakg = csv.writer(tsv_file_metakg, delimiter='\t')
-tsv_writer_trapi = csv.writer(tsv_file_trapi, delimiter='\t')
+tsv_file = open("missing_predicates.tsv", "a")
+tsv_writer = csv.writer(tsv_file, delimiter='\t')
+missing_predicates = {}
 
 
 def aggregate_missing_predicates():
@@ -25,6 +25,11 @@ def aggregate_missing_predicates():
             dump_trapi_predicate_results(predicates_url, predicates)
         else:
             dump_smartapi_predicate_results(spec['info']['title'])
+    with open(f'missing_predicates_with_teams.json', 'w') as predicate_json:
+        json.dump(missing_predicates, predicate_json, indent=4)
+    with open('grouped_predicates.tsv', 'w') as fh:
+        for key in missing_predicates:
+            fh.write("%s,%s\n" % (key, missing_predicates[key]))
 
 
 def dump_smartapi_predicate_results(apititle):
@@ -32,8 +37,8 @@ def dump_smartapi_predicate_results(apititle):
     metakgurl = f'https://smart-api.info/api/metakg?api={apititle}'
     response = requests.get(metakgurl)
     for kgrecord in response.json()['associations']:
-        subject = kgrecord.get('subject')
-        object = kgrecord.get('object')
+        p_subject = kgrecord.get('subject')
+        p_object = kgrecord.get('object')
         predicate = kgrecord.get('predicate')
         api = kgrecord.get('api')
         x_translator = api.get('x-translator')
@@ -42,7 +47,12 @@ def dump_smartapi_predicate_results(apititle):
         else:
             if x_translator is not None:
                 for team in x_translator.get('team'):
-                    tsv_writer_metakg.writerow([subject, predicate, object, team])
+                    if predicate in missing_predicates:
+                        if team not in missing_predicates[predicate]:
+                            missing_predicates[predicate].append(team)
+                    else:
+                        missing_predicates[predicate] = [team]
+                    tsv_writer.writerow([p_subject, predicate, p_object, team])
 
 
 def in_biolink_model(predicate):
@@ -60,7 +70,12 @@ def dump_trapi_predicate_results(url, predicates):
                     if in_biolink_model(predicate):
                         continue
                     else:
-                        tsv_writer_trapi.writerow([subject, predicate, object, url])
+                        if predicate in missing_predicates:
+                            if url not in missing_predicates[predicate]:
+                                missing_predicates[predicate].append(url)
+                        else:
+                            missing_predicates[predicate] = [url]
+                        tsv_writer.writerow([subject, predicate, object, url])
 
 
 if __name__ == '__main__':

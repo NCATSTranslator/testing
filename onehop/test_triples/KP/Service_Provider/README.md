@@ -10,3 +10,10 @@ MyDisease.info:
 - Disease -> ChemicalSubstance: subject is MESH (use ctd.mesh in scopes)
 - PhenotypicFeature -> Disease: object is OMIM (use hpo.omim in fields)
 - ChemicalSubstance -> Disease: object is MESH (use ctd.mesh in fields)
+
+MyGene.info:  
+- Gene -> Pathway: object is REACT (use pathway.reactome in fields)
+- Pathway -> Gene: subject is REACT (use pathway.reactome.id in scopes)
+- Gene -> Protein: object is UNIPROTKB (use uniprot.Swiss-Prot in fields)
+- Protein -> Gene: subject is UNIPROTKB (use uniprot.Swiss-Prot in scopes)
+- Gene -> Gene (homolog): object is MGI (look for response in pantherdb.ortholog.MGI)

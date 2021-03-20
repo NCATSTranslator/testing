@@ -20,29 +20,40 @@ def pytest_sessionfinish(session):
 
 def pytest_addoption(parser):
     parser.addoption("--one", action="store_true", help="Only use first edge from each KP file")
+    parser.addoption("--triple_source", action="store", help="Directory or file from which to retrieve triples")
 
 def generate_TRAPI_KP_tests(metafunc):
-    dtrips = os.walk('test_triples/KP')
+    triple_source = metafunc.config.getoption('triple_source',default='test_triples/KP')
     edges = []
     idlist = []
-    for dirpath,dirnames,filenames in dtrips:
-        for f in filenames:
-            kpfile = f'{dirpath}/{f}'
-            with open(kpfile,'r') as inf:
-                try:
-                    kpjson = json.load(inf)
-                except:
-                    print('Invalid JSON')
-                    print(kpfile)
-                    exit()
-            if kpjson['TRAPI']:
-                for edge_i,edge in enumerate(kpjson['edges']):
-                    edge['api_name'] = f
-                    edge['url'] = kpjson['url']
-                    edges.append( edge )
-                    idlist.append( f'{kpfile}_{edge_i}')
-                    if metafunc.config.getoption('one'):
-                        break
+    if not os.path.exists(triple_source):
+        print("No such location:",triple_source)
+        return edges
+    if os.path.isfile(triple_source):
+        filelist = [triple_source]
+    else:
+        filelist = []
+        dtrips = os.walk(triple_source)
+        for dirpath,dirnames,filenames in dtrips:
+            for f in filenames:
+                kpfile = f'{dirpath}/{f}'
+                filelist.append(kpfile)
+    for kpfile in filelist:
+        with open(kpfile,'r') as inf:
+            try:
+                kpjson = json.load(inf)
+            except:
+                print('Invalid JSON')
+                print(kpfile)
+                exit()
+        if kpjson['TRAPI']:
+            for edge_i,edge in enumerate(kpjson['edges']):
+                edge['api_name'] = kpfile.split('/')[-1]
+                edge['url'] = kpjson['url']
+                edges.append( edge )
+                idlist.append( f'{kpfile}_{edge_i}')
+                if metafunc.config.getoption('one'):
+                    break
     if "KP_TRAPI_case" in metafunc.fixturenames:
         metafunc.parametrize('KP_TRAPI_case',edges,ids=idlist)
     return edges

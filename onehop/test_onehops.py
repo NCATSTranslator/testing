@@ -64,7 +64,12 @@ def inverse_by_new_subject(request):
     if original_predicate_element['symmetric']:
         transformed_predicate = request['predicate']
     else:
-        transformed_predicate = original_predicate_element['inverse']
+        transformed_predicate_name = original_predicate_element['inverse']
+        if transformed_predicate_name is None:
+            transformed_predicate = None
+        else:
+            tp = tk.get_element(transformed_predicate_name)
+            transformed_predicate = tp.slot_uri
     #Not everything has an inverse (it should, and it will, but it doesn't right now)
     if transformed_predicate is None:
         return None, None, None
@@ -170,7 +175,7 @@ def test_TRAPI_KPs(KP_TRAPI_case,trapi_creator,results_bag):
     execute_TRAPI_lookup(KP_TRAPI_case,trapi_creator,results_bag)
 
 @pytest.mark.parametrize("trapi_creator", [by_subject, by_object, inverse_by_new_subject, raise_object_by_subject, raise_predicate_by_subject])
-def est_TRAPI_ARAs(ARA_TRAPI_case, trapi_creator, results_bag):
+def test_TRAPI_ARAs(ARA_TRAPI_case, trapi_creator, results_bag):
     """Generic Test for ARA TRAPI.  It does the same thing as the KP trapi, calling an ARA that should be pulling
     data from the KP.
     Then it performs a check on the result to make sure that the source is correct.

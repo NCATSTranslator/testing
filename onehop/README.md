@@ -119,3 +119,45 @@ For each ARA, we want to ensure that it is able to extract information correctly
 In order to correctly link ARAs to KPs, ARAs will need to 
 1. Copy the ARA template from `templates` to the corresponding place in `test_triples`
 2. Edit the copied file to remove KPs that the ARA does not access.
+
+## Running Tests
+
+Tests are implemented with pytest.  To run all tests, simply run
+```
+pytest test_onehops.py
+```
+But this takes quite some time, so frequently you will want to limit the tests run.
+
+To run only KP tests:
+```
+pytest test_onehops.py::test_TRAPI_KPs
+```
+
+To run KP Tests, but only using one triple from each KP:
+```
+pytest test_onehops.py::test_TRAPI_KPs --one
+```
+
+To restrict test triples to those from a given directory or file:
+```
+pytest test_onehops.py::test_TRAPI_KPs --triple_source=<triple_source>
+```
+e.g.
+```
+pytest test_onehops.py::test_TRAPI_KPs --triple_source=test_triples/KP/Ranking_Agent
+```
+or
+```
+pytest test_onehops.py::test_TRAPI_KPs --triple_source=test_triples/KP/Ranking_Agent/Automat_CTD.json
+```
+
+To run only ARA tests (testing all ARAs for all KPs)
+```
+pytest test_onehops.py::test_TRAPI_ARAs
+```
+
+Options for restricting test triples for KPs also work for ARAs.  To test a single triple from the Automat CTD against all ARAs that use that KP:
+```
+pytest test_onehops.py::test_TRAPI_ARAs --one --triple_source=test_triples/KP/Ranking_Agent/Automat_CTD.json
+```
+

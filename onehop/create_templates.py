@@ -77,7 +77,7 @@ def create_smartapi_template(teamdir, apititle, url):
                       'subject': '',
                       'object': ''})
     if len(edges) == 0:
-        print('This API does not have a predicate, and has no edges in MetaKG:', apititle)
+        print('This API does not have a predicate, and has no edges in MetaKG:', apititle, url)
     output = { "url": url,
                "TRAPI": False,
                "edges": edges}

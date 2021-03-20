@@ -1,5 +1,6 @@
 {
     "url": "https://aragorn.renci.org",
+    "query_opts": { "answer_coalesce_type": "none" },
     "TRAPI": true,
     "KPs": [
         "Ontology-KP API",

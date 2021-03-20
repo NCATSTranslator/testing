@@ -91,7 +91,7 @@
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
             "subject": "UMLS:C0419060",
-            "object": "PUBCHEM.COMPOUND:208898",
+            "object": "PUBCHEM.COMPOUND:208898"
         },
         {
             "subject_category": "biolink:Procedure",

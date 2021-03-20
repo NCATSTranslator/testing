@@ -119,6 +119,7 @@ For each ARA, we want to ensure that it is able to extract information correctly
 In order to correctly link ARAs to KPs, ARAs will need to 
 1. Copy the ARA template from `templates` to the corresponding place in `test_triples`
 2. Edit the copied file to remove KPs that the ARA does not access.
+3. If an ARA needs particular query options, these can also be added to the json (See Ranking_Agent/ARAGORN.json)
 
 ## Running Tests
 
@@ -161,3 +162,7 @@ Options for restricting test triples for KPs also work for ARAs.  To test a sing
 pytest test_onehops.py::test_TRAPI_ARAs --one --triple_source=test_triples/KP/Ranking_Agent/Automat_CTD.json
 ```
 
+The ARAs can also be restricted to a particular json or directory, e.g.
+```
+pytest test_onehops.py::test_TRAPI_ARAs --one --triple_source=test_triples/KP/Ranking_Agent/Automat_CTD.json --ARA_source=test_triples/ARA/Ranking_Agent/Strider.json
+```

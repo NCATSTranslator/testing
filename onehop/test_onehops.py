@@ -114,11 +114,11 @@ def raise_object_by_subject(request):
 ############
 ############
 
-def callTRAPI(url,trapi_message):
+def callTRAPI(url,opts,trapi_message):
     """Given an url and a TRAPI message, post the message to the url and return the status and json response"""
     query_url = f'{url}/query'
     print(query_url)
-    response = requests.post(query_url,json=trapi_message)
+    response = requests.post(query_url,json=trapi_message,params=opts)
     try:
         response_json = response.json()
     except:
@@ -147,7 +147,7 @@ def execute_TRAPI_lookup(case,creator,rbag):
     if TRAPI_request is None:
         #The particular creator cannot make a valid message from this triple
         return None
-    TRAPI_response  = callTRAPI(case['url'],TRAPI_request)
+    TRAPI_response  = callTRAPI(case['url'],case['query_opts'],TRAPI_request)
     #Successfully invoked the query endpoint
     rbag.request  = TRAPI_request
     rbag.response = TRAPI_response

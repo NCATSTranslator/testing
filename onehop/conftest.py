@@ -21,6 +21,7 @@ def pytest_sessionfinish(session):
 def pytest_addoption(parser):
     parser.addoption("--one", action="store_true", help="Only use first edge from each KP file")
     parser.addoption("--triple_source", action="store", help="Directory or file from which to retrieve triples")
+    parser.addoption("--ARA_source", action="store", help="Directory or file from which to retrieve ARA Config")
 
 def generate_TRAPI_KP_tests(metafunc):
     triple_source = metafunc.config.getoption('triple_source',default='test_triples/KP')
@@ -50,6 +51,10 @@ def generate_TRAPI_KP_tests(metafunc):
             for edge_i,edge in enumerate(kpjson['edges']):
                 edge['api_name'] = kpfile.split('/')[-1]
                 edge['url'] = kpjson['url']
+                if 'query_opts' in kpjson:
+                    edge['query_opts'] = kpjson['query_opts']
+                else:
+                    edge['query_opts'] = {}
                 edges.append( edge )
                 idlist.append( f'{kpfile}_{edge_i}')
                 if metafunc.config.getoption('one'):
@@ -66,22 +71,36 @@ def generate_TRAPI_ARA_tests(metafunc,kp_edges):
     for e in kp_edges:
         #eh, not handling api name very well
         kp_dict[e['api_name'][:-5]].append(e)
-    dtrips = os.walk('test_triples/ARA')
     ara_edges = []
+    idlist = []
+    ara_source = metafunc.config.getoption('ARA_source',default='test_triples/ARA')
+    if os.path.isfile(ara_source):
+        filelist = [ara_source]
+    else:
+        filelist = []
+        dtrips = os.walk(ara_source)
+        for dirpath, dirnames, filenames in dtrips:
+            for f in filenames:
+                kpfile = f'{dirpath}/{f}'
+                filelist.append(kpfile)
     #Figure out which ARAs should be able to get which triples from which KPs
-    for dirpath,dirnames,filenames in dtrips:
-        for f in filenames:
-            arafile = f'{dirpath}/{f}'
-            with open(arafile,'r') as inf:
-                arajson = json.load(inf)
-            for kp in arajson['KPs']:
-                for kp_edge in kp_dict['_'.join(kp.split())]:
-                    edge = kp_edge.copy()
-                    edge['api_name'] = f
-                    edge['url'] = arajson['url']
-                    edge['kp_source'] = kp
-                    ara_edges.append( edge )
-    metafunc.parametrize('ARA_TRAPI_case', ara_edges)
+    for arafile in filelist:
+        f = arafile.split('/')[-1]
+        with open(arafile,'r') as inf:
+            arajson = json.load(inf)
+        for kp in arajson['KPs']:
+            for edge_i, kp_edge in enumerate(kp_dict['_'.join(kp.split())]):
+                edge = kp_edge.copy()
+                edge['api_name'] = f
+                edge['url'] = arajson['url']
+                edge['kp_source'] = kp
+                if 'query_opts' in arajson:
+                    edge['query_opts'] = arajson['query_opts']
+                else:
+                    edge['query_opts'] = {}
+                idlist.append(f'{f}_{kp}_{edge_i}')
+                ara_edges.append( edge )
+    metafunc.parametrize('ARA_TRAPI_case', ara_edges,ids=idlist)
 
 def pytest_generate_tests(metafunc):
     """This hook is run at test generation time.  These functions look at the configured triples on disk

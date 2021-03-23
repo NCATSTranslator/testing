@@ -1,0 +1,20 @@
+{
+    "url": "https://api.bte.ncats.io/v1/smartapi/4974ebbf2c1ae31a25a7a7b2d9e4b0d4/query",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "PUBCHEM:9939941",
+            "object": "HMDB:HMDB10405"
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:correlated_with",
+            "subject": "UNIPROT:O00533",
+            "object": "UNIPROT:P04070"
+        }
+    ]
+}

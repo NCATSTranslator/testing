@@ -5,86 +5,86 @@
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:MolecularActivity",
-            "predicate": "enables",
-            "subject": "285381",
+            "predicate": "biolink:enables",
+            "subject": "NCBIGENE:285381",
             "object": "GO:0046872"
         },
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:Gene",
-            "predicate": "enabled_by",
+            "predicate": "biolink:enabled_by",
             "subject": "GO:0046872",
-            "object": "10101"
+            "object": "NCBIGENE:10101"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "participates_in",
-            "subject": "285381",
+            "predicate": "biolink:participates_in",
+            "subject": "NCBIGENE:285381",
             "object": "GO:0002098"
         },
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Gene",
-            "predicate": "has_participant",
+            "predicate": "biolink:has_participant",
             "subject": "GO:0002098",
-            "object": "285381"
+            "object": "NCBIGENE:285381"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:CellularComponent",
-            "predicate": "expressed_in",
-            "subject": "285381",
+            "predicate": "biolink:expressed_in",
+            "subject": "NCBIGENE:285381",
             "object": "GO:0005654"
         },
         {
             "subject_category": "biolink:CellularComponent",
             "object_category": "biolink:Gene",
-            "predicate": "expresses",
+            "predicate": "biolink:expresses",
             "subject": "GO:0005654",
-            "object": "285381"
+            "object": "NCBIGENE:285381"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Pathway",
-            "predicate": "participates_in",
-            "subject": "285381",
-            "object": "R-HSA-5358493"
+            "predicate": "biolink:participates_in",
+            "subject": "NCBIGENE:285381",
+            "object": "REACT:R-HSA-5358493"
         },
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:Gene",
-            "predicate": "has_participant",
-            "subject": "R-HSA-70895",
-            "object": "9673"
+            "predicate": "biolink:has_participant",
+            "subject": "REACT:R-HSA-70895",
+            "object": "NCBIGENE:9673"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Transcript",
-            "predicate": "related_to",
-            "subject": "ENSG00000196911",
-            "object": "ENST00000356348"
+            "predicate": "biolink:related_to",
+            "subject": "ENSEMBL:ENSG00000196911",
+            "object": "ENSEMBL:ENST00000356348"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Protein",
-            "predicate": "has_gene_product",
-            "subject": "ENSG00000196911",
-            "object": "O15131"
+            "predicate": "biolink:has_gene_product",
+            "subject": "ENSEMBL:ENSG00000196911",
+            "object": "UNIPROTKB:O15131"
         },
         {
             "subject_category": "biolink:Protein",
             "object_category": "biolink:Gene",
-            "predicate": "related_to",
-            "subject": "O15131",
-            "object": "ENSG00000196911"
+            "predicate": "biolink:related_to",
+            "subject": "UNIPROTKB:O15131",
+            "object": "ENSEMBL:ENSG00000196911"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Gene",
-            "predicate": "homologous_to",
-            "subject": "56888",
-            "object": "1921537"
+            "predicate": "biolink:homologous_to",
+            "subject": "NCBIGENE:56888",
+            "object": "MGI:1921537"
         }
     ]
 }

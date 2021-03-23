@@ -6,57 +6,57 @@
             "subject_category": "biolink:Disease",
             "object_category": "biolink:Gene",
             "predicate": "biolink:related_to",
-            "subject": "C0023264",
-            "object": "4694"
+            "subject": "UMLS:C0023264",
+            "object": "NCBIGENE:4694"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:SequenceVariant",
             "predicate": "biolink:related_to",
-            "subject": "C0023264",
-            "object": "rs1161932777"
+            "subject": "UMLS:C0023264",
+            "object": "DBSNP:rs1161932777"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:PhenotypicFeature",
             "predicate": "biolink:has_phenotype",
-            "subject": "246900",
+            "subject": "OMIM:246900",
             "object": "HP:0001254"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:related_to",
-            "subject": "D009102",
-            "object": "C448659"
+            "subject": "MESH:D009102",
+            "object": "MESH:C448659"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Disease",
             "predicate": "biolink:related_to",
-            "subject": "1629",
-            "object": "C3658290"
+            "subject": "NCBIGENE:1629",
+            "object": "UMLS:C3658290"
         },
         {
             "subject_category": "biolink:SequenceVariant",
             "object_category": "biolink:Disease",
             "predicate": "biolink:related_to",
-            "subject": "rs78655421",
-            "object": "C4021107"
+            "subject": "DBSNP:rs78655421",
+            "object": "UMLS:C4021107"
         },
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:Disease",
             "predicate": "biolink:related_to",
             "subject": "HP:0000224",
-            "object": "608720"
+            "object": "OMIM:608720"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:Disease",
             "predicate": "biolink:related_to",
-            "subject": "D000655",
-            "object": "D000855"
+            "subject": "MESH:D000655",
+            "object": "MESH:D000855"
         },
         {
             "subject_category": "biolink:Disease",

@@ -1,19 +1,7 @@
-These are not TRAPI APIs. As a result, this is what we suggest:
+These KPs are not TRAPI APIs. 
 
-- subject and object are given with the ID format the API expects. They may NOT be curies. The x-bte info in the SmartAPI registry files describes the ID namespaces with Translator-compliant prefixes
-- query them according to the x-bte information in the SmartAPI Registry. The x-bte info includes what endpoint to use and what to put for the various parameters/request-body
-- the input will be the subject's ID (no predicate or object)
-- the predicate may change over time, as we change our biolink predicate choices and as the biolink model predicates change
+The tests described in the JSON files are written as-if these are TRAPI APIs. The expectation there is that a TRAPI query is made through BTE (the endpoint /v1/smartapi/{smartapi_id}/query) using the info in the JSON files. The edge to the "answer" node should have an attribute with the name "api" and value as the name of the API. 
 
-MyDisease.info:  
-- Disease -> PhenotypicFeature: subject is OMIM (use hpo.omim in scopes)
-- Disease -> ChemicalSubstance: subject is MESH (use ctd.mesh in scopes)
-- PhenotypicFeature -> Disease: object is OMIM (use hpo.omim in fields)
-- ChemicalSubstance -> Disease: object is MESH (use ctd.mesh in fields)
-
-MyGene.info:  
-- Gene -> Pathway: object is REACT (use pathway.reactome in fields)
-- Pathway -> Gene: subject is REACT (use pathway.reactome.id in scopes)
-- Gene -> Protein: object is UNIPROTKB (use uniprot.Swiss-Prot in fields)
-- Protein -> Gene: subject is UNIPROTKB (use uniprot.Swiss-Prot in scopes)
-- Gene -> Gene (homolog): object is MGI (look for response in pantherdb.ortholog.MGI)
+Notes:
+- tests are also described as queries that can be made directly to the API, in the additional README files. Notice that many API endpoints do not handle curies (ID prefixes) or predicates. The format of these queries is specified by the x-bte-annotated endpoint in the SmartAPI registry file. 
+- predicates may change over time, as we change our biolink predicate choices and as the biolink model predicates change

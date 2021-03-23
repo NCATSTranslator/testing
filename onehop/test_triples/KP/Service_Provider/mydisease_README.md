@@ -12,6 +12,7 @@ disgenet.genes_related_to_disease.gene_id: 4694
 
 
 2. For Disease -> Variant: Use the following info to query using the UMLS ID for Leigh Disease. 
+Note: This operation's output ID is different than in the BTE interface (HGVS:NC_000016.10:g.1772798C>A). 
 ```
 fields: disgenet.variants_related_to_disease
 requestBody:
@@ -25,6 +26,7 @@ disgenet.variants_related_to_disease.rsid: rs1161932777
 
 
 3. For Disease -> PhenotypicFeature: Use the following info to query using the OMIM ID for Dihydrolipoamide Dehydrogenase Deficiency
+Note: This operation's output ID is different than in the BTE interface (UMLS:C0023380). 
 ```
 fields: hpo.phenotype_related_to_disease   
 requestBody:
@@ -38,6 +40,7 @@ hpo.phenotype_related_to_disease.hpo_id: HP:0001254
 
 
 4. For Disease -> ChemicalSubstance: Use the following info to query using the MESH ID for Multiple Organ Failure
+Note: This operation's output ID is different than in the BTE interface (CHEBI:65324).
 ```
 fields: ctd.chemical_related_to_disease
 requestBody:
@@ -79,6 +82,7 @@ disgenet.xrefs.umls: C4021107
 
 
 7. For PhenotypicFeature -> Disease: Use the following info to query using the HP ID for Hypogeusia
+Note: This operation's output ID is different than in the BTE interface (MONDO:0012107).
 ```
 fields: hpo.omim
 size: 1000
@@ -114,9 +118,9 @@ requestBody:
   q: "MONDO:0002494"
   scopes: mondo.mondo
 ```
-One of the answers should be alcohol withdrawal delirium, which has
+One of the answers should be alcoholic pancreatitis, which has
 ```
-mondo.descendants: "MONDO:0006642"
+mondo.descendants: "MONDO:0003232"
 ```
 
 

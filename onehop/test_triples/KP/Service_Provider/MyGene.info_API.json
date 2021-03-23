@@ -63,14 +63,14 @@
             "object_category": "biolink:Transcript",
             "predicate": "biolink:related_to",
             "subject": "ENSEMBL:ENSG00000196911",
-            "object": "ENSEMBL:ENST00000356348"
+            "object": "ENSEMBL:ENST00000413340"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Protein",
             "predicate": "biolink:has_gene_product",
             "subject": "ENSEMBL:ENSG00000196911",
-            "object": "UNIPROTKB:O15131"
+            "object": "ENSEMBL:ENSP00000396791"
         },
         {
             "subject_category": "biolink:Protein",

@@ -100,6 +100,7 @@ pathway.reactome.id: "R-HSA-5358493"
 
 
 8. For Pathway -> Gene: Use the following info to query using the REACT ID for Branched-chain amino acid catabolism
+Note: The BTE TRAPI interface seems to have issues getting this result. 
 ```
 fields: entrezgene
 species: human
@@ -122,27 +123,28 @@ requestBody:
   q: ENSG00000196911    
   scopes: ensembl.gene
 ```
-One of the answers should be ENST00000356348, which has
+One of the answers should be ENST00000413340, which has
 ```
-ensembl.transcript: ENST00000356348
+ensembl.transcript: ENST00000413340
 ```
 
 
 9. For Gene -> Protein: Use the following info to query using the ENSEMBL ID for KPNA5 
 ```
-fields: uniprot.Swiss-Prot
+fields: ensembl.protein
 species: human
 requestBody:
   q: ENSG00000196911    
   scopes: ensembl.gene
 ```
-One of the answers should be O15131, which has
+One of the answers should be ENSP00000396791, which has
 ```
-uniprot.Swiss-Prot: O15131
+ensembl.protein: ENSP00000396791
 ```
 
 
 10. For Protein -> Gene: Use the following info to query using the UNIPROTKB ID for KPNA5
+Note: The BTE TRAPI interface seems to have issues getting this result. 
 ```
 fields: ensembl.gene
 species: human

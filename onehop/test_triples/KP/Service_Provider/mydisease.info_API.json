@@ -1,5 +1,5 @@
 {
-    "url": "http://mydisease.info/ui/671b45c0301c8624abbd26ae78449ca2",
+    "url": "https://smart-api.info/ui/671b45c0301c8624abbd26ae78449ca2",
     "TRAPI": false,
     "edges": [
         {
@@ -14,21 +14,21 @@
             "object_category": "biolink:SequenceVariant",
             "predicate": "biolink:related_to",
             "subject": "UMLS:C0023264",
-            "object": "DBSNP:rs1161932777"
+            "object": "HGVS:NC_000016.10:g.1772798C>A"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:PhenotypicFeature",
             "predicate": "biolink:has_phenotype",
             "subject": "OMIM:246900",
-            "object": "HP:0001254"
+            "object": "UMLS:C0023380"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:related_to",
             "subject": "MESH:D009102",
-            "object": "MESH:C448659"
+            "object": "CHEBI:65324"
         },
         {
             "subject_category": "biolink:Gene",
@@ -49,7 +49,7 @@
             "object_category": "biolink:Disease",
             "predicate": "biolink:related_to",
             "subject": "HP:0000224",
-            "object": "OMIM:608720"
+            "object": "MONDO:0012107"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
@@ -63,7 +63,7 @@
             "object_category": "biolink:Disease",
             "predicate": "biolink:superclass_of",
             "subject": "MONDO:0002494",
-            "object": "MONDO:0006642"
+            "object": "MONDO:0003232"
         },
         {
             "subject_category": "biolink:Disease",

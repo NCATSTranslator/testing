@@ -1,0 +1,90 @@
+{
+    "url": "https://smart-api.info/ui/59dce17363dce279d389100834e43648",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:enables",
+            "subject": "NCBIGENE:285381",
+            "object": "GO:0046872"
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:enabled_by",
+            "subject": "GO:0046872",
+            "object": "NCBIGENE:10101"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:participates_in",
+            "subject": "NCBIGENE:285381",
+            "object": "GO:0002098"
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:has_participant",
+            "subject": "GO:0002098",
+            "object": "NCBIGENE:285381"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:expressed_in",
+            "subject": "NCBIGENE:285381",
+            "object": "GO:0005654"
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:expresses",
+            "subject": "GO:0005654",
+            "object": "NCBIGENE:285381"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Pathway",
+            "predicate": "biolink:participates_in",
+            "subject": "NCBIGENE:285381",
+            "object": "REACT:R-HSA-5358493"
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:has_participant",
+            "subject": "REACT:R-HSA-70895",
+            "object": "NCBIGENE:9673"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Transcript",
+            "predicate": "biolink:related_to",
+            "subject": "ENSEMBL:ENSG00000196911",
+            "object": "ENSEMBL:ENST00000413340"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:has_gene_product",
+            "subject": "ENSEMBL:ENSG00000196911",
+            "object": "ENSEMBL:ENSP00000396791"
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "UNIPROTKB:O15131",
+            "object": "ENSEMBL:ENSG00000196911"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:homologous_to",
+            "subject": "NCBIGENE:56888",
+            "object": "MGI:1921537"
+        }
+    ]
+}

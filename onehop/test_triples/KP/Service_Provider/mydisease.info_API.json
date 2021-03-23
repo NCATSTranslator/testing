@@ -1,0 +1,76 @@
+{
+    "url": "https://smart-api.info/ui/671b45c0301c8624abbd26ae78449ca2",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:related_to",
+            "subject": "UMLS:C0023264",
+            "object": "NCBIGENE:4694"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:SequenceVariant",
+            "predicate": "biolink:related_to",
+            "subject": "UMLS:C0023264",
+            "object": "HGVS:NC_000016.10:g.1772798C>A"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
+            "subject": "OMIM:246900",
+            "object": "UMLS:C0023380"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:related_to",
+            "subject": "MESH:D009102",
+            "object": "CHEBI:65324"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "NCBIGENE:1629",
+            "object": "UMLS:C3658290"
+        },
+        {
+            "subject_category": "biolink:SequenceVariant",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "DBSNP:rs78655421",
+            "object": "UMLS:C4021107"
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "HP:0000224",
+            "object": "MONDO:0012107"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
+            "subject": "MESH:D000655",
+            "object": "MESH:D000855"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:superclass_of",
+            "subject": "MONDO:0002494",
+            "object": "MONDO:0003232"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:subclass_of",
+            "subject": "MONDO:0002494",
+            "object": "MONDO:0002025"
+        }
+    ]
+}

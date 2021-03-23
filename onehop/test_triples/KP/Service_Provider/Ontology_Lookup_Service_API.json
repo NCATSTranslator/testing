@@ -1,0 +1,13 @@
+{
+    "url": "https://smart-api.info/ui/1c056ffc7ed0dd1229e71c4752239465",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:superclass_of",
+            "subject": "DOID:0050686",
+            "object": "MONDO:0002087"
+        }
+    ]
+}

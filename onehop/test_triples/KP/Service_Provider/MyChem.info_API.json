@@ -1,0 +1,62 @@
+{
+    "url": "https://smart-api.info/ui/8f08d1446e0bb9c2b323713ce83e2bd3",
+    "TRAPI": false,
+    "edges": [
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:metabolic_processing_affected_by",
+            "subject": "DRUGBANK:DB09061",
+            "object": "NCBIGENE:1543"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_metabolic_processing_of",
+            "subject": "SYMBOL:CYP1A1",
+            "object": "CHEBI:34545"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Gene",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "DRUGBANK:DB01159",
+            "object": "NCBIGENE:3783"
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "SYMBOL:KCNN4",
+            "object": "CHEBI:7582"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:approved_to_treat",
+            "subject": "CHEMBL.COMPOUND:CHEMBL650",
+            "object": "MONDO:0015129"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:approved_for_treatment_by",
+            "subject": "UMLS:C0038013",
+            "object": "CHEBI:6888"
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:contraindicated_for",
+            "subject": "CHEMBL.COMPOUND:CHEMBL1229",
+            "object": "UMLS:C0338656"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:is_contraindication_for",
+            "subject": "UMLS:C0001403",
+            "object": "CHEBI:91591"
+        }
+    ]
+}

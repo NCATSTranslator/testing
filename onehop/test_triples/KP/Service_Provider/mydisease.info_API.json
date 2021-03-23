@@ -1,6 +1,7 @@
 {
-    "url": "https://smart-api.info/ui/671b45c0301c8624abbd26ae78449ca2",
-    "TRAPI": false,
+    "url": "https://smart-api.info/ui/dc91716f44207d2e1287c727f281d339#/1.0.0/querySmartAPI",
+    "myChem_smartAPI_ID": "671b45c0301c8624abbd26ae78449ca2",
+    "TRAPI": true,
     "edges": [
         {
             "subject_category": "biolink:Disease",

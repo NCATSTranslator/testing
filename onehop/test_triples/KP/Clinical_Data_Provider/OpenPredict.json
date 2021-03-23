@@ -1,0 +1,20 @@
+{
+    "url": "https://openpredict.semanticscience.org",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:treats",
+            "subject": "DRUGBANK:DB00394",
+            "object": "OMIM:246300"
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:treated_by",
+            "subject": "OMIM:246300",
+            "object": "DRUGBANK:DB00480"
+        }
+    ]
+}

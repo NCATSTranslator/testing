@@ -6,8 +6,8 @@
             "subject_category": "biolink:IndividualOrganism",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:participates_in",
-            "subject": "",
-            "object": ""
+            "subject": "NCBITaxon:694009",
+            "object": "GO:0051607"
         },
         {
             "subject_category": "biolink:IndividualOrganism",
@@ -4948,8 +4948,8 @@
             "subject_category": "biolink:GenomicEntity",
             "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:interacts_with",
-            "subject": "",
-            "object": ""
+            "subject": "UniProtKB:Q06187",
+            "object": "UniProtKB:P52735"
         },
         {
             "subject_category": "biolink:GenomicEntity",
@@ -25752,8 +25752,8 @@
             "subject_category": "biolink:BiologicalProcessOrActivity",
             "object_category": "biolink:GeneOrGeneProduct",
             "predicate": "biolink:enabled_by",
-            "subject": "",
-            "object": ""
+            "subject": "GO:0003674",
+            "object": "MGI:1342774"
         },
         {
             "subject_category": "biolink:BiologicalProcessOrActivity",
@@ -36966,8 +36966,8 @@
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:GeneOrGeneProduct",
             "predicate": "biolink:enabled_by",
-            "subject": "",
-            "object": ""
+            "subject": "GO:0003674",
+            "object": "MGI:1342774"
         },
         {
             "subject_category": "biolink:MolecularActivity",
@@ -47844,8 +47844,8 @@
             "subject_category": "biolink:OrganismalEntity",
             "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:interacts_with",
-            "subject": "",
-            "object": ""
+            "subject": "GO:0019908",
+            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-2220958"
         },
         {
             "subject_category": "biolink:OrganismalEntity",

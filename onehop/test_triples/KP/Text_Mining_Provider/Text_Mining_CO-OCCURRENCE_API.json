@@ -1,0 +1,13 @@
+{
+    "url": "https://smart-api.info/ui/5be0f321a829792e934545998b9c6afe",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "MONDO:0004315",
+            "object": "UBERON:0000126"
+        }
+    ]
+}

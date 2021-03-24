@@ -58918,15 +58918,15 @@
             "subject_category": "biolink:Protein",
             "object_category": "biolink:Protein",
             "predicate": "biolink:interacts_with",
-            "subject": "",
-            "object": ""
+            "subject": "UniProtKB:Q06187",
+            "object": "UniProtKB:P52735"
         },
         {
             "subject_category": "biolink:Protein",
             "object_category": "biolink:Protein",
             "predicate": "biolink:molecularly_interacts_with",
-            "subject": "",
-            "object": ""
+            "subject": "UniProtKB:Q06187",
+            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-2029115"
         },
         {
             "subject_category": "biolink:Protein",

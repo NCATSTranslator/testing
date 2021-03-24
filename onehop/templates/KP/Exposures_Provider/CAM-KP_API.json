@@ -18626,8 +18626,8 @@
             "subject_category": "biolink:BiologicalEntity",
             "object_category": "biolink:NamedThing",
             "predicate": "biolink:physically_interacts_with",
-            "subject": "",
-            "object": ""
+            "subject": "GO:1902911",
+            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-9672040"
         },
         {
             "subject_category": "biolink:BiologicalEntity",

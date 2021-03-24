@@ -1,0 +1,69 @@
+{
+    "url": "https://stars-app.renci.org/cam-kp",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:IndividualOrganism",
+            "object_category": "biolink:Occurrent",
+            "predicate": "biolink:participates_in",
+            "subject": "NCBITaxon:694009",
+            "object": "GO:0051607"
+        },
+	{
+	    "subject_category": "biolink:GenomicEntity",
+            "object_category": "biolink:MolecularEntity",
+            "predicate": "biolink:interacts_with",
+            "subject": "UniProtKB:Q06187",
+            "object": "UniProtKB:P52735"
+	},
+	{
+	    "subject_category": "biolink:BiologicalProcessOrActivity",
+            "object_category": "biolink:GeneOrGeneProduct",
+            "predicate": "biolink:enabled_by",
+            "subject": "GO:0003674",
+            "object": "MGI:1342774"
+	},
+	{
+	    "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:GeneOrGeneProduct",
+            "predicate": "biolink:enabled_by",
+            "subject": "GO:0003674",
+            "object": "MGI:1342774"
+	},
+	{
+	    "subject_category": "biolink:OrganismalEntity",
+            "object_category": "biolink:MolecularEntity",
+            "predicate": "biolink:interacts_with",
+            "subject": "GO:0019908",
+            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-2220958"
+	},
+	{
+	    "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:interacts_with",
+            "subject": "UniProtKB:Q06187",
+            "object": "UniProtKB:P52735"
+	},
+	{
+	    "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:molecularly_interacts_with",
+            "subject": "UniProtKB:Q06187",
+            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-2029115"
+	},
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:molecularly_interacts_with",
+            "subject": "UniProtKB:Q06187",
+            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-2029115"
+        },
+	{
+	    "subject_category": "biolink:BiologicalEntity",
+            "object_category": "biolink:NamedThing",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "GO:1902911",
+            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-9672040"
+	}
+    ]
+}

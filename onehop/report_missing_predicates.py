@@ -4,20 +4,31 @@ import requests
 import create_templates
 import json
 from biothings_explorer.smartapi_kg.dataload import load_specs
+import pprint
 
 tk = bmt.Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/1.6.0/biolink-model.yaml')
 tsv_file = open("missing_predicates.tsv", "a")
+tsv_missing_inverse = open("missing_inverses.tsv", "a")
 tsv_writer = csv.writer(tsv_file, delimiter='\t')
+tsv_writer_inverse = csv.writer(tsv_missing_inverse, delimiter='\t')
 missing_predicates = {}
 
 
 def aggregate_missing_predicates():
     specs = load_specs()
     for spec in specs:
-        if not 'x-translator' in spec['info']:
+        if 'x-translator' not in spec['info']:
             continue
         team = create_templates.get_team(spec)
+        if 'servers' not in spec:
+            pprint.pprint(spec.get('_meta'))
+            pprint.pprint(spec.get('_status'))
+            continue
         url = spec['servers'][0]['url']
+        # this url just spins at the moment.
+        # TODO: catch and report.
+        if url == 'http://chp.thayer.dartmouth.edu/':
+            continue
         if url.endswith('/'):
             url = url[:-1]
         predicates_url = f'{url}/predicates'
@@ -45,23 +56,26 @@ def dump_smartapi_predicate_results(apititle):
         smartapi = api.get('smartapi')
         url = smartapi.get('ui')
         x_translator = api.get('x-translator')
-
-        if in_biolink_model(predicate):
-            continue
-        else:
-            if x_translator is not None:
-                for team in x_translator.get('team'):
+        is_predicate, is_mixin, has_inverse = in_biolink_model(predicate)
+        if x_translator is not None:
+            for team in x_translator.get('team'):
+                if is_predicate is False:
                     if predicate in missing_predicates:
                         if team not in missing_predicates[predicate]:
                             missing_predicates[predicate].append(team)
-                    else:
-                        missing_predicates[predicate] = [team]
-                    tsv_writer.writerow([p_subject, predicate, p_object, team, url])
+                        else:
+                            missing_predicates[predicate] = [team]
+                    tsv_writer.writerow([p_subject, predicate, p_object, team, url, is_mixin])
+                else:
+                    if has_inverse is False:
+                        tsv_writer_inverse.writerow([p_subject, predicate, p_object, team, url, is_mixin])
 
 
 def in_biolink_model(predicate):
     is_predicate = tk.is_predicate(predicate)
-    return is_predicate
+    is_mixin = tk.is_mixin(predicate)
+    has_inverse = tk.has_inverse(predicate)
+    return is_predicate, is_mixin, has_inverse
 
 
 def dump_trapi_predicate_results(url, predicates, team):
@@ -71,7 +85,10 @@ def dump_trapi_predicate_results(url, predicates, team):
                     predicate = ptype
                     object = target
                     subject = source
-                    if in_biolink_model(predicate):
+                    is_predicate, is_mixin, has_inverse = in_biolink_model(predicate)
+                    if is_predicate:
+                        if has_inverse is False:
+                            tsv_writer_inverse.writerow([subject, predicate, object, team, url, is_mixin])
                         continue
                     else:
                         if predicate in missing_predicates:
@@ -79,7 +96,7 @@ def dump_trapi_predicate_results(url, predicates, team):
                                 missing_predicates[predicate].append(url)
                         else:
                             missing_predicates[predicate] = [url]
-                        tsv_writer.writerow([subject, predicate, object, team, url])
+                        tsv_writer.writerow([subject, predicate, object, team, url, is_mixin])
 
 
 if __name__ == '__main__':

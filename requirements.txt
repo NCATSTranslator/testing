@@ -3,5 +3,5 @@ httpx
 pytest
 pytest-asyncio
 pytest-harvest
-bmt
+git+https://github.com/biolink/biolink-model-toolkit.git@is_mixin
 reasoner-validator

@@ -14,17 +14,20 @@ def pytest_sessionfinish(session):
             outname = t.split('/')[-1][:-1]
             with open(f'{outname}.results','w') as outf:
                 rb=v['fixtures']['results_bag']
-                json.dump(rb['request'],outf,indent=4)
-                outf.write(f'\nStatus Code: {rb["response"]["status_code"]}\n')
-                json.dump(rb['response']['response_json'],outf,indent=4)
+                try:
+                    json.dump(rb['request'],outf,indent=4)
+                    outf.write(f'\nStatus Code: {rb["response"]["status_code"]}\n')
+                    json.dump(rb['response']['response_json'],outf,indent=4)
+                except:
+                    outf.write('Error generating results: No request generated?')
 
 def pytest_addoption(parser):
     parser.addoption("--one", action="store_true", help="Only use first edge from each KP file")
-    parser.addoption("--triple_source", action="store", help="Directory or file from which to retrieve triples")
-    parser.addoption("--ARA_source", action="store", help="Directory or file from which to retrieve ARA Config")
+    parser.addoption("--triple_source", action="store", default='test_triples/KP', help="Directory or file from which to retrieve triples")
+    parser.addoption("--ARA_source", action="store",default='test_triples/ARA',  help="Directory or file from which to retrieve ARA Config")
 
 def generate_TRAPI_KP_tests(metafunc):
-    triple_source = metafunc.config.getoption('triple_source',default='test_triples/KP')
+    triple_source = metafunc.config.getoption('triple_source')
     edges = []
     idlist = []
     if not os.path.exists(triple_source):
@@ -41,13 +44,15 @@ def generate_TRAPI_KP_tests(metafunc):
                 filelist.append(kpfile)
     for kpfile in filelist:
         with open(kpfile,'r') as inf:
+            if not kpfile.endswith('json'):
+                continue
             try:
                 kpjson = json.load(inf)
             except:
                 print('Invalid JSON')
                 print(kpfile)
                 exit()
-        if kpjson['TRAPI']:
+        if kpjson['TRAPI'] and 'url' in kpjson:
             for edge_i,edge in enumerate(kpjson['edges']):
                 edge['api_name'] = kpfile.split('/')[-1]
                 edge['url'] = kpjson['url']
@@ -73,7 +78,7 @@ def generate_TRAPI_ARA_tests(metafunc,kp_edges):
         kp_dict[e['api_name'][:-5]].append(e)
     ara_edges = []
     idlist = []
-    ara_source = metafunc.config.getoption('ARA_source',default='test_triples/ARA')
+    ara_source = metafunc.config.getoption('ARA_source')
     if os.path.isfile(ara_source):
         filelist = [ara_source]
     else:

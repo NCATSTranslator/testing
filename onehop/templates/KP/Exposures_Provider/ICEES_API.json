@@ -6,253 +6,253 @@
             "subject_category": "biolink:ActivityAndBehavior",
             "object_category": "biolink:ActivityAndBehavior",
             "predicate": "biolink:correlated_with",
-            "subject": "umlscui: C0562508",
-            "object": "umlscui: C2348993"
+            "subject": "NCIT:C53513",
+            "object": "NCIT:C53513"
         },
         {
             "subject_category": "biolink:ActivityAndBehavior",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
-            "subject": "umlscui: C0562508",
-            "object": "CHEBI:25812"
+            "subject": "NCIT:C53513",
+            "object": "MESH:D010126"
         },
         {
             "subject_category": "biolink:ActivityAndBehavior",
             "object_category": "biolink:Disease",
             "predicate": "biolink:correlated_with",
-            "subject": "umlscui: C0562508",
+            "subject": "NCIT:C53513",
             "object": "MONDO:0004766"
         },
         {
             "subject_category": "biolink:ActivityAndBehavior",
             "object_category": "biolink:Drug",
             "predicate": "biolink:correlated_with",
-            "subject": "umlscui: C0562508",
-            "object": "CHEMBL:CHEMBL635"
+            "subject": "NCIT:C53513",
+            "object": "MESH:D011241"
         },
         {
             "subject_category": "biolink:ActivityAndBehavior",
             "object_category": "biolink:Environment",
             "predicate": "biolink:correlated_with",
-            "subject": "umlscui: C0562508",
-            "object": "NCIT: C45781"
+            "subject": "NCIT:C53513",
+            "object": "NCIT:C45781"
         },
         {
             "subject_category": "biolink:ActivityAndBehavior",
             "object_category": "biolink:PhenotypicFeature",
             "predicate": "biolink:correlated_with",
-            "subject": "umlscui: C0562508",
-            "object": "SCTID: 734000001"
+            "subject": "NCIT:C53513",
+            "object": "NCIT:C28421"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:ActivityAndBehavior",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEBI:25812",
-            "object": "umlscui: C0562508"
+            "subject": "MESH:D010126",
+            "object": "NCIT:C53513"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEBI:25812",
-            "object": "CHEBI:17245"
+            "subject": "MESH:D010126",
+            "object": "CHEBI:16480"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:Disease",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEBI:25812",
+            "subject": "MESH:D010126",
             "object": "MONDO:0004766"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:Drug",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEBI:25812",
-            "object": "CHEMBL:CHEMBL635"
+            "subject": "MESH:D010126",
+            "object": "MESH:D011241"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:Environment",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEBI:25812",
-            "object": "NCIT: C45781"
+            "subject": "MESH:D010126",
+            "object": "NCIT:C45781"
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:PhenotypicFeature",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEBI:25812",
-            "object": "SCTID: 734000001"
+            "subject": "MESH:D010126",
+            "object": "NCIT:C28421"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:ActivityAndBehavior",
             "predicate": "biolink:correlated_with",
             "subject": "MONDO:0004766",
-            "object": "umlscui: C0562508"
+            "object": "NCIT:C53513"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
             "subject": "MONDO:0004766",
-            "object": "CHEBI:25812"
+            "object": "MESH:D010126"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:Disease",
             "predicate": "biolink:correlated_with",
             "subject": "MONDO:0004766",
-            "object": "HP:0002090"
+            "object": "MONDO:0000265"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:Drug",
             "predicate": "biolink:correlated_with",
             "subject": "MONDO:0004766",
-            "object": "CHEMBL:CHEMBL635"
+            "object": "MESH:D011241"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:Environment",
             "predicate": "biolink:correlated_with",
             "subject": "MONDO:0004766",
-            "object": "NCIT: C45781"
+            "object": "NCIT:C45781"
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:PhenotypicFeature",
             "predicate": "biolink:correlated_with",
             "subject": "MONDO:0004766",
-            "object": "SCTID: 734000001"
+            "object": "NCIT:C28421"
         },
         {
             "subject_category": "biolink:Drug",
             "object_category": "biolink:ActivityAndBehavior",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEMBL:CHEMBL635",
-            "object": "umlscui: C0562508"
+            "subject": "MESH:D011241",
+            "object": "NCIT:C53513"
         },
         {
             "subject_category": "biolink:Drug",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
             "subject": "CHEMBL:CHEMBL635",
-            "object": "CHEBI:25812"
+            "object": "MESH:D010126"
         },
         {
             "subject_category": "biolink:Drug",
             "object_category": "biolink:Disease",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEMBL:CHEMBL635",
+            "subject": "MESH:D011241",
             "object": "MONDO:0004766"
         },
         {
             "subject_category": "biolink:Drug",
             "object_category": "biolink:Drug",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEMBL:CHEMBL635",
-            "object": "CHEMBL:CHEMBL714"
+            "subject": "MESH:D011241",
+            "object": "MES:D000420"
         },
         {
             "subject_category": "biolink:Drug",
             "object_category": "biolink:Environment",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEMBL:CHEMBL635",
-            "object": "NCIT: C45781"
+            "subject": "MESH:D011241",
+            "object": "NCIT:C45781"
         },
         {
             "subject_category": "biolink:Drug",
             "object_category": "biolink:PhenotypicFeature",
             "predicate": "biolink:correlated_with",
-            "subject": "CHEMBL:CHEMBL635",
-            "object": "SCTID: 734000001"
+            "subject": "MESH:D011241",
+            "object": "NCIT:C28421"
         },
         {
             "subject_category": "biolink:Environment",
             "object_category": "biolink:ActivityAndBehavior",
             "predicate": "biolink:correlated_with",
-            "subject": "NCIT: C45781",
-            "object": "umlscui: C0562508"
+            "subject": "NCIT:C45781",
+            "object": "NCIT:C535138"
         },
         {
             "subject_category": "biolink:Environment",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
-            "subject": "NCIT: C45781",
-            "object": "CHEBI:25812"
+            "subject": "NCIT:C45781",
+            "object": "MESH:D010126"
         },
         {
             "subject_category": "biolink:Environment",
             "object_category": "biolink:Disease",
             "predicate": "biolink:correlated_with",
-            "subject": "NCIT: C45781",
+            "subject": "NCIT:C45781",
             "object": "MONDO:0004766"
         },
         {
             "subject_category": "biolink:Environment",
             "object_category": "biolink:Drug",
             "predicate": "biolink:correlated_with",
-            "subject": "NCIT: C45781",
-            "object": "CHEMBL:CHEMBL635"
+            "subject": "NCIT:C45781",
+            "object": "MESH:D011241"
         },
         {
             "subject_category": "biolink:Environment",
             "object_category": "biolink:Environment",
             "predicate": "biolink:correlated_with",
-            "subject": "NCIT: C45781",
-            "object": "NCIT: C70811"
+            "subject": "NCIT:C45781",
+            "object": "NCIT:C70811"
         },
         {
             "subject_category": "biolink:Environment",
             "object_category": "biolink:PhenotypicFeature",
             "predicate": "biolink:correlated_with",
-            "subject": "NCIT: C45781",
-            "object": "SCTID: 734000001"
+            "subject": "NCIT:C45781",
+            "object": "NCIT:C28421"
         },
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:ActivityAndBehavior",
             "predicate": "biolink:correlated_with",
-            "subject": "SCTID: 734000001",
-            "object": "umlscui: C0562508"
+            "subject": "NCIT:C28421",
+            "object": "NCIT:C53513"
         },
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:correlated_with",
-            "subject": "SCTID: 734000001",
-            "object": "CHEBI:25812"
+            "subject": "NCIT:C28421",
+            "object": "MESH:D010126"
         },
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:Disease",
             "predicate": "biolink:correlated_with",
-            "subject": "SCTID: 734000001",
+            "subject": "NCIT:C28421",
             "object": "MONDO:0004766"
         },
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:Drug",
             "predicate": "biolink:correlated_with",
-            "subject": "SCTID: 734000001",
-            "object": "CHEMBL:CHEMBL635"
+            "subject": "NCIT:C28421",
+            "object": "MESH:D011241"
         },
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:Environment",
             "predicate": "biolink:correlated_with",
-            "subject": "SCTID: 734000001",
-            "object": "NCIT: C45781"
+            "subject": "NCIT:C28421",
+            "object": "NCIT:C45781"
         },
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:PhenotypicFeature",
             "predicate": "biolink:correlated_with",
-            "subject": "SCTID: 734000001",
-            "object": "SCTID: 103579009"
+            "subject": "NCIT:C28421",
+            "object": "NCIT:C70811"
         }
     ]
 }

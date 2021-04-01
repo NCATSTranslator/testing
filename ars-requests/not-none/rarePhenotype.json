@@ -1,0 +1,21 @@
+{
+  "message": {
+    "query_graph": {
+      "edges": {
+        "e01": {
+          "object": "n0",
+          "subject": "n1",
+          "predicate":"biolink:has_phenotype"
+        }
+      },
+      "nodes": {
+        "n0": {
+          "id": "MONDO:0007114"
+        },
+        "n1": {
+          "category": "biolink:PhenotypicFeature"
+        }
+      }
+    }
+  }
+ }

@@ -10,7 +10,8 @@
       },
       "nodes": {
         "n0": {
-          "id": "MONDO:0007114"
+          "id": "MONDO:0007114",
+          "category":"biolink:Disease"
         },
         "n1": {
           "category": "biolink:PhenotypicFeature"

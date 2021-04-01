@@ -13,7 +13,7 @@
             "biolink:decreases_synthesis_of",
             "biolink:decreases_expression_of",
             "biolink:increases_degradation_of",
-            "biolink:negatively_regulates__entity_to_entity",
+            "biolink:entity_negatively_regulates__entity",
             "biolink:disrupts",
             "biolink:directly_negatively_regulates",
             "biolink:inhibits",

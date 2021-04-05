@@ -5,3 +5,11 @@ pytest-asyncio
 pytest-harvest
 git+https://github.com/biolink/biolink-model-toolkit.git@is_mixin
 reasoner-validator
+requests
+pandas
+markdown
+jupyter-lab
+tabulate
+plotly
+scipy
+numpy

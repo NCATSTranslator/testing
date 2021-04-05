@@ -3,15 +3,20 @@ import bmt
 import requests
 import create_templates
 import json
+import yaml
 from biothings_explorer.smartapi_kg.dataload import load_specs
 import pprint
+import pandas as pd
 
-tk = bmt.Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/1.6.0/biolink-model.yaml')
+tk = bmt.Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/1.7.0/biolink-model.yaml')
 tsv_file = open("missing_predicates.tsv", "a")
-tsv_missing_inverse = open("missing_inverses.tsv", "a")
+tsv_missing_inverse = open("missing_inverses.csv", "a")
 tsv_writer = csv.writer(tsv_file, delimiter='\t')
-tsv_writer_inverse = csv.writer(tsv_missing_inverse, delimiter='\t')
+tsv_writer_inverse = csv.writer(tsv_missing_inverse)
+inverses_header = ['subject', 'predicate', 'object', 'team', 'url']
+tsv_writer_inverse.writerow([h for h in inverses_header])
 missing_predicates = {}
+m_pred_list = []
 
 
 def aggregate_missing_predicates():
@@ -37,8 +42,11 @@ def aggregate_missing_predicates():
             dump_trapi_predicate_results(predicates_url, predicates, team)
         else:
             dump_smartapi_predicate_results(spec['info']['title'])
-    with open(f'missing_predicates_with_teams.json', 'w') as predicate_json:
-        json.dump(missing_predicates, predicate_json, indent=4)
+    with open(f'missing_predicates_with_teams.yaml', 'w') as predicates:
+        data = []
+        for predicate in missing_predicates:
+            data.append({'predicate': predicate, 'teams': missing_predicates[predicate]})
+        yaml.dump(data, predicates)
     with open('grouped_predicates.tsv', 'w') as fh:
         for key in missing_predicates:
             fh.write("%s,%s\n" % (key, missing_predicates[key]))
@@ -68,7 +76,7 @@ def dump_smartapi_predicate_results(apititle):
                     tsv_writer.writerow([p_subject, predicate, p_object, team, url, is_mixin])
                 else:
                     if has_inverse is False:
-                        tsv_writer_inverse.writerow([p_subject, predicate, p_object, team, url, is_mixin])
+                        tsv_writer_inverse.writerow([p_subject, predicate, p_object, team, url])
 
 
 def in_biolink_model(predicate):
@@ -88,7 +96,7 @@ def dump_trapi_predicate_results(url, predicates, team):
                     is_predicate, is_mixin, has_inverse = in_biolink_model(predicate)
                     if is_predicate:
                         if has_inverse is False:
-                            tsv_writer_inverse.writerow([subject, predicate, object, team, url, is_mixin])
+                            tsv_writer_inverse.writerow([subject, predicate, object, team, url])
                         continue
                     else:
                         if predicate in missing_predicates:

@@ -6,19 +6,19 @@ import pytest
 import asyncio
 import requests
 import logging
-logging.basicConfig(filename='test_ars.log',level=logging.DEBUG)
-#We really shouldn't be doing this, but just for now...
+# We really shouldn't be doing this, but just for now...
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
+logging.basicConfig(filename='test_ars.log', level=logging.DEBUG)
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-#ARS_URL="https://ars.transltr.io/ars/api/"
-ARS_URL="https://ars-dev.transltr.io/ars/api/"
-#BASE_PATH=os.path.dirname(os.path.realpath(__file__))
-BASE_PATH=os.path.dirname(
-    os.path.dirname(
-    os.path.realpath(__file__)
-))
-NORMALIZER_URL="https://nodenormalization-sri.renci.org/get_normalized_nodes"
+# ARS_URL="https://ars.transltr.io/ars/api/"
+ARS_URL = "https://ars-dev.transltr.io/ars/api/"
+# BASE_PATH=os.path.dirname(os.path.realpath(__file__))
+BASE_PATH = os.path.dirname(
+    os.path.dirname(os.path.realpath(__file__))
+)
+NORMALIZER_URL = "https://nodenormalization-sri.renci.org/get_normalized_nodes"
 
 
 def keys_exist(element, *keys):
@@ -37,12 +37,13 @@ def keys_exist(element, *keys):
             return False
     return True
 
-def get_safe(element,*keys):
-    '''
+
+def get_safe(element, *keys):
+    """
     :param element: JSON to be processed
     :param keys: list of keys in order to be traversed. e.g. "fields","data","message","results
     :return: the value of the terminal key if present or None if not
-    '''
+    """
     if element is None:
         return None
     _element = element
@@ -57,13 +58,15 @@ def get_safe(element,*keys):
             return None
     return None
 
+
 def get_files(relativePath):
     logging.debug("get_files")
-    files=[]
+    files = []
     my_dir = BASE_PATH+relativePath
     for filename in os.listdir(my_dir):
         files.append(os.path.join(my_dir,filename))
     return files
+
 
 @pytest.mark.asyncio
 async def test_not_none(caplog):
@@ -111,7 +114,6 @@ async def test_must_have_curie(caplog):
             assert grade=="Pass"
 
 
-
 async def call_ars(payload, url=ARS_URL+"submit"):
     logging.debug("call_ars")
     async with httpx.AsyncClient(verify=False) as client:
@@ -129,11 +131,11 @@ async def must_contain_curie(curies,query):
     logging.debug("curies ="+str(curies))
     logging.debug("query= "+json.dumps(query, indent=4, sort_keys=True))
     children = await get_children(query)
-    synonyms=[]
+    synonyms = []
     for curie in curies:
         syns = get_synonyms(curie)
         synonyms.extend(syns)
-    report_card={}
+    report_card = {}
     for entry in children:
         passed = False
         agent = entry[0]
@@ -141,7 +143,7 @@ async def must_contain_curie(curies,query):
         logging.debug("agent "+agent)
         nodes = get_safe(child,"fields","data","message","knowledge_graph","nodes")
         if nodes is not None:
-            #logging.debug("nodes: "+str(nodes))
+            # logging.debug("nodes: "+str(nodes))
             logging.debug("looking for "+str(synonyms))
             logging.debug("nodes "+str(nodes.keys()))
             passed = any(item in synonyms for item in nodes.keys())
@@ -150,6 +152,7 @@ async def must_contain_curie(curies,query):
         else:
             report_card[agent]="Fail"
     return report_card
+
 
 async def has_results(query):
     logging.debug("has_results")
@@ -168,7 +171,7 @@ async def has_results(query):
                 logging.debug(agent +" has no results for this query")
         else:
             status = get_safe(childData,"fields","status")
-            #print(agent +" has no results for this query.  Status reported as: "+status+"\n"
+            # print(agent +" has no results for this query.  Status reported as: "+status+"\n"
             #             "Further details in log file.")
             logging.warning("++++ "+agent+" had a status of "+status+" for query")
             logging.warning(json.dumps(query, indent=4, sort_keys=True))
@@ -180,14 +183,15 @@ async def has_results(query):
             report_card[agent]="Fail"
     return report_card
 
-async def get_children(query,url=None,timeout=None):
+
+async def get_children(query, url=None, timeout=None):
     logging.debug("get_children")
     children = []
     response = await call_ars(query)
     pk = response['pk']
-    if (url is None):
+    if url is None:
         url = ARS_URL+"messages/"+pk+"?trace=y"
-    if (timeout is None):
+    if timeout is None:
         timeout = 60
     async with httpx.AsyncClient(verify=False) as client:
         r = await client.get(
@@ -205,9 +209,10 @@ async def get_children(query,url=None,timeout=None):
         )
     return children
 
+
 async def get_child(pk,timeout=60):
     logging.debug("get_child("+pk+")")
-    wait_time = 5 #amount of seconds to wait between checks for a Running query result
+    wait_time = 5  # amount of seconds to wait between checks for a Running query result
     url = ARS_URL+"messages/"+pk
     async with httpx.AsyncClient(verify=False) as client:
         child= await client.get(
@@ -215,41 +220,42 @@ async def get_child(pk,timeout=60):
             timeout=10.0
         )
         data=child.json()
-        status = get_safe(data,"fields","status")
+        status = get_safe(data, "fields", "status")
         if status is not None:
-            if status =="Done":
+            if status == "Done":
                 return data
             elif status == "Running":
                 if timeout>0:
                     logging.debug("Query response is still running\n"
-                                  +"Wait time remaining is now "+str(timeout)+"\n"
-                                  +"What we have so far is: "
-                                  +json.dumps(data, indent=4, sort_keys=True))
+                                  + "Wait time remaining is now "+str(timeout)+"\n"
+                                  + "What we have so far is: "
+                                  + json.dumps(data, indent=4, sort_keys=True))
                     await asyncio.sleep(wait_time)
                     return await get_child(pk, timeout-wait_time)
                 else:
-                    #sorry bud, time's up
+                    # sorry bud, time's up
                     return data
             else:
                 # status must be some manner of error
                 logging.debug("Error status found in get_child for "+pk+"\n"
-                              +"Status is "+status+"\n"
-                              +json.dumps(data, indent=4, sort_keys=True))
+                              + "Status is "+status+"\n"
+                              + json.dumps(data, indent=4, sort_keys=True))
                 return data
         else:
-            #Should I be throwing an exception here instead?
+            # Should I be throwing an exception here instead?
             logging.error("Status in get_child for "+pk+" was no retrievable")
             logging.error(json.dumps(data, indent=4, sort_keys=True))
-    #We shouldn't get here
+    # We shouldn't get here
     logging.error("Error in get_child for \n"+pk+"\n No child retrievable")
     return None
 
+
 def get_synonyms(curie):
-    synonyms=[]
-    payload ={"curies":[curie]}
-    r = requests.post(url=NORMALIZER_URL,data=json.dumps(payload),verify=False)
+    synonyms = []
+    payload = {"curies": [curie]}
+    r = requests.post(url=NORMALIZER_URL, data=json.dumps(payload), verify=False)
     rj = r.json()
-    if(keys_exist(rj,curie,"equivalent_identifiers")):
+    if keys_exist(rj, curie, "equivalent_identifiers"):
         for id in rj[curie]["equivalent_identifiers"]:
             synonyms.append(id["identifier"])
         return synonyms

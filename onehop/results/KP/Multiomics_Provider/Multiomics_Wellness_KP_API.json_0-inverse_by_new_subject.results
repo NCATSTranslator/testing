@@ -1,0 +1,30 @@
+test_triples/KP/Multiomics_Provider/Multiomics_Wellness_KP_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "HMDB:HMDB10405"
+                },
+                "b": {
+                    "category": "biolink:ChemicalSubstance"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:correlated_with"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 404
+null

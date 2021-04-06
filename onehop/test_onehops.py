@@ -143,6 +143,8 @@ def check_provenance(ARA_case, ARA_response):
 
 def execute_TRAPI_lookup(case,creator,rbag):
     #Create TRAPI query/response
+    rbag.location = case['location']
+    rbag.case = case
     TRAPI_request, output_element, output_node_binding = creator(case)
     if TRAPI_request is None:
         #The particular creator cannot make a valid message from this triple

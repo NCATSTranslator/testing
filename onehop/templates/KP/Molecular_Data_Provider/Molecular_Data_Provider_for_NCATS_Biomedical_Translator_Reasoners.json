@@ -12,21 +12,14 @@
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:correlated_with",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:ChemicalSubstance",
-            "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:has_metabolite",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
-            "object_category": "biolink:Disease",
-            "predicate": "biolink:related_to",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
             "subject": "",
             "object": ""
         },
@@ -34,6 +27,13 @@
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:Disease",
             "predicate": "biolink:treats",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -96,14 +96,14 @@
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:correlated_with",
+            "predicate": "biolink:affected_by",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:affected_by",
+            "predicate": "biolink:correlated_with",
             "subject": "",
             "object": ""
         },
@@ -118,6 +118,13 @@
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Gene",
             "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:Pathway",
+            "predicate": "biolink:enriched_in_genes_correlated_with",
             "subject": "",
             "object": ""
         }

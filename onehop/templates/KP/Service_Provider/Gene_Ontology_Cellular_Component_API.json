@@ -5,7 +5,7 @@
         {
             "subject_category": "biolink:CellularComponent",
             "object_category": "biolink:CellularComponent",
-            "predicate": "biolink:has_subclass",
+            "predicate": "biolink:superclass_of",
             "subject": "",
             "object": ""
         },

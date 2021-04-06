@@ -1,5 +1,5 @@
 {
-    "url": "https://aragorn.renci.org",
+    "url": "https://arax.ncats.io/api/rtxkg2/v1.0",
     "TRAPI": true,
     "KPs": [
         "Socio-Environmental Exposures API",

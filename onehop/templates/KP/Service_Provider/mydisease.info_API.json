@@ -26,7 +26,14 @@
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:PhenotypicFeature",
-            "predicate": "biolink:related_to",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:has_phenotype",
             "subject": "",
             "object": ""
         },
@@ -39,7 +46,7 @@
         },
         {
             "subject_category": "biolink:Disease",
-            "object_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
@@ -61,7 +68,21 @@
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:Disease",
-            "predicate": "biolink:related_to",
+            "predicate": "biolink:phenotype_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:phenotype_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:phenotype_of",
             "subject": "",
             "object": ""
         },
@@ -73,7 +94,7 @@
             "object": ""
         },
         {
-            "subject_category": "biolink:BiologicalProcess",
+            "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:Disease",
             "predicate": "biolink:related_to",
             "subject": "",

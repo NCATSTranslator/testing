@@ -110,21 +110,21 @@
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:negatively_regulated_by",
+            "predicate": "biolink:entity_negatively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:negatively_regulates",
+            "predicate": "biolink:entity_negatively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:Gene",
-            "predicate": "biolink:negatively_regulates",
+            "predicate": "biolink:entity_negatively_regulates_entity",
             "subject": "",
             "object": ""
         },
@@ -145,28 +145,28 @@
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:entity_positively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:Gene",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:entity_positively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:entity_positively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:Gene",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:entity_positively_regulates_entity",
             "subject": "",
             "object": ""
         },

@@ -1,6 +1,5 @@
 {
-    "url": "https://smart-api.info/ui/dc91716f44207d2e1287c727f281d339#/1.0.0/querySmartAPI",
-    "smartAPI_ID": "1c056ffc7ed0dd1229e71c4752239465",
+    "url": "https://api.bte.ncats.io/v1/smartapi/1c056ffc7ed0dd1229e71c4752239465/query",
     "TRAPI": true,
     "edges": [
         {

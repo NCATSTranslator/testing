@@ -11,3 +11,5 @@ One of the answers should be EVEROLIMUS, which has
 ```
 data.drug.id: "http://identifiers.org/chembl.compound/CHEMBL1908360"
 ```
+
+Note: BTE TRAPI is currently having an issue. The raw output of this API is very redundant, and it seems that this is causing issues with the results section of the response (nodes and edges are fine). 

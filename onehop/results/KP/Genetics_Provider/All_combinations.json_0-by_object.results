@@ -1,0 +1,56 @@
+test_triples/KP/Genetics_Provider/All_combinations.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Gene"
+                },
+                "b": {
+                    "category": "biolink:PhenotypicFeature",
+                    "id": "EFO:0004339"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:gene_associated_with_condition"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "knowledge_graph": {
+            "edges": {},
+            "nodes": {}
+        },
+        "query_graph": {
+            "edges": {
+                "ab": {
+                    "object": "b",
+                    "predicate": "biolink:gene_associated_with_condition",
+                    "subject": "a"
+                }
+            },
+            "nodes": {
+                "a": {
+                    "category": "biolink:Gene"
+                },
+                "b": {
+                    "category": "biolink:PhenotypicFeature",
+                    "id": "EFO:0004339"
+                }
+            }
+        },
+        "results": []
+    }
+}

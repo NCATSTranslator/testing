@@ -1,0 +1,30 @@
+test_triples/KP/Multiomics_Provider/TCGA_Mutation_Frequency_KP_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease"
+                },
+                "b": {
+                    "category": "biolink:Gene",
+                    "id": "NCBIGENE:2312"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:gene_has_variant_that_contributes_to_disease_association"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 404
+null

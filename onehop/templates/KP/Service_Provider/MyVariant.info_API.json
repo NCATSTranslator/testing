@@ -26,7 +26,7 @@
         {
             "subject_category": "biolink:SequenceVariant",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:variant_affect_drug_response",
+            "predicate": "biolink:affects_response_to",
             "subject": "",
             "object": ""
         }

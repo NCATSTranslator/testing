@@ -33,7 +33,7 @@ def create_one_hop_message(edge, look_up_subject = False):
         query_graph['nodes']['b']['id'] = edge['object']
     else:
         query_graph['nodes']['a']['id'] = edge['subject']
-    message = {"message": {"query_graph": query_graph, 'knowledge_graph':{"nodes": [], "edges": [],}, 'results':[]}}
+    message = {"message": {"query_graph": query_graph, 'knowledge_graph':{"nodes": {}, "edges": {},}, 'results':[]}}
     return message
 
 ####
@@ -143,10 +143,15 @@ def check_provenance(ARA_case, ARA_response):
 
 def execute_TRAPI_lookup(case,creator,rbag):
     #Create TRAPI query/response
+    rbag.location = case['location']
+    rbag.case = case
     TRAPI_request, output_element, output_node_binding = creator(case)
     if TRAPI_request is None:
         #The particular creator cannot make a valid message from this triple
         return None
+    if not is_valid_TRAPI(TRAPI_request['message']):
+        #This is a problem with the testing framework.
+        exit()
     TRAPI_response  = callTRAPI(case['url'],case['query_opts'],TRAPI_request)
     #Successfully invoked the query endpoint
     rbag.request  = TRAPI_request

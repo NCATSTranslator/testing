@@ -1,0 +1,58 @@
+test_triples/KP/Molecular_Data_Provider/MolePro.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "CHEBI:3002"
+                },
+                "b": {
+                    "category": "biolink:DiseaseOrPhenotypicFeature"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:treats"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "knowledge_graph": {
+            "edges": {},
+            "nodes": {}
+        },
+        "query_graph": {
+            "edges": {
+                "ab": {
+                    "object": "b",
+                    "predicate": "biolink:treats",
+                    "subject": "a"
+                }
+            },
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "CHEBI:3002",
+                    "is_set": false
+                },
+                "b": {
+                    "category": "biolink:DiseaseOrPhenotypicFeature",
+                    "is_set": false
+                }
+            }
+        },
+        "results": []
+    }
+}

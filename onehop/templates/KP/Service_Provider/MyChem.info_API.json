@@ -26,49 +26,49 @@
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:Disease",
-            "predicate": "biolink:treats",
+            "predicate": "biolink:approved_to_treat",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:ChemicalSubstance",
             "object_category": "biolink:Disease",
-            "predicate": "biolink:contraindication",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Gene",
-            "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:metabolize",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Gene",
-            "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:physically_interacts_with",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Gene",
-            "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:physically_interacts_with",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Disease",
-            "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:treated_by",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Disease",
-            "object_category": "biolink:ChemicalSubstance",
             "predicate": "biolink:contraindicated_for",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:affects_metabolic_processing_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Gene",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:physically_interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:approved_for_treatment_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:is_contraindication_for",
             "subject": "",
             "object": ""
         }

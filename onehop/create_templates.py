@@ -39,11 +39,14 @@ def create_ARA_template(spec,kp_titles):
     if not os.path.exists(teamdir):
         os.makedirs(teamdir)
     apititle = '_'.join(spec['info']['title'].split())
-    output = { "url": spec['servers'][0]['url'],
-               "TRAPI": True,
-               "KPs": kp_titles}
-    with open(f'{teamdir}/{apititle}.json', 'w') as outf:
-        json.dump(output, outf, indent=4)
+    try:
+        output = { "url": spec['servers'][0]['url'],
+                   "TRAPI": True,
+                   "KPs": kp_titles}
+        with open(f'{teamdir}/{apititle}.json', 'w') as outf:
+            json.dump(output, outf, indent=4)
+    except:
+        print (f'Failed {apititle}: invalid spec')
 
 
 def create_trapi_template(teamdir, apititle, url, predicates):

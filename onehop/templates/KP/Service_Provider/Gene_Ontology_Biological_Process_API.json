@@ -5,7 +5,7 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:has_subclass",
+            "predicate": "biolink:superclass_of",
             "subject": "",
             "object": ""
         },
@@ -19,28 +19,28 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:negatively_regulates",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:process_positively_regulated_by_process",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:negatively_regulated_by",
+            "predicate": "biolink:process_negatively_regulated_by_process",
             "subject": "",
             "object": ""
         },
@@ -61,14 +61,14 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:regulates",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:regulated_by",
+            "predicate": "biolink:process_regulated_by_process",
             "subject": "",
             "object": ""
         }

@@ -1,0 +1,76 @@
+test_triples/KP/Clinical_Data_Provider/Columbia_Open_Health_Data_(COHD).json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "PUBCHEM.COMPOUND:208898"
+                },
+                "b": {
+                    "category": "biolink:MolecularEntity"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:correlated_with"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "datetime": "2021-04-06 16:59:50",
+    "description": "QNode b's category not supported by COHD",
+    "message": {
+        "knowledge_graph": null,
+        "query_graph": {
+            "edges": {
+                "ab": {
+                    "object": "b",
+                    "predicate": [
+                        "biolink:correlated_with"
+                    ],
+                    "subject": "a"
+                }
+            },
+            "nodes": {
+                "a": {
+                    "category": [
+                        "biolink:ChemicalSubstance"
+                    ],
+                    "id": "PUBCHEM.COMPOUND:208898",
+                    "mapped_omop_concept": {
+                        "distance": 1,
+                        "omop_concept_id": 40163615,
+                        "omop_concept_name": "dronedarone"
+                    }
+                },
+                "b": {
+                    "category": [
+                        "biolink:MolecularEntity"
+                    ]
+                }
+            }
+        },
+        "results": null
+    },
+    "query_options": {
+        "confidence_interval": 0.99,
+        "dataset_id": 3,
+        "method": "obsExpRatio",
+        "min_cooccurrence": 50
+    },
+    "reasoner_id": "COHD",
+    "schema_version": "1.0.0",
+    "status": "UnsupportedQNodeCategory",
+    "tool_version": "COHD 3.0.0"
+}

@@ -1,0 +1,306 @@
+{
+  "TRAPI": true,
+  "edges": [
+    {
+      "subject_category": "biolink:ChemicalSubstance",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:associated_with_decreased_risk_for",
+      "subject": "PUBCHEM.COMPOUND:4679",
+      "object": "MONDO:0005180"
+    },
+    {
+      "subject_category": "biolink:ChemicalSubstance",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:associated_with_increased_risk_for",
+      "subject": "PUBCHEM.COMPOUND:28082766",
+      "object": "MONDO:0005180"
+    },
+    {
+      "subject_category": "biolink:ChemicalSubstance",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:contraindicated_for",
+      "subject": "PUBCHEM.COMPOUND:3715",
+      "object": "MONDO:0005538"
+    },
+    {
+      "subject_category": "biolink:ChemicalSubstance",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:treats",
+      "subject": "PUBCHEM.COMPOUND:2313",
+      "object": "MONDO:0032655"
+    },
+    {
+      "subject_category": "biolink:ChemicalSubstance",
+      "object_category": "biolink:Gene",
+      "predicate": "biolink:negatively_regulates_entity_to_entity",
+      "subject": "CHEMBL.COMPOUND:CHEMBL4303309",
+      "object": "NCBIGene:2"
+    },
+    {
+      "subject_category": "biolink:ChemicalSubstance",
+      "object_category": "biolink:Gene",
+      "predicate": "biolink:positively_regulates_entity_to_entity",
+      "subject": "CHEMBL.COMPOUND:CHEMBL1706473",
+      "object": "NCBIGene:2"
+    },
+    {
+      "subject_category": "biolink:ChemicalSubstance",
+      "object_category": "biolink:Gene",
+      "predicate": "biolink:regulates_process_to_process",
+      "subject": "PUBCHEM.COMPOUND:6450551",
+      "object": "NCBIGene:25"
+    },
+    {
+      "subject_category": "biolink:ChemicalSubstance",
+      "object_category": "biolink:NamedThing",
+      "predicate": "biolink:causes",
+      "subject": "PUBCHEM.COMPOUND:18140",
+      "object": "C2697368"
+    },
+    {
+      "subject_category": "biolink:ChemicalSubstance",
+      "object_category": "biolink:Protein",
+      "predicate": "biolink:molecularly_interacts_with",
+      "subject": "PUBCHEM.COMPOUND:11234052",
+      "object": "UniProtKB:A0A024QZ12"
+    },
+    {
+      "subject_category": "biolink:Disease",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:associated_with_risk_for",
+      "subject": "MONDO:0005300",
+      "object": "MONDO:0005249"
+    },
+    {
+      "subject_category": "biolink:Disease",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:associated_with_decreased_risk_for",
+      "subject": "MONDO:0005180",
+      "object": "MONDO:0010811"
+    },
+    {
+      "subject_category": "biolink:Disease",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:associated_with_increased_risk_for",
+      "subject": "MONDO:0005180",
+      "object": "MONDO:0005546"
+    },
+    {
+      "subject_category": "biolink:Disease",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:has_part",
+      "subject": "MONDO:0032655",
+      "object": "MONDO:0005328"
+    },
+    {
+      "subject_category": "biolink:Disease",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:subclass_of",
+      "subject": "MONDO:0032655",
+      "object": "MONDO:0005328"
+    },
+    {
+      "subject_category": "biolink:Disease",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:similar_to",
+      "subject": "MONDO:0032655",
+      "object": "MONDO:0000878"
+    },
+    {
+      "subject_category": "biolink:Disease",
+      "object_category": "biolink:Gene",
+      "predicate": "biolink:condition_associated_with_gene",
+      "subject": "MONDO:0032655",
+      "object": "NCBIGene:4140"
+    },
+    {
+      "subject_category": "biolink:Disease",
+      "object_category": "biolink:GrossAnatomicalStructure",
+      "predicate": "biolink:related_to",
+      "subject": "MONDO:0032655",
+      "object": "UBERON:0001711"
+    },
+    {
+      "subject_category": "biolink:Disease",
+      "object_category": "biolink:PhenotypicFeature",
+      "predicate": "biolink:has_phenotype",
+      "subject": "MONDO:0005814",
+      "object": "UMLS:C0000727"
+    },
+    {
+      "subject_category": "biolink:Food",
+      "object_category": "biolink:ChemicalSubstance",
+      "predicate": "biolink:has_part",
+      "subject": "FOOD00440",
+      "object": "PUBCHEM.COMPOUND:54670067"
+    },
+    {
+      "subject_category": "biolink:Food",
+      "object_category": "biolink:Nutrient",
+      "predicate": "biolink:has_part",
+      "subject": "FOOD00659",
+      "object": "FDBN00038"
+    },
+    {
+      "subject_category": "biolink:Gene",
+      "object_category": "biolink:BiologicalProcess",
+      "predicate": "biolink:participates_in",
+      "subject": "NCBIGene:55199",
+      "object": "GO:0018021"
+    },
+    {
+      "subject_category": "biolink:Gene",
+      "object_category": "biolink:CellularComponent",
+      "predicate": "biolink:participates_in",
+      "subject": "NCBIGene:26256",
+      "object": "GO:0097229"
+    },
+    {
+      "subject_category": "biolink:Gene",
+      "object_category": "biolink:Gene",
+      "predicate": "biolink:negatively_regulates_entity_to_entity",
+      "subject": "NCBIGene:2",
+      "object": "NCBIGene:7133"
+    },
+    {
+      "subject_category": "biolink:Gene",
+      "object_category": "biolink:Gene",
+      "predicate": "biolink:positively_regulates_entity_to_entity",
+      "subject": "NCBIGene:2",
+      "object": "NCBIGene:29928"
+    },
+    {
+      "subject_category": "biolink:Gene",
+      "object_category": "biolink:MolecularActivity",
+      "predicate": "biolink:participates_in",
+      "subject": "NCBIGene:1633",
+      "object": "GO:0004138"
+    },
+    {
+      "subject_category": "biolink:Gene",
+      "object_category": "biolink:Protein",
+      "predicate": "biolink:has_gene_product",
+      "subject": "NCBIGene:1",
+      "object": "UniProtKB:P04217"
+    },
+    {
+      "subject_category": "biolink:GrossAnatomicalStructure",
+      "object_category": "biolink:Gene",
+      "predicate": "biolink:expresses",
+      "subject": "UBERON:0001255",
+      "object": "NCBIGene:51130"
+    },
+    {
+      "subject_category": "biolink:GrossAnatomicalStructure",
+      "object_category": "biolink:Gene",
+      "predicate": "biolink:negatively_regulates_entity_to_entity",
+      "subject": "UBERON:0001255",
+      "object": "NCBIGene:6496"
+    },
+    {
+      "subject_category": "biolink:GrossAnatomicalStructure",
+      "object_category": "biolink:Gene",
+      "predicate": "biolink:positively_regulates_entity_to_entity",
+      "subject": "UBERON:0001255",
+      "object": "NCBIGene:22955"
+    },
+    {
+      "subject_category": "biolink:GrossAnatomicalStructure",
+      "object_category": "biolink:GrossAnatomicalStructure",
+      "predicate": "biolink:has_part",
+      "subject": "UBERON:0003538",
+      "object": "UBERON:0003540"
+    },
+    {
+      "subject_category": "biolink:GrossAnatomicalStructure",
+      "object_category": "biolink:GrossAnatomicalStructure",
+      "predicate": "biolink:part_of",
+      "subject": "UBERON:0003538",
+      "object": "UBERON:0003540"
+    },
+    {
+      "subject_category": "biolink:MolecularActivity",
+      "object_category": "biolink:ChemicalSubstance",
+      "predicate": "biolink:has_input",
+      "subject": "MetaCyc:RXN-9244",
+      "object": "KEGG:C00024"
+    },
+    {
+      "subject_category": "biolink:MolecularActivity",
+      "object_category": "biolink:ChemicalSubstance",
+      "predicate": "biolink:has_output",
+      "subject": "MetaCyc:RXN-9244",
+      "object": "KEGG:C20225"
+    },
+    {
+      "subject_category": "biolink:MolecularActivity",
+      "object_category": "biolink:MolecularActivity",
+      "predicate": "biolink:enables",
+      "subject": "KEGG:2.7.1.64",
+      "object": "GO:0019140"
+    },
+    {
+      "subject_category": "biolink:OrganismTaxon",
+      "object_category": "biolink:MolecularActivity",
+      "predicate": "biolink:has_part",
+      "subject": "NCBITaxon:1297742",
+      "object": "KEGG:2.7.1.64"
+    },
+    {
+      "subject_category": "biolink:OrganismTaxon",
+      "object_category": "biolink:OrganismTaxon",
+      "predicate": "biolink:part_of",
+      "subject": "NCBITaxon:67081",
+      "object": "NCBITaxon:1866885"
+    },
+    {
+      "subject_category": "biolink:OrganismTaxon",
+      "object_category": "biolink:Pathway",
+      "predicate": "biolink:has_part",
+      "subject": "NCBITaxon:1423",
+      "object": "MetaCyc:PWY-7111"
+    },
+    {
+      "subject_category": "biolink:OrganismTaxon",
+      "object_category": "biolink:Protein",
+      "predicate": "biolink:has_part",
+      "subject": "NCBITaxon:2697049",
+      "object": "UniProtKB:280"
+    },
+    {
+      "subject_category": "biolink:Pathway",
+      "object_category": "biolink:MolecularActivity",
+      "predicate": "biolink:has_part",
+      "subject": "MetaCyc:PWY-7111",
+      "object": "KEGG:1.1.1.86"
+    },
+    {
+      "subject_category": "biolink:Pathway",
+      "object_category": "biolink:Pathway",
+      "predicate": "biolink:has_part",
+      "subject": "MetaCyc:PWY-7111",
+      "object": "KEGG:Branched-chain amino acid metabolism - 2"
+    },
+    {
+      "subject_category": "biolink:Pathway",
+      "object_category": "biolink:Pathway",
+      "predicate": "biolink:part_of",
+      "subject": "MetaCyc:PWY-7111",
+      "object": "KEGG:Branched-chain amino acid metabolism - 2"
+    },
+    {
+      "subject_category": "biolink:Protein",
+      "object_category": "biolink:MolecularActivity",
+      "predicate": "biolink:related_to",
+      "subject": "UniProtKB:Q09328",
+      "object": "KEGG:2.4.1.155"
+    },
+    {
+      "subject_category": "biolink:Protein",
+      "object_category": "biolink:Protein",
+      "predicate": "biolink:interacts_with",
+      "subject": "UniProtKB:A0A024R161",
+      "object": "UniProtKB:O14976"
+    }
+  ]
+}

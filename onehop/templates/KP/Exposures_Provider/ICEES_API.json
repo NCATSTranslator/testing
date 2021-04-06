@@ -1,0 +1,349 @@
+{
+    "url": "https://icees.renci.org:16340",
+    "TRAPI": true,
+    "edges": [
+        {
+            "subject_category": "biolink:ActivityAndBehavior",
+            "object_category": "biolink:ActivityAndBehavior",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ActivityAndBehavior",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ActivityAndBehavior",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ActivityAndBehavior",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ActivityAndBehavior",
+            "object_category": "biolink:Environment",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ActivityAndBehavior",
+            "object_category": "biolink:NamedThing",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ActivityAndBehavior",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ActivityAndBehavior",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:Environment",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:NamedThing",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ChemicalSubstance",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ActivityAndBehavior",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Environment",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:NamedThing",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ActivityAndBehavior",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:Environment",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:NamedThing",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Environment",
+            "object_category": "biolink:ActivityAndBehavior",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Environment",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Environment",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Environment",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Environment",
+            "object_category": "biolink:Environment",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Environment",
+            "object_category": "biolink:NamedThing",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Environment",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:NamedThing",
+            "object_category": "biolink:ActivityAndBehavior",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:NamedThing",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:NamedThing",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:NamedThing",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:NamedThing",
+            "object_category": "biolink:Environment",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:NamedThing",
+            "object_category": "biolink:NamedThing",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:NamedThing",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ActivityAndBehavior",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ChemicalSubstance",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Environment",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:NamedThing",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        }
+    ]
+}

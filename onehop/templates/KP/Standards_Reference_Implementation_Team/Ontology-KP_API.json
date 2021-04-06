@@ -4,7 +4,14 @@
     "edges": [
         {
             "subject_category": "biolink:Transcript",
-            "object_category": "biolink:RnaProduct",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Transcript",
+            "object_category": "biolink:RNAProduct",
             "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
@@ -38,8 +45,85 @@
             "object": ""
         },
         {
+            "subject_category": "biolink:RNAProduct",
+            "object_category": "biolink:Transcript",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:RNAProduct",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:RNAProduct",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:RNAProduct",
+            "object_category": "biolink:Metabolite",
+            "predicate": "biolink:has_attribute",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:RNAProduct",
+            "object_category": "biolink:MolecularEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:RNAProduct",
+            "object_category": "biolink:MolecularEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:RNAProduct",
+            "object_category": "biolink:MolecularEntity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:RNAProduct",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:has_attribute",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PathologicalProcess",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
             "subject_category": "biolink:PathologicalProcess",
             "object_category": "biolink:PathologicalProcess",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:NoncodingRNAProduct",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:NoncodingRNAProduct",
+            "object_category": "biolink:NoncodingRNAProduct",
             "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
@@ -76,6 +160,76 @@
             "subject_category": "biolink:CellularComponent",
             "object_category": "biolink:Cell",
             "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:CellularComponent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
             "subject": "",
             "object": ""
         },
@@ -125,13 +279,6 @@
             "subject_category": "biolink:CellularComponent",
             "object_category": "biolink:PhenotypicQuality",
             "predicate": "biolink:has_attribute",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:CellularComponent",
-            "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -346,69 +493,6 @@
             "object": ""
         },
         {
-            "subject_category": "biolink:CellularComponent",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_part",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:CellularComponent",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:CellularComponent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:CellularComponent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:part_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:CellularComponent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:CellularComponent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:coexists_with",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:CellularComponent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_part",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:CellularComponent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:develops_from",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:CellularComponent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:located_in",
-            "subject": "",
-            "object": ""
-        },
-        {
             "subject_category": "biolink:PhenotypicQuality",
             "object_category": "biolink:Cell",
             "predicate": "biolink:affects",
@@ -426,13 +510,6 @@
             "subject_category": "biolink:PhenotypicQuality",
             "object_category": "biolink:PathologicalProcess",
             "predicate": "biolink:affects",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:PhenotypicQuality",
-            "object_category": "biolink:Inheritance",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -517,6 +594,27 @@
             "subject_category": "biolink:PhenotypicQuality",
             "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicQuality",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicQuality",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicQuality",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -711,8 +809,15 @@
         },
         {
             "subject_category": "biolink:PhenotypicQuality",
-            "object_category": "biolink:ClinicalCourse",
+            "object_category": "biolink:Inheritance",
             "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicQuality",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
@@ -727,6 +832,13 @@
             "subject_category": "biolink:PhenotypicQuality",
             "object_category": "biolink:ClinicalCourse",
             "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicQuality",
+            "object_category": "biolink:ClinicalCourse",
+            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -900,6 +1012,181 @@
         },
         {
             "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:NoncodingRNAProduct",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:NoncodingRNAProduct",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:NoncodingRNAProduct",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:NoncodingRNAProduct",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:NoncodingRNAProduct",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:occurs_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects_localization_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:CellularComponent",
             "predicate": "biolink:caused_by",
             "subject": "",
@@ -999,14 +1286,14 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:has_attribute",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:has_attribute",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1027,21 +1314,7 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:positively_regulates",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
             "subject": "",
             "object": ""
         },
@@ -1069,6 +1342,13 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:process_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:affects_transport_of",
             "subject": "",
             "object": ""
@@ -1090,7 +1370,7 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1098,6 +1378,13 @@
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1117,43 +1404,15 @@
         },
         {
             "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:NoncodingRnaProduct",
-            "predicate": "biolink:caused_by",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:NoncodingRnaProduct",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:NoncodingRnaProduct",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:NoncodingRnaProduct",
-            "predicate": "biolink:has_output",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:NoncodingRnaProduct",
-            "predicate": "biolink:affects_transport_of",
+            "object_category": "biolink:Occurrent",
+            "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:subclass_of",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1174,13 +1433,6 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:Occurrent",
             "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
@@ -1189,13 +1441,6 @@
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:part_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:Occurrent",
-            "predicate": "biolink:regulates,_process_to_process",
             "subject": "",
             "object": ""
         },
@@ -1216,6 +1461,13 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Occurrent",
+            "predicate": "biolink:process_negatively_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Occurrent",
             "predicate": "biolink:temporally_related_to",
             "subject": "",
             "object": ""
@@ -1230,7 +1482,7 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1272,13 +1524,6 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Protein",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:Protein",
             "predicate": "biolink:regulates",
             "subject": "",
             "object": ""
@@ -1321,7 +1566,14 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Protein",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1341,6 +1593,34 @@
         },
         {
             "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Behavior",
             "predicate": "biolink:positively_regulates",
             "subject": "",
@@ -1350,6 +1630,13 @@
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Behavior",
             "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:Behavior",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1377,21 +1664,21 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Behavior",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Behavior",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:Behavior",
-            "predicate": "biolink:regulates,_process_to_process",
+            "object_category": "biolink:GrossAnatomicalStructure",
+            "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
         },
@@ -1413,13 +1700,6 @@
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:GrossAnatomicalStructure",
             "predicate": "biolink:located_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:GrossAnatomicalStructure",
-            "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
         },
@@ -1482,7 +1762,7 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Pathway",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1503,7 +1783,7 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Pathway",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1524,7 +1804,7 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Pathway",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1546,13 +1826,6 @@
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:MacromolecularComplexMixin",
             "predicate": "biolink:regulates",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:MacromolecularComplexMixin",
-            "predicate": "biolink:occurs_in",
             "subject": "",
             "object": ""
         },
@@ -1600,34 +1873,6 @@
         },
         {
             "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:caused_by",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:affects_transport_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:positively_regulates",
             "subject": "",
@@ -1650,6 +1895,13 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:process_negatively_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalProcess",
+            "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:precedes",
             "subject": "",
             "object": ""
@@ -1657,14 +1909,7 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1685,7 +1930,7 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1698,141 +1943,8 @@
         },
         {
             "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:affects_transport_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_output",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:caused_by",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:affects",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_output",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:occurs_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:caused_by",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:causes",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:affects_localization_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:increases_degradation_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:participates_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:located_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:affects_transport_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:regulates",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:participates_in",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1853,7 +1965,7 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:participates_in",
             "subject": "",
             "object": ""
         },
@@ -1874,14 +1986,14 @@
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:regulates",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:regulates",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -1950,7 +2062,49 @@
         },
         {
             "subject_category": "biolink:Metabolite",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Metabolite",
             "object_category": "biolink:Metabolite",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalModifier",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalModifier",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalModifier",
+            "object_category": "biolink:Onset",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalModifier",
+            "object_category": "biolink:ClinicalCourse",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalModifier",
+            "object_category": "biolink:AnatomicalEntity",
             "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
@@ -2041,6 +2195,181 @@
         },
         {
             "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:NoncodingRNAProduct",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:NoncodingRNAProduct",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:NoncodingRNAProduct",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:NoncodingRNAProduct",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:NoncodingRNAProduct",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_output",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:occurs_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:causes",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects_localization_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:increases_degradation_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:participates_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:regulates",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
             "object_category": "biolink:CellularComponent",
             "predicate": "biolink:caused_by",
             "subject": "",
@@ -2140,14 +2469,14 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:has_attribute",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:has_attribute",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2175,21 +2504,7 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:positively_regulates",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
             "subject": "",
             "object": ""
         },
@@ -2217,6 +2532,13 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:process_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:affects_transport_of",
             "subject": "",
             "object": ""
@@ -2238,7 +2560,7 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2246,6 +2568,13 @@
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2265,43 +2594,15 @@
         },
         {
             "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:NoncodingRnaProduct",
-            "predicate": "biolink:caused_by",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:NoncodingRnaProduct",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:NoncodingRnaProduct",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:NoncodingRnaProduct",
-            "predicate": "biolink:has_output",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:NoncodingRnaProduct",
-            "predicate": "biolink:affects_transport_of",
+            "object_category": "biolink:Occurrent",
+            "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:subclass_of",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2329,13 +2630,6 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:Occurrent",
             "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
@@ -2351,13 +2645,6 @@
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:part_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:Occurrent",
-            "predicate": "biolink:regulates,_process_to_process",
             "subject": "",
             "object": ""
         },
@@ -2385,6 +2672,13 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Occurrent",
+            "predicate": "biolink:process_negatively_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:Occurrent",
             "predicate": "biolink:temporally_related_to",
             "subject": "",
             "object": ""
@@ -2406,7 +2700,7 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2455,13 +2749,6 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Protein",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:Protein",
             "predicate": "biolink:regulates",
             "subject": "",
             "object": ""
@@ -2504,7 +2791,14 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Protein",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2524,6 +2818,34 @@
         },
         {
             "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Behavior",
             "predicate": "biolink:positively_regulates",
             "subject": "",
@@ -2533,6 +2855,13 @@
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Behavior",
             "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:Behavior",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2560,21 +2889,14 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Behavior",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Behavior",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:Behavior",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2665,7 +2987,7 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Pathway",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2686,7 +3008,7 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Pathway",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2707,7 +3029,7 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:Pathway",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2783,34 +3105,6 @@
         },
         {
             "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:caused_by",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:affects_transport_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
             "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:positively_regulates",
             "subject": "",
@@ -2827,6 +3121,13 @@
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:temporally_related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Occurrent",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2854,14 +3155,7 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2896,7 +3190,7 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -2916,134 +3210,8 @@
         },
         {
             "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:affects_transport_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_output",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:caused_by",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:affects",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_output",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:occurs_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:caused_by",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:causes",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:affects_localization_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:increases_degradation_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:participates_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:located_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:affects_transport_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:regulates",
+            "object_category": "biolink:MolecularEntity",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -3064,13 +3232,6 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:positively_regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Occurrent",
-            "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:participates_in",
             "subject": "",
             "object": ""
@@ -3092,14 +3253,14 @@
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:regulates",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Occurrent",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:regulates",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -3254,6 +3415,13 @@
             "subject_category": "biolink:Protein",
             "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:capable_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Protein",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
@@ -3359,13 +3527,6 @@
             "subject_category": "biolink:Protein",
             "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:temporally_related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Protein",
-            "object_category": "biolink:Metabolite",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -3497,6 +3658,13 @@
         },
         {
             "subject_category": "biolink:EnvironmentalProcess",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:EnvironmentalProcess",
             "object_category": "biolink:EnvironmentalProcess",
             "predicate": "biolink:subclass_of",
             "subject": "",
@@ -3511,15 +3679,15 @@
         },
         {
             "subject_category": "biolink:MaterialSample",
-            "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:has_attribute",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:MaterialSample",
             "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:related_to",
+            "predicate": "biolink:has_attribute",
             "subject": "",
             "object": ""
         },
@@ -3541,13 +3709,6 @@
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:PathologicalProcess",
             "predicate": "biolink:affects",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:PhenotypicFeature",
-            "object_category": "biolink:Inheritance",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -3610,13 +3771,6 @@
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:PhenotypicFeature",
-            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:affects",
             "subject": "",
             "object": ""
@@ -3631,14 +3785,35 @@
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:caused_by",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:PhenotypicFeature",
-            "object_category": "biolink:Occurrent",
-            "predicate": "biolink:has_participant",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -3660,6 +3835,13 @@
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:Occurrent",
+            "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
         },
@@ -3812,8 +3994,15 @@
         },
         {
             "subject_category": "biolink:PhenotypicFeature",
-            "object_category": "biolink:ClinicalCourse",
+            "object_category": "biolink:Inheritance",
             "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
@@ -3828,6 +4017,13 @@
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:ClinicalCourse",
             "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:ClinicalCourse",
+            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -3910,6 +4106,13 @@
         },
         {
             "subject_category": "biolink:PhenotypicSex",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PhenotypicSex",
             "object_category": "biolink:PhenotypicSex",
             "predicate": "biolink:subclass_of",
             "subject": "",
@@ -3932,13 +4135,6 @@
         {
             "subject_category": "biolink:Cell",
             "object_category": "biolink:PhenotypicSex",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:PhenotypicSex",
             "predicate": "biolink:has_attribute",
             "subject": "",
             "object": ""
@@ -3947,13 +4143,6 @@
             "subject_category": "biolink:Cell",
             "object_category": "biolink:Cell",
             "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:Cell",
-            "predicate": "biolink:coexists_with",
             "subject": "",
             "object": ""
         },
@@ -4008,6 +4197,27 @@
         },
         {
             "subject_category": "biolink:Cell",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:GrossAnatomicalStructure",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
             "object_category": "biolink:GrossAnatomicalStructure",
             "predicate": "biolink:coexists_with",
             "subject": "",
@@ -4031,13 +4241,6 @@
             "subject_category": "biolink:Cell",
             "object_category": "biolink:GrossAnatomicalStructure",
             "predicate": "biolink:part_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:GrossAnatomicalStructure",
-            "predicate": "biolink:has_part",
             "subject": "",
             "object": ""
         },
@@ -4085,6 +4288,97 @@
         },
         {
             "subject_category": "biolink:Cell",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:derives_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:contributes_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:interacts_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:coexists_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:produces",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Cell",
             "object_category": "biolink:CellularComponent",
             "predicate": "biolink:produces",
             "subject": "",
@@ -4115,13 +4409,6 @@
             "subject_category": "biolink:Cell",
             "object_category": "biolink:PhenotypicQuality",
             "predicate": "biolink:has_attribute",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -4267,113 +4554,8 @@
         },
         {
             "subject_category": "biolink:Cell",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_part",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:part_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:derives_from",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:contributes_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:interacts_with",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:coexists_with",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_part",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:develops_from",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:located_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:produces",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
             "object_category": "biolink:BiologicalSex",
             "predicate": "biolink:has_attribute",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Cell",
-            "object_category": "biolink:BiologicalSex",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -4386,8 +4568,22 @@
         },
         {
             "subject_category": "biolink:Death",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Death",
             "object_category": "biolink:Death",
             "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:GenotypicSex",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
@@ -4409,6 +4605,27 @@
             "subject_category": "biolink:GenotypicSex",
             "object_category": "biolink:BiologicalSex",
             "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MicroRNA",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MicroRNA",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Behavior",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
@@ -4443,13 +4660,6 @@
         {
             "subject_category": "biolink:Behavior",
             "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Behavior",
-            "object_category": "biolink:PhenotypicQuality",
             "predicate": "biolink:has_attribute",
             "subject": "",
             "object": ""
@@ -4457,7 +4667,7 @@
         {
             "subject_category": "biolink:Behavior",
             "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:related_to",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -4485,13 +4695,6 @@
         {
             "subject_category": "biolink:Behavior",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:part_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Behavior",
-            "object_category": "biolink:Occurrent",
             "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
@@ -4500,6 +4703,13 @@
             "subject_category": "biolink:Behavior",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Behavior",
+            "object_category": "biolink:Occurrent",
+            "predicate": "biolink:part_of",
             "subject": "",
             "object": ""
         },
@@ -4561,13 +4771,6 @@
         },
         {
             "subject_category": "biolink:GrossAnatomicalStructure",
-            "object_category": "biolink:PhenotypicSex",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:GrossAnatomicalStructure",
             "object_category": "biolink:Cell",
             "predicate": "biolink:overlaps",
             "subject": "",
@@ -4619,6 +4822,13 @@
             "subject_category": "biolink:GrossAnatomicalStructure",
             "object_category": "biolink:Cell",
             "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:GrossAnatomicalStructure",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
@@ -4702,13 +4912,6 @@
         {
             "subject_category": "biolink:GrossAnatomicalStructure",
             "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:homologous_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:GrossAnatomicalStructure",
-            "object_category": "biolink:AnatomicalEntity",
             "predicate": "biolink:develops_from",
             "subject": "",
             "object": ""
@@ -4778,13 +4981,6 @@
         },
         {
             "subject_category": "biolink:GrossAnatomicalStructure",
-            "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:GrossAnatomicalStructure",
             "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:overlaps",
             "subject": "",
@@ -4801,13 +4997,6 @@
             "subject_category": "biolink:GrossAnatomicalStructure",
             "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:has_part",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:GrossAnatomicalStructure",
-            "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:occurs_in",
             "subject": "",
             "object": ""
         },
@@ -4850,13 +5039,6 @@
             "subject_category": "biolink:GrossAnatomicalStructure",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:GrossAnatomicalStructure",
-            "object_category": "biolink:Occurrent",
-            "predicate": "biolink:occurs_in",
             "subject": "",
             "object": ""
         },
@@ -4996,13 +5178,6 @@
         {
             "subject_category": "biolink:GrossAnatomicalStructure",
             "object_category": "biolink:GrossAnatomicalStructure",
-            "predicate": "biolink:homologous_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:GrossAnatomicalStructure",
-            "object_category": "biolink:GrossAnatomicalStructure",
             "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
@@ -5081,13 +5256,6 @@
             "subject_category": "biolink:GrossAnatomicalStructure",
             "object_category": "biolink:BiologicalSex",
             "predicate": "biolink:has_attribute",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:GrossAnatomicalStructure",
-            "object_category": "biolink:BiologicalSex",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -5121,15 +5289,15 @@
         },
         {
             "subject_category": "biolink:Pathway",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:related_to",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:caused_by",
+            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -5178,7 +5346,7 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:has_attribute",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5192,14 +5360,7 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Pathway",
-            "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:related_to",
+            "predicate": "biolink:has_attribute",
             "subject": "",
             "object": ""
         },
@@ -5227,7 +5388,7 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5248,21 +5409,7 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Pathway",
-            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:positively_regulates",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Pathway",
-            "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
             "subject": "",
             "object": ""
         },
@@ -5290,7 +5437,21 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:process_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5304,28 +5465,14 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Pathway",
-            "object_category": "biolink:Occurrent",
-            "predicate": "biolink:part_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Pathway",
-            "object_category": "biolink:Occurrent",
-            "predicate": "biolink:positively_regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Pathway",
-            "object_category": "biolink:Occurrent",
             "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:Occurrent",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5346,14 +5493,14 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
+            "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:part_of",
             "subject": "",
             "object": ""
         },
@@ -5367,7 +5514,21 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:Occurrent",
+            "predicate": "biolink:process_negatively_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:Occurrent",
             "predicate": "biolink:temporally_related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:Occurrent",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5416,21 +5577,14 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:GrossAnatomicalStructure",
-            "predicate": "biolink:occurs_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Pathway",
-            "object_category": "biolink:GrossAnatomicalStructure",
             "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Pathway",
-            "object_category": "biolink:Pathway",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
+            "object_category": "biolink:GrossAnatomicalStructure",
+            "predicate": "biolink:occurs_in",
             "subject": "",
             "object": ""
         },
@@ -5444,7 +5598,7 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:Pathway",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5465,6 +5619,13 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:Pathway",
+            "predicate": "biolink:process_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:Pathway",
             "predicate": "biolink:positively_regulates",
             "subject": "",
             "object": ""
@@ -5479,7 +5640,7 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:Pathway",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5500,7 +5661,7 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5535,14 +5696,7 @@
         {
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Pathway",
-            "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5550,6 +5704,13 @@
             "subject_category": "biolink:Pathway",
             "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Pathway",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5585,6 +5746,69 @@
             "subject_category": "biolink:MacromolecularComplexMixin",
             "object_category": "biolink:Cell",
             "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MacromolecularComplexMixin",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MacromolecularComplexMixin",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MacromolecularComplexMixin",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MacromolecularComplexMixin",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MacromolecularComplexMixin",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MacromolecularComplexMixin",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MacromolecularComplexMixin",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MacromolecularComplexMixin",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MacromolecularComplexMixin",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:located_in",
             "subject": "",
             "object": ""
         },
@@ -5820,72 +6044,65 @@
             "object": ""
         },
         {
-            "subject_category": "biolink:MacromolecularComplexMixin",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_part",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MacromolecularComplexMixin",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MacromolecularComplexMixin",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MacromolecularComplexMixin",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:part_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MacromolecularComplexMixin",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MacromolecularComplexMixin",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_part",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MacromolecularComplexMixin",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:develops_from",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MacromolecularComplexMixin",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:located_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Microrna",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:subclass_of",
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Cell",
+            "predicate": "biolink:occurs_in",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:Cell",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:affects_transport_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
             "predicate": "biolink:occurs_in",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
         },
@@ -5927,7 +6144,14 @@
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:process_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularEntity",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -5935,13 +6159,6 @@
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:positively_regulates",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:positively_regulates,_process_to_process",
             "subject": "",
             "object": ""
         },
@@ -5962,14 +6179,14 @@
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:regulates",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:regulates",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -6004,13 +6221,6 @@
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:precedes",
             "subject": "",
             "object": ""
@@ -6019,6 +6229,13 @@
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -6039,14 +6256,7 @@
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:negatively_regulates",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:Occurrent",
-            "predicate": "biolink:regulates,_process_to_process",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -6054,6 +6264,13 @@
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Occurrent",
+            "predicate": "biolink:process_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -6074,7 +6291,7 @@
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
+            "predicate": "biolink:negatively_regulates",
             "subject": "",
             "object": ""
         },
@@ -6116,14 +6333,14 @@
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:has_input",
+            "predicate": "biolink:process_negatively_regulates_process",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:has_input",
             "subject": "",
             "object": ""
         },
@@ -6138,13 +6355,6 @@
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:Protein",
             "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:Protein",
-            "predicate": "biolink:regulates,_process_to_process",
             "subject": "",
             "object": ""
         },
@@ -6186,7 +6396,28 @@
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:Protein",
-            "predicate": "biolink:positively_regulates,_process_to_process",
+            "predicate": "biolink:process_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:Protein",
+            "predicate": "biolink:process_positively_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:has_input",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MicroRNA",
+            "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
         },
@@ -6241,36 +6472,8 @@
         },
         {
             "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:Microrna",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:negatively_regulates",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:part_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:positively_regulates,_process_to_process",
             "subject": "",
             "object": ""
         },
@@ -6298,6 +6501,13 @@
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:process_negatively_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:precedes",
             "subject": "",
             "object": ""
@@ -6319,14 +6529,7 @@
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:regulates,_process_to_process",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:MolecularActivity",
-            "predicate": "biolink:negatively_regulates,_process_to_process",
+            "predicate": "biolink:process_positively_regulates_process",
             "subject": "",
             "object": ""
         },
@@ -6340,63 +6543,21 @@
         {
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
+            "predicate": "biolink:process_regulates_process",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularActivity",
+            "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:affects_transport_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:occurs_in",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_input",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularActivity",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Inheritance",
-            "object_category": "biolink:CellularComponent",
-            "predicate": "biolink:affects",
             "subject": "",
             "object": ""
         },
@@ -6416,6 +6577,13 @@
         },
         {
             "subject_category": "biolink:Inheritance",
+            "object_category": "biolink:CellularComponent",
+            "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Inheritance",
             "object_category": "biolink:Inheritance",
             "predicate": "biolink:has_part",
             "subject": "",
@@ -6436,6 +6604,20 @@
             "object": ""
         },
         {
+            "subject_category": "biolink:Inheritance",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:EvidenceType",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
             "subject_category": "biolink:EvidenceType",
             "object_category": "biolink:EvidenceType",
             "predicate": "biolink:overlaps",
@@ -6445,83 +6627,34 @@
         {
             "subject_category": "biolink:EvidenceType",
             "object_category": "biolink:EvidenceType",
-            "predicate": "biolink:has_part",
+            "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:EvidenceType",
             "object_category": "biolink:EvidenceType",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:RnaProduct",
-            "object_category": "biolink:Transcript",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:RnaProduct",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:RnaProduct",
-            "object_category": "biolink:Metabolite",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:RnaProduct",
-            "object_category": "biolink:Metabolite",
-            "predicate": "biolink:has_attribute",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:RnaProduct",
-            "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:RnaProduct",
-            "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:RnaProduct",
-            "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:has_part",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:RnaProduct",
-            "object_category": "biolink:Drug",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:RnaProduct",
-            "object_category": "biolink:Drug",
-            "predicate": "biolink:has_attribute",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:ClinicalCourse",
-            "object_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalCourse",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:ClinicalCourse",
+            "object_category": "biolink:Onset",
             "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
@@ -6535,7 +6668,7 @@
         },
         {
             "subject_category": "biolink:ClinicalCourse",
-            "object_category": "biolink:Onset",
+            "object_category": "biolink:AnatomicalEntity",
             "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
@@ -6544,13 +6677,6 @@
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:PhenotypicSex",
             "predicate": "biolink:has_attribute",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:AnatomicalEntity",
-            "object_category": "biolink:PhenotypicSex",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -6633,6 +6759,27 @@
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:CellularComponent",
             "predicate": "biolink:produces",
             "subject": "",
@@ -6696,13 +6843,6 @@
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
-            "object_category": "biolink:PhenotypicQuality",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:subclass_of",
             "subject": "",
@@ -6733,13 +6873,6 @@
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:has_part",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:AnatomicalEntity",
-            "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:occurs_in",
             "subject": "",
             "object": ""
         },
@@ -6780,15 +6913,15 @@
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
-            "object_category": "biolink:Occurrent",
-            "predicate": "biolink:overlaps",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:Occurrent",
-            "predicate": "biolink:occurs_in",
+            "predicate": "biolink:overlaps",
             "subject": "",
             "object": ""
         },
@@ -6893,13 +7026,6 @@
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:GrossAnatomicalStructure",
-            "predicate": "biolink:coexists_with",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:AnatomicalEntity",
-            "object_category": "biolink:GrossAnatomicalStructure",
             "predicate": "biolink:causes",
             "subject": "",
             "object": ""
@@ -6949,14 +7075,14 @@
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:GrossAnatomicalStructure",
-            "predicate": "biolink:interacts_with",
+            "predicate": "biolink:coexists_with",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:GrossAnatomicalStructure",
-            "predicate": "biolink:homologous_to",
+            "predicate": "biolink:interacts_with",
             "subject": "",
             "object": ""
         },
@@ -7095,20 +7221,6 @@
         },
         {
             "subject_category": "biolink:AnatomicalEntity",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:has_part",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:AnatomicalEntity",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:ClinicalCourse",
             "predicate": "biolink:subclass_of",
             "subject": "",
@@ -7208,13 +7320,6 @@
         {
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:homologous_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:AnatomicalEntity",
-            "object_category": "biolink:AnatomicalEntity",
             "predicate": "biolink:develops_from",
             "subject": "",
             "object": ""
@@ -7237,13 +7342,6 @@
             "subject_category": "biolink:AnatomicalEntity",
             "object_category": "biolink:BiologicalSex",
             "predicate": "biolink:has_attribute",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:AnatomicalEntity",
-            "object_category": "biolink:BiologicalSex",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -7284,6 +7382,13 @@
         },
         {
             "subject_category": "biolink:MolecularEntity",
+            "object_category": "biolink:RNAProduct",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularEntity",
             "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:participates_in",
             "subject": "",
@@ -7300,6 +7405,41 @@
             "subject_category": "biolink:MolecularEntity",
             "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularEntity",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularEntity",
+            "object_category": "biolink:AnatomicalEntity",
+            "predicate": "biolink:develops_from",
             "subject": "",
             "object": ""
         },
@@ -7349,13 +7489,6 @@
             "subject_category": "biolink:MolecularEntity",
             "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:temporally_related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularEntity",
-            "object_category": "biolink:Metabolite",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -7480,41 +7613,6 @@
         },
         {
             "subject_category": "biolink:MolecularEntity",
-            "object_category": "biolink:RnaProduct",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularEntity",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:part_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularEntity",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularEntity",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:overlaps",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularEntity",
-            "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:develops_from",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularEntity",
             "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:overlaps",
             "subject": "",
@@ -7545,13 +7643,6 @@
             "subject_category": "biolink:MolecularEntity",
             "object_category": "biolink:Drug",
             "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:MolecularEntity",
-            "object_category": "biolink:Drug",
-            "predicate": "biolink:has_attribute",
             "subject": "",
             "object": ""
         },
@@ -7559,6 +7650,13 @@
             "subject_category": "biolink:MolecularEntity",
             "object_category": "biolink:Drug",
             "predicate": "biolink:synonym",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:MolecularEntity",
+            "object_category": "biolink:Drug",
+            "predicate": "biolink:has_attribute",
             "subject": "",
             "object": ""
         },
@@ -7578,6 +7676,13 @@
         },
         {
             "subject_category": "biolink:Drug",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Drug",
             "object_category": "biolink:Drug",
             "predicate": "biolink:subclass_of",
             "subject": "",
@@ -7591,6 +7696,20 @@
             "object": ""
         },
         {
+            "subject_category": "biolink:PopulationOfIndividualOrganisms",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:DrugExposure",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
             "subject_category": "biolink:DrugExposure",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:subclass_of",
@@ -7600,20 +7719,6 @@
         {
             "subject_category": "biolink:DrugExposure",
             "object_category": "biolink:DrugExposure",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:ClinicalModifier",
-            "object_category": "biolink:ClinicalModifier",
-            "predicate": "biolink:subclass_of",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:NoncodingRnaProduct",
-            "object_category": "biolink:NoncodingRnaProduct",
             "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
@@ -7636,13 +7741,6 @@
             "subject_category": "biolink:PathologicalEntityMixin",
             "object_category": "biolink:PathologicalProcess",
             "predicate": "biolink:affects",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:PathologicalEntityMixin",
-            "object_category": "biolink:Inheritance",
-            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -7705,13 +7803,6 @@
         {
             "subject_category": "biolink:PathologicalEntityMixin",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:has_participant",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:PathologicalEntityMixin",
-            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:affects",
             "subject": "",
             "object": ""
@@ -7726,14 +7817,35 @@
         {
             "subject_category": "biolink:PathologicalEntityMixin",
             "object_category": "biolink:BiologicalProcess",
+            "predicate": "biolink:has_participant",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PathologicalEntityMixin",
+            "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:caused_by",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:PathologicalEntityMixin",
-            "object_category": "biolink:Occurrent",
-            "predicate": "biolink:has_participant",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PathologicalEntityMixin",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:has_part",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PathologicalEntityMixin",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -7755,6 +7867,13 @@
             "subject_category": "biolink:PathologicalEntityMixin",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:affects",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PathologicalEntityMixin",
+            "object_category": "biolink:Occurrent",
+            "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
         },
@@ -7907,8 +8026,15 @@
         },
         {
             "subject_category": "biolink:PathologicalEntityMixin",
-            "object_category": "biolink:ClinicalCourse",
+            "object_category": "biolink:Inheritance",
             "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PathologicalEntityMixin",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
@@ -7923,6 +8049,13 @@
             "subject_category": "biolink:PathologicalEntityMixin",
             "object_category": "biolink:ClinicalCourse",
             "predicate": "biolink:overlaps",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:PathologicalEntityMixin",
+            "object_category": "biolink:ClinicalCourse",
+            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -8084,6 +8217,13 @@
             "subject_category": "biolink:InformationContentEntity",
             "object_category": "biolink:PathologicalProcess",
             "predicate": "biolink:synonym",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:InformationContentEntity",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
@@ -8502,6 +8642,13 @@
         },
         {
             "subject_category": "biolink:BiologicalSex",
+            "object_category": "biolink:PhenotypicSex",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:BiologicalSex",
             "object_category": "biolink:GenotypicSex",
             "predicate": "biolink:subclass_of",
             "subject": "",
@@ -8509,8 +8656,8 @@
         },
         {
             "subject_category": "biolink:BiologicalSex",
-            "object_category": "biolink:PhenotypicSex",
-            "predicate": "biolink:subclass_of",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
@@ -8593,6 +8740,13 @@
         },
         {
             "subject_category": "biolink:LifeStage",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:LifeStage",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:overlaps",
             "subject": "",
@@ -8602,13 +8756,6 @@
             "subject_category": "biolink:LifeStage",
             "object_category": "biolink:Occurrent",
             "predicate": "biolink:precedes",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:LifeStage",
-            "object_category": "biolink:Occurrent",
-            "predicate": "biolink:part_of",
             "subject": "",
             "object": ""
         },
@@ -8641,8 +8788,29 @@
             "object": ""
         },
         {
+            "subject_category": "biolink:LifeStage",
+            "object_category": "biolink:Occurrent",
+            "predicate": "biolink:part_of",
+            "subject": "",
+            "object": ""
+        },
+        {
             "subject_category": "biolink:Onset",
-            "object_category": "biolink:AnatomicalEntity",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Onset",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Onset",
+            "object_category": "biolink:Onset",
             "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
@@ -8656,7 +8824,7 @@
         },
         {
             "subject_category": "biolink:Onset",
-            "object_category": "biolink:Onset",
+            "object_category": "biolink:AnatomicalEntity",
             "predicate": "biolink:subclass_of",
             "subject": "",
             "object": ""
@@ -8665,6 +8833,20 @@
             "subject_category": "biolink:Dataset",
             "object_category": "biolink:Dataset",
             "predicate": "biolink:subclass_of",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Dataset",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:EnvironmentalFeature",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
             "subject": "",
             "object": ""
         },
@@ -8719,13 +8901,6 @@
         },
         {
             "subject_category": "biolink:Disease",
-            "object_category": "biolink:Inheritance",
-            "predicate": "biolink:related_to",
-            "subject": "",
-            "object": ""
-        },
-        {
-            "subject_category": "biolink:Disease",
             "object_category": "biolink:CellularComponent",
             "predicate": "biolink:has_participant",
             "subject": "",
@@ -8811,14 +8986,14 @@
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:located_in",
+            "predicate": "biolink:has_participant",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:MolecularEntity",
-            "predicate": "biolink:has_participant",
+            "predicate": "biolink:located_in",
             "subject": "",
             "object": ""
         },
@@ -8882,6 +9057,20 @@
             "subject_category": "biolink:Disease",
             "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:synonym",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:ClinicalModifier",
+            "predicate": "biolink:correlated_with",
             "subject": "",
             "object": ""
         },
@@ -9000,6 +9189,13 @@
         {
             "subject_category": "biolink:Disease",
             "object_category": "biolink:Disease",
+            "predicate": "biolink:same_as",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
             "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
@@ -9008,6 +9204,13 @@
             "subject_category": "biolink:Disease",
             "object_category": "biolink:Disease",
             "predicate": "biolink:correlated_with",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:Disease",
+            "predicate": "biolink:exact_match",
             "subject": "",
             "object": ""
         },
@@ -9029,6 +9232,13 @@
             "subject_category": "biolink:Disease",
             "object_category": "biolink:Protein",
             "predicate": "biolink:caused_by",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PhenotypicFeature",
+            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },
@@ -9209,6 +9419,20 @@
         },
         {
             "subject_category": "biolink:Disease",
+            "object_category": "biolink:Inheritance",
+            "predicate": "biolink:related_to",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:OntologyClass",
+            "predicate": "biolink:type",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
             "object_category": "biolink:ClinicalCourse",
             "predicate": "biolink:has_phenotype",
             "subject": "",
@@ -9281,6 +9505,13 @@
             "subject_category": "biolink:Disease",
             "object_category": "biolink:PathologicalEntityMixin",
             "predicate": "biolink:has_phenotype",
+            "subject": "",
+            "object": ""
+        },
+        {
+            "subject_category": "biolink:Disease",
+            "object_category": "biolink:PathologicalEntityMixin",
+            "predicate": "biolink:related_to",
             "subject": "",
             "object": ""
         },

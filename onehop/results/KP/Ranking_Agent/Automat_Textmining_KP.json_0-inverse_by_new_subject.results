@@ -1,0 +1,60 @@
+test_triples/KP/Ranking_Agent/Automat_Textmining_KP.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:AnatomicalEntity",
+                    "id": "UBERON:0005156"
+                },
+                "b": {
+                    "category": "biolink:GeneOrGeneProduct"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:related_to"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "id": "UBERON:0005156",
+                    "category": "biolink:AnatomicalEntity",
+                    "is_set": false
+                },
+                "b": {
+                    "id": null,
+                    "category": "biolink:GeneOrGeneProduct",
+                    "is_set": false
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:related_to",
+                    "relation": null
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}

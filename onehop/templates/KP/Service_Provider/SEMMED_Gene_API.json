@@ -194,98 +194,98 @@
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:negatively_regulated_by",
+            "predicate": "biolink:entity_negatively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Cell",
-            "predicate": "biolink:negatively_regulated_by",
+            "predicate": "biolink:entity_negatively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:negatively_regulated_by",
+            "predicate": "biolink:entity_negatively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:negatively_regulated_by",
+            "predicate": "biolink:entity_negatively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Disease",
-            "predicate": "biolink:negatively_regulated_by",
+            "predicate": "biolink:entity_negatively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:PhenotypicFeature",
-            "predicate": "biolink:negatively_regulated_by",
+            "predicate": "biolink:entity_negatively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Gene",
-            "predicate": "biolink:negatively_regulated_by",
+            "predicate": "biolink:entity_negatively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:CellularComponent",
-            "predicate": "biolink:negatively_regulated_by",
+            "predicate": "biolink:entity_negatively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:negatively_regulates",
+            "predicate": "biolink:entity_negatively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:negatively_regulates",
+            "predicate": "biolink:entity_negatively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Disease",
-            "predicate": "biolink:negatively_regulates",
+            "predicate": "biolink:entity_negatively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:PhenotypicFeature",
-            "predicate": "biolink:negatively_regulates",
+            "predicate": "biolink:entity_negatively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Gene",
-            "predicate": "biolink:negatively_regulates",
+            "predicate": "biolink:entity_negatively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:CellularComponent",
-            "predicate": "biolink:negatively_regulates",
+            "predicate": "biolink:entity_negatively_regulates_entity",
             "subject": "",
             "object": ""
         },
@@ -348,112 +348,112 @@
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:entity_positively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Cell",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:entity_positively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:entity_positively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:entity_positively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Disease",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:entity_positively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:PhenotypicFeature",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:entity_positively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Gene",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:entity_positively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:CellularComponent",
-            "predicate": "biolink:positively_regulated_by",
+            "predicate": "biolink:entity_positively_regulated_by_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:AnatomicalEntity",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:entity_positively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Cell",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:entity_positively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:ChemicalSubstance",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:entity_positively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:BiologicalProcess",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:entity_positively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Disease",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:entity_positively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:PhenotypicFeature",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:entity_positively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Gene",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:entity_positively_regulates_entity",
             "subject": "",
             "object": ""
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:CellularComponent",
-            "predicate": "biolink:positively_regulates",
+            "predicate": "biolink:entity_positively_regulates_entity",
             "subject": "",
             "object": ""
         },

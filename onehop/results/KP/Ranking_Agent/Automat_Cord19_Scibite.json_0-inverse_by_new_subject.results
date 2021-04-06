@@ -1,0 +1,1734 @@
+test_triples/KP/Ranking_Agent/Automat_Cord19_Scibite.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                },
+                "b": {
+                    "category": "biolink:ChemicalSubstance"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:related_to"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "id": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "category": "biolink:ChemicalSubstance",
+                    "is_set": false
+                },
+                "b": {
+                    "id": null,
+                    "category": "biolink:ChemicalSubstance",
+                    "is_set": false
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:related_to",
+                    "relation": null
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {
+                "CHEBI:553473": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "ceftizoxime",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "ceftizoxime",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "UNII:C43C467DPE",
+                                "HMDB:HMDB0015427",
+                                "KEGG.COMPOUND:C06890",
+                                "DRUGBANK:DB01332",
+                                "MESH:D015296",
+                                "CHEBI:553473",
+                                "INCHIKEY:VBKFLODLBRKVOX-UHFFFAOYSA-N",
+                                "CHEMBL.COMPOUND:CHEMBL528",
+                                "PUBCHEM:6533629"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEBI:49566": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "cloxacillin",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "cloxacillin",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "MESH:D003023",
+                                "DRUGBANK:DB01147",
+                                "CHEMBL.COMPOUND:CHEMBL891",
+                                "UNII:O6X5QGC2VB",
+                                "CHEBI:49566",
+                                "HMDB:HMDB0015278",
+                                "PUBCHEM:6098",
+                                "INCHIKEY:BMNCXCJXZKZJII-UHFFFAOYSA-N",
+                                "KEGG.COMPOUND:C06923"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEBI:472657": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "cefixime",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "cefixime",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "CHEBI:472657",
+                                "CHEMBL.COMPOUND:CHEMBL1541",
+                                "KEGG.COMPOUND:C06881",
+                                "UNII:XZ7BG04GJX",
+                                "INCHIKEY:JZWKMKZHIBOPFT-UHFFFAOYSA-N",
+                                "HMDB:HMDB0014809",
+                                "DRUGBANK:DB00671",
+                                "PUBCHEM:5362065"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEBI:471744": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "imipenem",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "imipenem",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "HMDB:HMDB0015536",
+                                "INCHIKEY:BRYWBRPENKJOGR-XGEBEWACSA-N",
+                                "KEGG.COMPOUND:C06665",
+                                "DRUGBANK:DB01598",
+                                "PUBCHEM:104838",
+                                "CHEMBL.COMPOUND:CHEMBL148",
+                                "UNII:Q20IM7HE75",
+                                "CHEBI:471744"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEBI:124991": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "cefalotin",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "cefalotin",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "MESH:D002512",
+                                "DRUGBANK:DB00456",
+                                "HMDB:HMDB0014599",
+                                "INCHIKEY:LNSIIDDYOVTXHK-WVDLQDBSSA-N",
+                                "CHEBI:124991",
+                                "UNII:R72LW146E6",
+                                "PUBCHEM:6024",
+                                "CHEMBL.COMPOUND:CHEMBL617",
+                                "GTOPDB:8798",
+                                "KEGG.COMPOUND:C07761"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEBI:3499": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "cefotetan",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "cefotetan",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "CHEBI:3499",
+                                "DRUGBANK:DB01330",
+                                "CHEMBL.COMPOUND:CHEMBL474579",
+                                "HMDB:HMDB0015425",
+                                "KEGG.COMPOUND:C06886",
+                                "INCHIKEY:QADFGUGTIKZGNG-UHFFFAOYSA-N"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEBI:28077": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "rifampicin",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "rifampicin",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "INCHIKEY:ORIBNFVDKMSEPE-UHFFFAOYSA-N",
+                                "PUBCHEM:135398735",
+                                "GTOPDB:2765",
+                                "CHEBI:28077",
+                                "UNII:VJT6J7R4TR",
+                                "KEGG.COMPOUND:C06688",
+                                "DRUGBANK:DB01045",
+                                "PUBCHEM:136262914",
+                                "CHEMBL.COMPOUND:CHEMBL374478",
+                                "CHEBI:71365",
+                                "MESH:D012293"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEBI:615": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "1-carbapenem-3-carboxylic acid",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "1-carbapenem-3-carboxylic acid",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "KEGG.COMPOUND:C06669",
+                                "PUBCHEM:441133",
+                                "UNII:GL970841YS",
+                                "CHEBI:615",
+                                "CHEMBL.COMPOUND:CHEMBL1240705",
+                                "INCHIKEY:YCGYILZKIYPSLS-UHFFFAOYSA-N"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEBI:42355": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "erythromycin A",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "erythromycin A",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "MESH:C040981",
+                                "DRUGBANK:DB00199",
+                                "CHEMBL.COMPOUND:CHEMBL532",
+                                "PUBCHEM:12560",
+                                "UNII:63937KV33D",
+                                "INCHIKEY:USCQTVLXCAPYFJ-UHFFFAOYSA-N",
+                                "MESH:D004917",
+                                "GTOPDB:1456",
+                                "CHEBI:42355",
+                                "KEGG.COMPOUND:C01912"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEMBL.COMPOUND:CHEMBL407135": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "COLISTINE",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "COLISTINE",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "INCHIKEY:VMFFLLZZMWJPKN-UHFFFAOYSA-N",
+                                "CHEMBL.COMPOUND:CHEMBL407135",
+                                "PUBCHEM:44450615"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEBI:161680": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "aztreonam",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "aztreonam",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "CHEMBL.COMPOUND:CHEMBL158",
+                                "HMDB:HMDB0014499",
+                                "UNII:G2B4VE5GH8",
+                                "PUBCHEM:5742832",
+                                "INCHIKEY:DDMINJUJIRDRON-UHFFFAOYSA-N",
+                                "PUBCHEM:135398736",
+                                "DRUGBANK:DB00355",
+                                "MESH:D001398",
+                                "KEGG.COMPOUND:C06840",
+                                "CHEBI:161680"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEMBL.COMPOUND:CHEMBL463809": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "GENTAMICIN",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "GENTAMICIN",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "CHEMBL.COMPOUND:CHEMBL463809",
+                                "PUBCHEM:72395",
+                                "INCHIKEY:ZVNBDZKLVZEEBQ-UHFFFAOYSA-N",
+                                "KEGG.COMPOUND:C07656",
+                                "UNII:I904Y9FPPV"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEMBL.COMPOUND:CHEMBL1240832": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "CHEMBL1240832",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": [],
+                            "name": "synonyms",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "CHEMBL1240832",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "CHEMBL.COMPOUND:CHEMBL1240832"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "CHEBI:43968": {
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:BiologicalEntity",
+                        "biolink:ChemicalSubstance",
+                        "biolink:MolecularEntity"
+                    ],
+                    "name": "meropenem",
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "meropenem",
+                            "name": "name",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": [
+                                "INCHIKEY:DBNZSOVQWQLTIB-UHFFFAOYSA-N",
+                                "HMDB:HMDB0014898",
+                                "CHEMBL.COMPOUND:CHEMBL127",
+                                "CHEBI:43968",
+                                "DRUGBANK:DB00760",
+                                "UNII:YOP6PX0BAO",
+                                "PUBCHEM:441130",
+                                "PUBCHEM:40466974"
+                            ],
+                            "name": "equivalent_identifiers",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                }
+            },
+            "edges": {
+                "cf39e77940015a7b54aa5b47766078c7": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:553473",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1.3349350846524947e-12,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458443.3845458,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.8021864192810166,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "4b1f890af1cbfb21ff328238fde9ef1b": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:43968",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1.1822099716858369e-14,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458442.616351,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.776606786519732,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "ac0cb1744555e81243fb153b8600ebde": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:28077",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1.83951705741653e-10,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458444.7969608,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.8288436612996657,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "b9d5fc0d64c3b1f885bc0b07595cc0f6": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEMBL.COMPOUND:CHEMBL463809",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1.1718869048726558e-46,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458439.3005998,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.37780542929977445,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "c665ceb470f2fc63e0b8747f6dc26b25": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:471744",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 6.362435380219481e-23,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458440.8531227,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.6735654004296001,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "3a4212eced23745df372a3111b2b377e": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:42355",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1.018395290661815e-27,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458440.285967,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.6138058116181165,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "094aee0f391417aebdc7efad43b471f8": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:3499",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1.3349350846524947e-12,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458443.3844864,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.8021864192810166,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "9452b99e726952c42da7dee9eb465a20": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:472657",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 2.4611564919642213e-06,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458450.8274617,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.8802634171847594,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "bd421c67a2fc0dbc1d6270300e410931": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:615",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 5.539689593524217e-48,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458439.2644963,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.3612895380748319,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "99b6a4465e1902348dd8ebeefff78b65": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:124991",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1.077173623967273e-09,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458445.3606234,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.8384085446802504,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "e40f779bd0e2742a674e6dd65d81712a": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEMBL.COMPOUND:CHEMBL407135",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 5.313169706612712e-13,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458443.1999245,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.7972006690071243,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "ecee1dba7a7389ecb79c9ed600ce17b6": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:49566",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1.8487339089880708e-12,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458443.467783,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.8039485907415411,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                },
+                "92f1c62735b1839206cc6f82eb31eb55": {
+                    "subject": "CHEMBL.COMPOUND:CHEMBL1240832",
+                    "object": "CHEBI:161680",
+                    "predicate": "biolink:related_to",
+                    "relation": null,
+                    "attributes": [
+                        {
+                            "type": "NA",
+                            "value": "related_to",
+                            "name": "relation_label",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "owl:ObjectProperty",
+                            "name": "predicate_id",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 9.622367309586643e-08,
+                            "name": "enrichment_p",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "edge_source",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 1586458447.676691,
+                            "name": "ctime",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": 0.8627200240620401,
+                            "name": "num_publications",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "cord19_scibite_v2",
+                            "name": "source_database",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "NA",
+                            "value": "SEMMEDDB:ASSOCIATED_WITH",
+                            "name": "relation",
+                            "url": null,
+                            "source": null
+                        },
+                        {
+                            "type": "EDAM:data_0971",
+                            "value": [],
+                            "name": "publications",
+                            "url": null,
+                            "source": null
+                        }
+                    ]
+                }
+            }
+        },
+        "results": [
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:3499"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "094aee0f391417aebdc7efad43b471f8"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:553473"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "cf39e77940015a7b54aa5b47766078c7"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:124991"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "99b6a4465e1902348dd8ebeefff78b65"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:615"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "bd421c67a2fc0dbc1d6270300e410931"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:472657"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "9452b99e726952c42da7dee9eb465a20"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:161680"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "92f1c62735b1839206cc6f82eb31eb55"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL463809"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "b9d5fc0d64c3b1f885bc0b07595cc0f6"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:42355"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "3a4212eced23745df372a3111b2b377e"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:43968"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "4b1f890af1cbfb21ff328238fde9ef1b"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:471744"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "c665ceb470f2fc63e0b8747f6dc26b25"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:28077"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "ac0cb1744555e81243fb153b8600ebde"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEBI:49566"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "ecee1dba7a7389ecb79c9ed600ce17b6"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL1240832"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "CHEMBL.COMPOUND:CHEMBL407135"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "e40f779bd0e2742a674e6dd65d81712a"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+test_triples/KP/Molecular_Data_Provider/MolePro.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance"
+                },
+                "b": {
+                    "category": "biolink:Disease",
+                    "id": "MESH:D001249"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:treats"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 501
+{
+    "detail": "Variable-source queries not yet implemented",
+    "status": 501,
+    "title": "Not Implemented",
+    "type": "about:blank"
+}

@@ -10,7 +10,7 @@
       "nodes": {
         "n0": {
           "id": "GO:0036503",
-          "category":"biolink:BiologialProcess"
+          "category":"biolink:BiologicalProcess"
                 },
         "n1": {
           "category": "biolink:Protein"

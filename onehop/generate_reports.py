@@ -80,18 +80,15 @@ def dump_smartapi_predicate_results(apititle):
                     m_pred_list.append({"subject": p_subject,
                                         "predicate": predicate,
                                         "object": p_object,
-                                        "team": team,
-                                        "url": url,
-                                        "is_mixin": is_mixin})
+                                        "team": team
+                                        })
                 else:
                     if has_inverse is False:
                         tsv_writer_inverse.writerow([p_subject, predicate, p_object, team, url])
                         m_pred_list.append({"subject": p_subject,
                                             "predicate": predicate,
                                             "object": p_object,
-                                            "team": team,
-                                            "url": url,
-                                            "is_mixin": is_mixin})
+                                            "team": team})
 
 
 def in_biolink_model(predicate):
@@ -115,9 +112,7 @@ def dump_trapi_predicate_results(url, predicates, team):
                             m_pred_list.append({"subject": subject,
                                                 "predicate": predicate,
                                                 "object": object,
-                                                "team": team,
-                                                "url": url,
-                                                "is_mixin": is_mixin})
+                                                "team": team})
                         continue
                     else:
                         if predicate in missing_predicates:
@@ -129,9 +124,7 @@ def dump_trapi_predicate_results(url, predicates, team):
                         m_pred_list.append({"subject": subject,
                                             "predicate": predicate,
                                             "object": object,
-                                            "team": team,
-                                            "url": url,
-                                            "is_mixin": is_mixin})
+                                            "team": team})
 
 
 if __name__ == '__main__':

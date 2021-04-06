@@ -13,3 +13,4 @@ tabulate
 plotly
 scipy
 numpy
+pytest-json-report

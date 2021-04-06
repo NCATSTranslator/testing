@@ -72,7 +72,7 @@ def get_files(relativePath):
 async def test_not_none(caplog):
     caplog.set_level(logging.ERROR)
     logging.debug("test_not_none")
-    print ("+++ +++ CHECKING FOR NON-ZERO RESULTS")
+    print("+++ +++ CHECKING FOR NON-ZERO RESULTS")
     files = get_files("/ars-requests/not-none")
     report_cards = []
     for file in files:
@@ -82,11 +82,11 @@ async def test_not_none(caplog):
             query = json.load(f)
             logging.debug(json.dumps(query, indent=4, sort_keys=True))
             report_card = await has_results(query)
-            print(json.dumps(report_card,indent=4,sort_keys=True))
+            print(json.dumps(report_card, indent=4, sort_keys=True))
             report_cards.append(report_card)
     for card in report_cards:
         for agent, grade in card.items():
-            assert grade=="Pass"
+            assert grade == "Pass"
     return report_cards
 
 
@@ -97,12 +97,12 @@ async def test_must_have_curie(caplog):
     logging.debug("test_must_have_curie")
     answers_filename = "answers.json"
     dir = BASE_PATH+"/ars-requests/must-have"
-    report_cards =[]
+    report_cards = []
 
-    answers_file= os.path.join(dir,answers_filename)
-    with open(answers_file,"r") as f:
-        answers_list=json.load(f)
-    for query_file,answers in answers_list.items():
+    answers_file = os.path.join(dir,answers_filename)
+    with open(answers_file, "r") as f:
+        answers_list = json.load(f)
+    for query_file, answers in answers_list.items():
         with open(dir+"/"+query_file) as f:
             query = json.load(f)
         print("+++ Checking "+query_file+ " for "+str(answers))
@@ -111,7 +111,7 @@ async def test_must_have_curie(caplog):
         report_cards.append(report_card)
     for card in report_cards:
         for agent, grade in card.items():
-            assert grade=="Pass"
+            assert grade == "Pass"
 
 
 async def call_ars(payload, url=ARS_URL+"submit"):
@@ -161,22 +161,22 @@ async def has_results(query):
     for child in children:
         passed = False
         agent = child[0]
-        childData=child[1]
-        results = get_safe(childData,"fields","data","message","results")
-        if(results is not None):
-            if(len(results)>0):
-                logging.debug(agent+ " has "+str(len(results))+" results")
+        child_data = child[1]
+        results = get_safe(child_data, "fields", "data", "message", "results")
+        if results is not None:
+            if len(results) > 0:
+                logging.debug(agent + " has "+str(len(results))+" results")
                 passed = True
             else:
-                logging.debug(agent +" has no results for this query")
+                logging.debug(agent + " has no results for this query")
         else:
-            status = get_safe(childData,"fields","status")
+            status = get_safe(child_data, "fields", "status")
             # print(agent +" has no results for this query.  Status reported as: "+status+"\n"
             #             "Further details in log file.")
             logging.warning("++++ "+agent+" had a status of "+status+" for query")
             logging.warning(json.dumps(query, indent=4, sort_keys=True))
             logging.warning("Full response is as follows:")
-            logging.warning(json.dumps(childData, indent=4, sort_keys=True))
+            logging.warning(json.dumps(child_data, indent=4, sort_keys=True))
         if passed:
             report_card[agent]="Pass"
         else:
@@ -210,10 +210,10 @@ async def get_children(query, url=None, timeout=None):
     return children
 
 
-async def get_child(pk,timeout=60):
-    logging.debug("get_child("+pk+")")
+async def get_child(pk, timeout=60):
+    logging.debug("get_child(" + pk + ")")
     wait_time = 5  # amount of seconds to wait between checks for a Running query result
-    url = ARS_URL+"messages/"+pk
+    url = ARS_URL + "messages/" + pk
     async with httpx.AsyncClient(verify=False) as client:
         child= await client.get(
             url,

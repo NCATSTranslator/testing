@@ -42,11 +42,11 @@ def aggregate_missing_predicates():
             dump_trapi_predicate_results(predicates_url, predicates, team)
         else:
             dump_smartapi_predicate_results(spec['info']['title'])
-    with open(f'missing_predicates_with_teams.yaml', 'w') as predicates:
+    with open(f'missing_predicates_with_teams.json', 'w') as predicates:
         data = []
         for predicate in missing_predicates:
             data.append({'predicate': predicate, 'teams': missing_predicates[predicate]})
-        yaml.dump(data, predicates)
+        json.dump(data, predicates)
     with open('grouped_predicates.tsv', 'w') as fh:
         for key in missing_predicates:
             fh.write("%s,%s\n" % (key, missing_predicates[key]))

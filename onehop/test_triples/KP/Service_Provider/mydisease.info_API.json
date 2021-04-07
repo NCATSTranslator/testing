@@ -1,6 +1,6 @@
 {
-    "url": "https://smart-api.info/ui/671b45c0301c8624abbd26ae78449ca2",
-    "TRAPI": false,
+    "url": "https://api.bte.ncats.io/v1/smartapi/671b45c0301c8624abbd26ae78449ca2/query",
+    "TRAPI": true,
     "edges": [
         {
             "subject_category": "biolink:Disease",
@@ -47,7 +47,7 @@
         {
             "subject_category": "biolink:PhenotypicFeature",
             "object_category": "biolink:Disease",
-            "predicate": "biolink:related_to",
+            "predicate": "biolink:phenotype_of",
             "subject": "HP:0000224",
             "object": "MONDO:0012107"
         },

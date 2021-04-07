@@ -1,6 +1,6 @@
 {
-    "url": "https://smart-api.info/ui/542ba165e1b4227854cf7c0a8addcc79",
-    "TRAPI": false,
+    "url": "https://api.bte.ncats.io/v1/smartapi/542ba165e1b4227854cf7c0a8addcc79/query",
+    "TRAPI": true,
     "edges": [
         {
             "subject_category": "biolink:Gene",

@@ -1,6 +1,6 @@
 {
-    "url": "https://smart-api.info/ui/59dce17363dce279d389100834e43648",
-    "TRAPI": false,
+    "url": "https://api.bte.ncats.io/v1/smartapi/59dce17363dce279d389100834e43648/query",
+    "TRAPI": true,
     "edges": [
         {
             "subject_category": "biolink:Gene",
@@ -13,8 +13,8 @@
             "subject_category": "biolink:MolecularActivity",
             "object_category": "biolink:Gene",
             "predicate": "biolink:enabled_by",
-            "subject": "GO:0046872",
-            "object": "NCBIGENE:10101"
+            "subject": "GO:0008147",
+            "object": "NCBIGENE:4256"
         },
         {
             "subject_category": "biolink:Gene",
@@ -27,8 +27,8 @@
             "subject_category": "biolink:BiologicalProcess",
             "object_category": "biolink:Gene",
             "predicate": "biolink:has_participant",
-            "subject": "GO:0002098",
-            "object": "NCBIGENE:285381"
+            "subject": "GO:0043610",
+            "object": "NCBIGENE:2475"
         },
         {
             "subject_category": "biolink:Gene",
@@ -41,8 +41,8 @@
             "subject_category": "biolink:CellularComponent",
             "object_category": "biolink:Gene",
             "predicate": "biolink:expresses",
-            "subject": "GO:0005654",
-            "object": "NCBIGENE:285381"
+            "subject": "GO:0033268",
+            "object": "NCBIGENE:6326"
         },
         {
             "subject_category": "biolink:Gene",

@@ -1,0 +1,20 @@
+{
+  "url": "https://trapi.monarchinitiative.org",
+  "TRAPI": true,
+  "edges": [
+    {
+      "subject_category": "biolink:Gene",
+      "object_category": "biolink:Disease",
+      "predicate": "biolink:related_to",
+      "subject": "HGNC:3603",
+      "object": "ORPHA:284963"
+    },
+    {
+      "subject_category": "biolink:Disease",
+      "object_category": "biolink:PhenotypicFeature",
+      "predicate": "biolink:has_phenotype",
+      "subject": "OMIM:312750",
+      "object": "HP:0004326"
+    }
+  ]
+}

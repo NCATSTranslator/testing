@@ -1,6 +1,6 @@
 {
-    "url": "https://smart-api.info/ui/8f08d1446e0bb9c2b323713ce83e2bd3",
-    "TRAPI": false,
+    "url": "https://api.bte.ncats.io/v1/smartapi/8f08d1446e0bb9c2b323713ce83e2bd3/query",
+    "TRAPI": true,
     "edges": [
         {
             "subject_category": "biolink:ChemicalSubstance",

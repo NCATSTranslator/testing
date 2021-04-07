@@ -1,6 +1,6 @@
 {
-    "url": "https://smart-api.info/ui/1c056ffc7ed0dd1229e71c4752239465",
-    "TRAPI": false,
+    "url": "https://api.bte.ncats.io/v1/smartapi/1c056ffc7ed0dd1229e71c4752239465/query",
+    "TRAPI": true,
     "edges": [
         {
             "subject_category": "biolink:Disease",

@@ -12,18 +12,18 @@ go.MF.id: "GO:0046872"
 ```
 
 
-2. For MolecularActivity -> Gene: Use the following info to query using the GO ID for metal ion binding 
+2. For MolecularActivity -> Gene: Use the following info to query using the GO ID for structural constituent of bone 
 ```
 fields: entrezgene
 species: human
 requestBody:
-  q: "GO:0046872"    
+  q: "GO:0008147"    
   scopes: go.MF.id
   size: 1000
 ```
-One of the answers should be NUBP2, which has
+One of the answers should be MGP, which has
 ```
-entrezgene: 10101
+entrezgene: 4256
 ```
 
 
@@ -41,18 +41,18 @@ go.BP.id: "GO:0002098"
 ```
 
 
-4. For BiologicalProcess -> Gene: Use the following info to query using the GO ID for tRNA wobble uridine modification
+4. For BiologicalProcess -> Gene: Use the following info to query using the GO ID for regulation of carbohydrate utilization
 ```
 fields: entrezgene
 species: human
 requestBody:
-  q: "GO:0002098"    
+  q: "GO:0043610"    
   scopes: go.BP.id
   size: 1000
 ```
-One of the answers should be DPH3, which has
+One of the answers should be MTOR, which has
 ```
-entrezgene: 285381
+entrezgene: 2475
 ```
 
 
@@ -70,18 +70,18 @@ go.CC.id: "GO:0005654"
 ```
 
 
-6. For CellularComponent -> Gene: Use the following info to query using the GO ID for nucleoplasm
+6. For CellularComponent -> Gene: Use the following info to query using the GO ID for node of Ranvier
 ```
 fields: entrezgene
 species: human
 requestBody:
-  q: "GO:0005654"    
+  q: "GO:0033268"    
   scopes: go.CC.id
   size: 1000
 ```
-One of the answers should be DPH3, which has
+One of the answers should be SCN2A, which has
 ```
-entrezgene: 285381
+entrezgene: 6326
 ```
 
 
@@ -100,7 +100,6 @@ pathway.reactome.id: "R-HSA-5358493"
 
 
 8. For Pathway -> Gene: Use the following info to query using the REACT ID for Branched-chain amino acid catabolism
-Note: The BTE TRAPI interface seems to have issues getting this result. 
 ```
 fields: entrezgene
 species: human
@@ -115,7 +114,7 @@ entrezgene: 9673
 ```
 
 
-9. For Gene -> Transcript: Use the following info to query using the ENSEMBL ID for KPNA5 
+9. For Gene -> Transcript: Use the following info to query using the ENSEMBL ID for KPNA5. Note BTE TRAPI endpoint for one API seems to have issues returning all of the expected results. 
 ```
 fields: ensembl.transcript
 species: human
@@ -129,7 +128,7 @@ ensembl.transcript: ENST00000413340
 ```
 
 
-9. For Gene -> Protein: Use the following info to query using the ENSEMBL ID for KPNA5 
+9. For Gene -> Protein: Use the following info to query using the ENSEMBL ID for KPNA5. Note BTE TRAPI endpoint for one API seems to have issues returning all of the expected results. 
 ```
 fields: ensembl.protein
 species: human
@@ -144,7 +143,7 @@ ensembl.protein: ENSP00000396791
 
 
 10. For Protein -> Gene: Use the following info to query using the UNIPROTKB ID for KPNA5
-Note: The BTE TRAPI interface seems to have issues getting this result. 
+Note: The BTE TRAPI endpoint for one API is currently having issues successfully returning results. 
 ```
 fields: ensembl.gene
 species: human
@@ -158,7 +157,7 @@ ensembl.gene: ENSG00000196911
 ```
 
 
-11. For Gene -(homologous_to)-> Gene: Use the following info to query using the NCBIGENE ID for KCMF1 
+11. For Gene -(homologous_to)-> Gene: Use the following info to query using the NCBIGENE ID for KCMF1. The x-bte extension currently isn't written to do the inverse operation (MGI in mice -> NCBIGENE in humans). 
 ```
 fields: pantherdb.ortholog
 requestBody:

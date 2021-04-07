@@ -17,6 +17,7 @@ inverses_header = ['subject', 'predicate', 'object', 'team', 'url']
 tsv_writer_inverse.writerow([h for h in inverses_header])
 missing_predicates = {}
 m_pred_list = []
+m_inverse_list = []
 
 
 def aggregate_missing_predicates():
@@ -47,8 +48,10 @@ def aggregate_missing_predicates():
         for predicate in missing_predicates:
             data.append({'predicate': predicate, 'teams': missing_predicates[predicate]})
         json.dump(data, predicates)
-    with open(f'missing_details.json', 'w') as missing_details:
+    with open(f'missing_predicate_details.json', 'w') as missing_details:
         json.dump(m_pred_list, missing_details)
+    with open(f'missing_inverse_details.json', 'w') as missing_details:
+        json.dump(m_inverse_list, missing_details)
     with open('grouped_predicates.tsv', 'w') as fh:
         for key in missing_predicates:
             fh.write("%s,%s\n" % (key, missing_predicates[key]))
@@ -56,6 +59,8 @@ def aggregate_missing_predicates():
 
 def dump_smartapi_predicate_results(apititle):
     """Create a template for a single REST-style KP smartAPI entry"""
+    print(apititle)
+
     metakgurl = f'https://smart-api.info/api/metakg?api={apititle}'
     response = requests.get(metakgurl)
     for kgrecord in response.json()['associations']:
@@ -85,10 +90,10 @@ def dump_smartapi_predicate_results(apititle):
                 else:
                     if has_inverse is False:
                         tsv_writer_inverse.writerow([p_subject, predicate, p_object, team, url])
-                        m_pred_list.append({"subject": p_subject,
-                                            "predicate": predicate,
-                                            "object": p_object,
-                                            "team": team})
+                        m_inverse_list.append({"subject": p_subject,
+                                               "predicate": predicate,
+                                               "object": p_object,
+                                               "team": team})
 
 
 def in_biolink_model(predicate):
@@ -109,10 +114,10 @@ def dump_trapi_predicate_results(url, predicates, team):
                     if is_predicate:
                         if has_inverse is False:
                             tsv_writer_inverse.writerow([subject, predicate, object, team, url])
-                            m_pred_list.append({"subject": subject,
-                                                "predicate": predicate,
-                                                "object": object,
-                                                "team": team})
+                            m_inverse_list.append({"subject": subject,
+                                                   "predicate": predicate,
+                                                   "object": object,
+                                                   "team": team})
                         continue
                     else:
                         if predicate in missing_predicates:
@@ -120,6 +125,7 @@ def dump_trapi_predicate_results(url, predicates, team):
                                 missing_predicates[predicate].append(url)
                         else:
                             missing_predicates[predicate] = [url]
+
                         tsv_writer.writerow([subject, predicate, object, team, url, is_mixin])
                         m_pred_list.append({"subject": subject,
                                             "predicate": predicate,

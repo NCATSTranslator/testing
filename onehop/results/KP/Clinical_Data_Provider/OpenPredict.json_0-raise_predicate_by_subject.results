@@ -2,55 +2,203 @@ test_triples/KP/Clinical_Data_Provider/OpenPredict.json
 {
     "message": {
         "query_graph": {
-            "nodes": {
-                "a": {
-                    "category": "biolink:Drug",
-                    "id": "DRUGBANK:DB00394"
-                },
-                "b": {
-                    "category": "biolink:Disease"
+            "edges": {
+                "e01": {
+                    "subject": "n0",
+                    "object": "n1",
+                    "predicate": ["biolink:treats"]
                 }
             },
-            "edges": {
-                "ab": {
-                    "subject": "a",
-                    "object": "b",
-                    "predicate": "biolink:ameliorates"
+            "nodes": {
+                "n0": {
+                    "category": ["biolink:Drug"]
+                },
+                "n1": {
+                    "category": ["biolink:Disease"],
+                    "id": ["MONDO:0007190"]
                 }
             }
-        },
-        "knowledge_graph": {
-            "nodes": {},
-            "edges": {}
-        },
-        "results": []
+        }
+    },
+    "query_options": {
+        "min_score": 0.8
     }
 }
 Status Code: 200
 {
-    "message": {
-        "knowledge_graph": {
-            "edges": {},
-            "nodes": {}
-        },
-        "query_graph": {
-            "edges": {
-                "ab": {
-                    "object": "b",
-                    "predicate": "biolink:ameliorates",
-                    "subject": "a"
-                }
+  "message": {
+    "knowledge_graph": {
+      "edges": {
+        "e0": {
+          "attributes": [
+            {
+              "name": "model_id",
+              "source": "OpenPredict",
+              "type": "EDAM:data_1048",
+              "value": "openpredict-baseline-omim-drugbank"
             },
-            "nodes": {
-                "a": {
-                    "category": "biolink:Drug",
-                    "id": "DRUGBANK:DB00394"
-                },
-                "b": {
-                    "category": "biolink:Disease"
-                }
+            {
+              "name": "score",
+              "source": "OpenPredict",
+              "type": "EDAM:data_1772",
+              "value": "0.888055289294389"
             }
+          ],
+          "object": "DRUGBANK:DB00631",
+          "predicate": "biolink:treated_by",
+          "relation": "RO:0002434",
+          "subject": "MONDO:0007190"
         },
-        "results": []
-    }
+        "e1": {
+          "attributes": [
+            {
+              "name": "model_id",
+              "source": "OpenPredict",
+              "type": "EDAM:data_1048",
+              "value": "openpredict-baseline-omim-drugbank"
+            },
+            {
+              "name": "score",
+              "source": "OpenPredict",
+              "type": "EDAM:data_1772",
+              "value": "0.8354773547517724"
+            }
+          ],
+          "object": "DRUGBANK:DB00361",
+          "predicate": "biolink:treated_by",
+          "relation": "RO:0002434",
+          "subject": "MONDO:0007190"
+        },
+        "e2": {
+          "attributes": [
+            {
+              "name": "model_id",
+              "source": "OpenPredict",
+              "type": "EDAM:data_1048",
+              "value": "openpredict-baseline-omim-drugbank"
+            },
+            {
+              "name": "score",
+              "source": "OpenPredict",
+              "type": "EDAM:data_1772",
+              "value": "0.8333492952898209"
+            }
+          ],
+          "object": "DRUGBANK:DB00773",
+          "predicate": "biolink:treated_by",
+          "relation": "RO:0002434",
+          "subject": "MONDO:0007190"
+        }
+      },
+      "nodes": {
+        "DRUGBANK:DB00361": {
+          "category": "biolink:Drug",
+          "name": "Vinorelbine"
+        },
+        "DRUGBANK:DB00631": {
+          "category": "biolink:Drug",
+          "name": "Clofarabine"
+        },
+        "DRUGBANK:DB00773": {
+          "category": "biolink:Drug",
+          "name": "Etoposide"
+        },
+        "MONDO:0007190": {
+          "category": "biolink:Disease",
+          "name": "leukemia, chronic lymphocytic, susceptibility to, 2"
+        }
+      }
+    },
+    "query_graph": {
+      "edges": {
+        "e01": {
+          "object": "n1",
+          "predicate": [
+            "biolink:treats"
+          ],
+          "subject": "n0"
+        }
+      },
+      "nodes": {
+        "n0": {
+          "category": [
+            "biolink:Drug"
+          ]
+        },
+        "n1": {
+          "category": [
+            "biolink:Disease"
+          ],
+          "id": [
+            "MONDO:0007190"
+          ]
+        }
+      }
+    },
+    "results": [
+      {
+        "edge_bindings": {
+          "e01": [
+            {
+              "id": "e0"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "DRUGBANK:DB00631"
+            }
+          ],
+          "n1": [
+            {
+              "id": "MONDO:0007190"
+            }
+          ]
+        }
+      },
+      {
+        "edge_bindings": {
+          "e01": [
+            {
+              "id": "e1"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "DRUGBANK:DB00361"
+            }
+          ],
+          "n1": [
+            {
+              "id": "MONDO:0007190"
+            }
+          ]
+        }
+      },
+      {
+        "edge_bindings": {
+          "e01": [
+            {
+              "id": "e2"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "DRUGBANK:DB00773"
+            }
+          ],
+          "n1": [
+            {
+              "id": "MONDO:0007190"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

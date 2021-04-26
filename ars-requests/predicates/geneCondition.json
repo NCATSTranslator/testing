@@ -1,0 +1,22 @@
+{
+	"message": {
+		"query_graph": {
+			"nodes": {
+				"n0": {
+					"category": "biolink:Disease"
+				},
+				"n1": {
+                    "id": "ENSEMBL:ENSG00000133401", 
+					"category": "biolink:Gene"
+                }
+			},
+			"edges": {
+				"e01": {
+					"subject": "n0",
+                    "object": "n1",
+                    "predicate": "biolink:condition_associated_with_gene"
+                }
+			}
+		}
+	}
+}

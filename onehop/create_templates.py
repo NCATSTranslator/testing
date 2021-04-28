@@ -20,17 +20,19 @@ def get_team(spec):
     team = teams[0]
     return team
 
+
 def get_predicates(pr_url):
     """Collect the /predicates endpoint for a TRAPI-style KP smartAPI entry"""
     try:
         #print(pr_url)
         response = requests.get(pr_url)
         if response.status_code == 200:
-            return True,response.json()
+            return True, response.json()
         else:
-            return False,{}
+            return False, {}
     except:
-        return False,{}
+        return False, {}
+
 
 def create_ARA_template(spec,kp_titles):
     """Create a template for an ARA denoting the KPs it calls"""
@@ -40,13 +42,13 @@ def create_ARA_template(spec,kp_titles):
         os.makedirs(teamdir)
     apititle = '_'.join(spec['info']['title'].split())
     try:
-        output = { "url": spec['servers'][0]['url'],
-                   "TRAPI": True,
-                   "KPs": kp_titles}
+        output = {"url": spec['servers'][0]['url'],
+                  "TRAPI": True,
+                  "KPs": kp_titles}
         with open(f'{teamdir}/{apititle}.json', 'w') as outf:
             json.dump(output, outf, indent=4)
     except:
-        print (f'Failed {apititle}: invalid spec')
+        print(f'Failed {apititle}: invalid spec')
 
 
 def create_trapi_template(teamdir, apititle, url, predicates):
@@ -64,8 +66,9 @@ def create_trapi_template(teamdir, apititle, url, predicates):
     output = { "url": url,
                "TRAPI": True,
                "edges": edges}
-    with open(f'{teamdir}/{apititle}.json','w') as outf:
-        json.dump(output,outf,indent=4)
+    with open(f'{teamdir}/{apititle}.json', 'w') as outf:
+        json.dump(output, outf, indent=4)
+
 
 def create_smartapi_template(teamdir, apititle, url):
     """Create a template for a single REST-style KP smartAPI entry"""

@@ -8,7 +8,7 @@ from biothings_explorer.smartapi_kg.dataload import load_specs
 import pprint
 import pandas as pd
 
-tk = bmt.Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/1.7.0/biolink-model.yaml')
+tk = bmt.Toolkit()
 tsv_file = open("missing_predicates.tsv", "a")
 tsv_missing_inverse = open("missing_inverses.csv", "a")
 tsv_writer = csv.writer(tsv_file, delimiter='\t')
@@ -26,9 +26,10 @@ def aggregate_missing_predicates():
         if 'x-translator' not in spec['info']:
             continue
         team = create_templates.get_team(spec)
+        print(team)
         if 'servers' not in spec:
-            pprint.pprint(spec.get('_meta'))
-            pprint.pprint(spec.get('_status'))
+            # pprint.pprint(spec.get('_meta'))
+            # pprint.pprint(spec.get('_status'))
             continue
         url = spec['servers'][0]['url']
         # this url just spins at the moment.
@@ -59,7 +60,6 @@ def aggregate_missing_predicates():
 
 def dump_smartapi_predicate_results(apititle):
     """Create a template for a single REST-style KP smartAPI entry"""
-    print(apititle)
 
     metakgurl = f'https://smart-api.info/api/metakg?api={apititle}'
     response = requests.get(metakgurl)

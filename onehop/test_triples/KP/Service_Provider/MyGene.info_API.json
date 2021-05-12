@@ -1,12 +1,12 @@
 {
-    "url": "https://api.bte.ncats.io/v1/smartapi/59dce17363dce279d389100834e43648/query",
+    "url": "https://api.bte.ncats.io/v1/smartapi/59dce17363dce279d389100834e43648",
     "TRAPI": true,
     "edges": [
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:MolecularActivity",
             "predicate": "biolink:enables",
-            "subject": "NCBIGENE:285381",
+            "subject": "NCBIGene:285381",
             "object": "GO:0046872"
         },
         {
@@ -14,13 +14,13 @@
             "object_category": "biolink:Gene",
             "predicate": "biolink:enabled_by",
             "subject": "GO:0008147",
-            "object": "NCBIGENE:4256"
+            "object": "NCBIGene:4256"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:BiologicalProcess",
             "predicate": "biolink:participates_in",
-            "subject": "NCBIGENE:285381",
+            "subject": "NCBIGene:285381",
             "object": "GO:0002098"
         },
         {
@@ -28,13 +28,13 @@
             "object_category": "biolink:Gene",
             "predicate": "biolink:has_participant",
             "subject": "GO:0043610",
-            "object": "NCBIGENE:2475"
+            "object": "NCBIGene:2475"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:CellularComponent",
             "predicate": "biolink:expressed_in",
-            "subject": "NCBIGENE:285381",
+            "subject": "NCBIGene:285381",
             "object": "GO:0005654"
         },
         {
@@ -42,13 +42,13 @@
             "object_category": "biolink:Gene",
             "predicate": "biolink:expresses",
             "subject": "GO:0033268",
-            "object": "NCBIGENE:6326"
+            "object": "NCBIGene:6326"
         },
         {
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Pathway",
             "predicate": "biolink:participates_in",
-            "subject": "NCBIGENE:285381",
+            "subject": "NCBIGene:285381",
             "object": "REACT:R-HSA-5358493"
         },
         {
@@ -56,7 +56,7 @@
             "object_category": "biolink:Gene",
             "predicate": "biolink:has_participant",
             "subject": "REACT:R-HSA-70895",
-            "object": "NCBIGENE:9673"
+            "object": "NCBIGene:9673"
         },
         {
             "subject_category": "biolink:Gene",
@@ -83,7 +83,7 @@
             "subject_category": "biolink:Gene",
             "object_category": "biolink:Gene",
             "predicate": "biolink:homologous_to",
-            "subject": "NCBIGENE:56888",
+            "subject": "NCBIGene:56888",
             "object": "MGI:1921537"
         }
     ]

@@ -1,0 +1,72 @@
+test_triples/KP/Ranking_Agent/Automat_Cord19_Scibite.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "CHEBI:22479"
+                },
+                "b": {
+                    "category": "biolink:ChemicalSubstance"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:related_to"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "id": [
+                        "CHEBI:22479"
+                    ],
+                    "category": [
+                        "biolink:ChemicalSubstance"
+                    ],
+                    "is_set": false,
+                    "constraints": null
+                },
+                "b": {
+                    "id": null,
+                    "category": [
+                        "biolink:ChemicalSubstance"
+                    ],
+                    "is_set": false,
+                    "constraints": null
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": [
+                        "biolink:related_to"
+                    ],
+                    "relation": null,
+                    "constraints": null
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    },
+    "log_level": null
+}

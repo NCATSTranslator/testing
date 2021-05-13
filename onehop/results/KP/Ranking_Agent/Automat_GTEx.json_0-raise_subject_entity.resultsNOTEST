@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:SequenceVariant",
+    "object_category": "biolink:Gene",
+    "predicate": "biolink:affects_splicing_of",
+    "subject": "CAID:CA16727036",
+    "object": "NCBIGene:653635",
+    "location": "test_triples/KP/Ranking_Agent/Automat_GTEx.json",
+    "api_name": "Automat_GTEx.json",
+    "url": "https://automat.renci.org/gtex",
+    "query_opts": {}
+}

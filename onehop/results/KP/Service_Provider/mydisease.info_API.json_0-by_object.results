@@ -1,0 +1,5016 @@
+test_triples/KP/Service_Provider/mydisease.info_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease"
+                },
+                "b": {
+                    "category": "biolink:Gene",
+                    "id": "NCBIGene:4694"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:related_to"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease"
+                },
+                "b": {
+                    "category": "biolink:Gene",
+                    "id": "NCBIGene:4694"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:related_to"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {
+                "NCBIGene:4694": {
+                    "category": "biolink:Gene",
+                    "name": "NDUFA1",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "NCBIGene:4694",
+                                "name:NADH:ubiquinone oxidoreductase subunit A1",
+                                "SYMBOL:NDUFA1",
+                                "UMLS:C1417620",
+                                "HGNC:7683",
+                                "UniProtKB:O15239",
+                                "ENSEMBL:ENSG00000125356",
+                                "OMIM:300078"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 56,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 0,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [
+                                "a"
+                            ],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [],
+                            "type": "bts:target_qg_nodes"
+                        },
+                        {
+                            "name": "interpro",
+                            "value": [
+                                "NADH dehydrogenase [ubiquinone] (complex I), alpha subcomplex subunit 1"
+                            ],
+                            "type": "bts:interpro"
+                        },
+                        {
+                            "name": "type_of_gene",
+                            "value": [
+                                "protein-coding"
+                            ],
+                            "type": "bts:type_of_gene"
+                        }
+                    ]
+                },
+                "UMLS:C1445953": {
+                    "category": "biolink:Disease",
+                    "name": "Poor eye contact",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C1445953",
+                                "name:Poor eye contact"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C1845977": {
+                    "category": "biolink:Disease",
+                    "name": "X- linked recessive",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C1845977",
+                                "name:X- linked recessive"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C1847515": {
+                    "category": "biolink:Disease",
+                    "name": "Paroxysmal involuntary eye movements",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C1847515",
+                                "name:Paroxysmal involuntary eye movements"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C1849488": {
+                    "category": "biolink:Disease",
+                    "name": "Increased serum pyruvate",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C1849488",
+                                "name:Increased serum pyruvate"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C3811653": {
+                    "category": "biolink:Disease",
+                    "name": "Experimental Organism Basal Cell Carcinoma",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C3811653",
+                                "name:Experimental Organism Basal Cell Carcinoma"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C4021759": {
+                    "category": "biolink:Disease",
+                    "name": "Generalized myoclonic seizures",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C4021759",
+                                "name:Generalized myoclonic seizures"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "OMIM:301020": {
+                    "category": "biolink:Disease",
+                    "name": "MITOCHONDRIAL COMPLEX I DEFICIENCY, NUCLEAR TYPE 12",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C4746984",
+                                "name:MITOCHONDRIAL COMPLEX I DEFICIENCY, NUCLEAR TYPE 12",
+                                "OMIM:301020"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C1836038": {
+                    "category": "biolink:Disease",
+                    "name": "Poor head control",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C1836038",
+                                "name:Poor head control"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C1839603": {
+                    "category": "biolink:Disease",
+                    "name": "Proximal tubulopathy",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C1839603",
+                                "name:Proximal tubulopathy"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C1853743": {
+                    "category": "biolink:Disease",
+                    "name": "Muscular hypotonia of the trunk",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C1853743",
+                                "name:Muscular hypotonia of the trunk"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C1861403": {
+                    "category": "biolink:Disease",
+                    "name": "Variable expressivity",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C1861403",
+                                "name:Variable expressivity"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C1963184": {
+                    "category": "biolink:Disease",
+                    "name": "Nystagmus, CTCAE 3.0",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C1963184",
+                                "name:Nystagmus, CTCAE 3.0"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C2677650": {
+                    "category": "biolink:Disease",
+                    "name": "Decreased activity of mitochondrial complex I",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C2677650",
+                                "name:Decreased activity of mitochondrial complex I"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0015930": {
+                    "category": "biolink:Disease",
+                    "name": "Fetal Distress",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0015930",
+                                "name:Fetal Distress"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0100224": {
+                    "category": "biolink:Disease",
+                    "name": "mitochondrial complex I deficiency, nuclear type 1",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0100224",
+                                "MONDO:0100133",
+                                "DOID:0060536",
+                                "UMLS:C1838979",
+                                "UMLS:C2936907",
+                                "name:mitochondrial complex I deficiency, nuclear type 1",
+                                "name:mitochondrial complex I deficiency",
+                                "name:MITOCHONDRIAL COMPLEX I DEFICIENCY",
+                                "MESH:C537475",
+                                "OMIM:252010",
+                                "ORPHANET:2609",
+                                "GARD:3908"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C4022748": {
+                    "category": "biolink:Disease",
+                    "name": "Focal T2 hyperintense brainstem lesion",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C4022748",
+                                "name:Focal T2 hyperintense brainstem lesion"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C1167918": {
+                    "category": "biolink:Disease",
+                    "name": "Increased CSF lactate",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C1167918",
+                                "name:Increased CSF lactate"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C4554036": {
+                    "category": "biolink:Disease",
+                    "name": "Nystagmus, CTCAE 5.0",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C4554036",
+                                "name:Nystagmus, CTCAE 5.0"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0015544": {
+                    "category": "biolink:Disease",
+                    "name": "Failure to Thrive",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0015544",
+                                "name:Failure to Thrive"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0019209": {
+                    "category": "biolink:Disease",
+                    "name": "Hepatomegaly",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0019209",
+                                "name:Hepatomegaly"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C4021546": {
+                    "category": "biolink:Disease",
+                    "name": "Abnormal mitochondria in muscle tissue",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C4021546",
+                                "name:Abnormal mitochondria in muscle tissue"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0023380": {
+                    "category": "biolink:Disease",
+                    "name": "Lethargy",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0023380",
+                                "name:Lethargy"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0949856": {
+                    "category": "biolink:Disease",
+                    "name": "Oxidative Phosphorylation Deficiencies",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0949856",
+                                "name:Oxidative Phosphorylation Deficiencies"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0004069": {
+                    "category": "biolink:Disease",
+                    "name": "inborn mitochondrial metabolism disorder",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0004069",
+                                "DOID:700",
+                                "UMLS:C0751651",
+                                "name:inborn mitochondrial metabolism disorder",
+                                "name:Mitochondrial Diseases",
+                                "MESH:D028361",
+                                "ORPHANET:68380",
+                                "GARD:7048"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0004946": {
+                    "category": "biolink:Disease",
+                    "name": "hypoglycemia",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0004946",
+                                "DOID:9993",
+                                "UMLS:C0020615",
+                                "name:hypoglycemia",
+                                "name:Hypoglycemia",
+                                "MESH:D007003"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0004675": {
+                    "category": "biolink:Disease",
+                    "name": "mitochondrial encephalomyopathy",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0004675",
+                                "DOID:890",
+                                "UMLS:C0162666",
+                                "name:mitochondrial encephalomyopathy",
+                                "name:Mitochondrial Encephalomyopathies",
+                                "MESH:D017237"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0004843": {
+                    "category": "biolink:Disease",
+                    "name": "pathologic nystagmus",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0004843",
+                                "DOID:9650",
+                                "UMLS:C0028738",
+                                "name:pathologic nystagmus",
+                                "name:Nystagmus",
+                                "MESH:D009759"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0003432": {
+                    "category": "biolink:Disease",
+                    "name": "strabismus",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0003432",
+                                "DOID:540",
+                                "UMLS:C0038379",
+                                "UMLS:C0029831",
+                                "name:strabismus",
+                                "name:Strabismus"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0085583": {
+                    "category": "biolink:Disease",
+                    "name": "Choreoathetosis",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0085583",
+                                "name:Choreoathetosis"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0232466": {
+                    "category": "biolink:Disease",
+                    "name": "Feeding difficulties",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0232466",
+                                "name:Feeding difficulties"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0424605": {
+                    "category": "biolink:Disease",
+                    "name": "Developmental delay (disorder)",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0424605",
+                                "name:Developmental delay (disorder)"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0004134": {
+                    "category": "biolink:Disease",
+                    "name": "Ataxia",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0004134",
+                                "name:Ataxia"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0026827": {
+                    "category": "biolink:Disease",
+                    "name": "Muscle hypotonia",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0026827",
+                                "name:Muscle hypotonia"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0042963": {
+                    "category": "biolink:Disease",
+                    "name": "Vomiting",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0042963",
+                                "name:Vomiting"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0020169": {
+                    "category": "biolink:Disease",
+                    "name": "rare disorder with ptosis",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0020169",
+                                "MONDO:0000728",
+                                "DOID:0060260",
+                                "UMLS:CN207031",
+                                "UMLS:C0005745",
+                                "UMLS:C0033377",
+                                "name:rare disorder with ptosis",
+                                "name:ptosis (disease)",
+                                "name:Ptosis",
+                                "MESH:D001763",
+                                "ORPHANET:98578",
+                                "HP:0000508"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0020249": {
+                    "category": "biolink:Disease",
+                    "name": "hereditary optic neuropathy",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0020249",
+                                "UMLS:C3887709",
+                                "name:hereditary optic neuropathy",
+                                "name:Optic Neuropathy",
+                                "ORPHANET:98671"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0020678": {
+                    "category": "biolink:Disease",
+                    "name": "sensorineural hearing loss disorder",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0020678",
+                                "MONDO:0010576",
+                                "DOID:10003",
+                                "UMLS:C1844678",
+                                "UMLS:C0018784",
+                                "UMLS:C0018780",
+                                "name:sensorineural hearing loss disorder",
+                                "name:X-linked mixed deafness with perilymphatic gusher",
+                                "name:Sensorineural Hearing Loss (disorder)",
+                                "name:Hearing Loss, High-Frequency",
+                                "MESH:D006319",
+                                "OMIM:304400",
+                                "EFO:1001176",
+                                "ORPHANET:383",
+                                "GARD:1694",
+                                "GARD:4504",
+                                "HP:0000407"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0234133": {
+                    "category": "biolink:Disease",
+                    "name": "Extrapyramidal sign",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0234133",
+                                "name:Extrapyramidal sign"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0009637": {
+                    "category": "biolink:Disease",
+                    "name": "inborn mitochondrial myopathy",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0009637",
+                                "MONDO:0020714",
+                                "DOID:699",
+                                "UMLS:C0162670",
+                                "name:inborn mitochondrial myopathy",
+                                "name:mitochondrial myopathy, episodic, with optic atrophy and reversible leukoencephalopathy",
+                                "name:Mitochondrial Myopathies",
+                                "MESH:D017240",
+                                "OMIM:251900",
+                                "ORPHANET:206966",
+                                "GARD:11956"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0002135": {
+                    "category": "biolink:Disease",
+                    "name": "optic nerve disease",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0002135",
+                                "DOID:1891",
+                                "UMLS:C0029132",
+                                "name:optic nerve disease",
+                                "name:Disorder of the optic nerve",
+                                "MESH:D009901"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0009723": {
+                    "category": "biolink:Disease",
+                    "name": "Leigh syndrome",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0009723",
+                                "DOID:3652",
+                                "UMLS:C0023264",
+                                "UMLS:C1850597",
+                                "name:Leigh syndrome",
+                                "name:Leigh Syndrome Due To Mitochondrial Complex II Deficiency",
+                                "name:Leigh Disease",
+                                "MESH:D007888",
+                                "OMIM:256000",
+                                "ORPHANET:506",
+                                "GARD:6877"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0151888": {
+                    "category": "biolink:Disease",
+                    "name": "Hyporeflexia",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0151888",
+                                "name:Hyporeflexia"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0554970": {
+                    "category": "biolink:Disease",
+                    "name": "Pallor of optic disc",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0554970",
+                                "name:Pallor of optic disc"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0557874": {
+                    "category": "biolink:Disease",
+                    "name": "Global developmental delay",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0557874",
+                                "name:Global developmental delay"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0241726": {
+                    "category": "biolink:Disease",
+                    "name": "Delayed ability to walk",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0241726",
+                                "name:Delayed ability to walk"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "UMLS:C0270612": {
+                    "category": "biolink:Disease",
+                    "name": "Leukoencephalopathy",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "UMLS:C0270612",
+                                "name:Leukoencephalopathy"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0001941": {
+                    "category": "biolink:Disease",
+                    "name": "blindness (disorder)",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0001941",
+                                "DOID:1432",
+                                "UMLS:C0456909",
+                                "UMLS:C0155020",
+                                "name:blindness (disorder)",
+                                "name:Blindness",
+                                "MESH:D001766"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0005341": {
+                    "category": "biolink:Disease",
+                    "name": "skin basal cell carcinoma",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0005341",
+                                "DOID:2513",
+                                "UMLS:C0007117",
+                                "UMLS:C0751676",
+                                "UMLS:C0206710",
+                                "UMLS:C4721806",
+                                "UMLS:C1368295",
+                                "name:skin basal cell carcinoma",
+                                "name:Carcinoma, Basal Cell",
+                                "MESH:D018295",
+                                "EFO:0004193",
+                                "HP:0002671"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0005030": {
+                    "category": "biolink:Disease",
+                    "name": "fetal growth restriction",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0005030",
+                                "UMLS:C0015934",
+                                "name:fetal growth restriction",
+                                "name:Fetal Growth Retardation",
+                                "MESH:D005317",
+                                "EFO:0000495"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0010788": {
+                    "category": "biolink:Disease",
+                    "name": "Leber hereditary optic neuropathy",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0010788",
+                                "DOID:705",
+                                "UMLS:C0917796",
+                                "name:Leber hereditary optic neuropathy",
+                                "name:Optic Atrophy, Hereditary, Leber",
+                                "MESH:D029242",
+                                "OMIM:535000",
+                                "ORPHANET:104",
+                                "GARD:6870"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0010789": {
+                    "category": "biolink:Disease",
+                    "name": "MELAS syndrome",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0010789",
+                                "DOID:3687",
+                                "UMLS:C0162671",
+                                "name:MELAS syndrome",
+                                "name:MELAS Syndrome",
+                                "MESH:D017241",
+                                "OMIM:540000",
+                                "ORPHANET:550",
+                                "GARD:7009"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0016056": {
+                    "category": "biolink:Disease",
+                    "name": "isolated congenital microcephaly",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0016056",
+                                "MONDO:0001149",
+                                "DOID:0070297",
+                                "DOID:10907",
+                                "UMLS:C0025958",
+                                "name:isolated congenital microcephaly",
+                                "name:microcephaly (disease)",
+                                "name:Microcephaly",
+                                "MESH:D008831",
+                                "ORPHANET:199642",
+                                "GARD:7038",
+                                "GARD:3603",
+                                "HP:0000252"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0006040": {
+                    "category": "biolink:Disease",
+                    "name": "lactic acidosis",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0006040",
+                                "MONDO:0024306",
+                                "DOID:3650",
+                                "UMLS:C0001125",
+                                "name:lactic acidosis",
+                                "name:acquired lactic acidosis",
+                                "name:Acidosis, Lactic",
+                                "MESH:D000140",
+                                "EFO:1000036"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0005559": {
+                    "category": "biolink:Disease",
+                    "name": "neurodegenerative disease",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0005559",
+                                "DOID:1289",
+                                "UMLS:C0524851",
+                                "UMLS:C1285162",
+                                "name:neurodegenerative disease",
+                                "name:Neurodegenerative Disorders",
+                                "MESH:D019636",
+                                "EFO:0005772"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0005560": {
+                    "category": "biolink:Disease",
+                    "name": "brain disease",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0005560",
+                                "DOID:936",
+                                "UMLS:C0006111",
+                                "UMLS:C0085584",
+                                "name:brain disease",
+                                "name:Encephalopathies",
+                                "MESH:D001927",
+                                "EFO:0005774"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0024331": {
+                    "category": "biolink:Disease",
+                    "name": "colorectal carcinoma",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0024331",
+                                "DOID:0080199",
+                                "UMLS:CN221574",
+                                "UMLS:C0009402",
+                                "name:colorectal carcinoma",
+                                "name:Colorectal Carcinoma",
+                                "MESH:D015179",
+                                "OMIM:114500"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                }
+            },
+            "edges": {
+                "UMLS:C1445953-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C1445953",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C1845977-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C1845977",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C1847515-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C1847515",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C1849488-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C1849488",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C3811653-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C3811653",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C4021759-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C4021759",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "OMIM:301020-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "OMIM:301020",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C1836038-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C1836038",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C1839603-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C1839603",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C1853743-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C1853743",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C1861403-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C1861403",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C1963184-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C1963184",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C2677650-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C2677650",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0015930-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0015930",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0100224-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0100224",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C4022748-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C4022748",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C1167918-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C1167918",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C4554036-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C4554036",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0015544-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0015544",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0019209-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0019209",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C4021546-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C4021546",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0023380-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0023380",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0949856-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0949856",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0004069-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0004069",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0004946-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0004946",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0004675-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0004675",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0004843-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0004843",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0003432-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0003432",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0085583-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0085583",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0232466-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0232466",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0424605-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0424605",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0004134-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0004134",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0026827-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0026827",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0042963-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0042963",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0020169-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0020169",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0020249-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0020249",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0020678-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0020678",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0234133-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0234133",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0009637-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0009637",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0002135-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0002135",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0009723-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0009723",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0151888-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0151888",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0554970-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0554970",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0557874-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0557874",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0241726-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0241726",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "UMLS:C0270612-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "UMLS:C0270612",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0001941-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0001941",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0005341-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0005341",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0005030-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0005030",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0010788-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0010788",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0010789-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0010789",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0016056-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0016056",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0006040-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0006040",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0005559-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0005559",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0005560-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0005560",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                },
+                "MONDO:0024331-biolink:related_to-NCBIGene:4694": {
+                    "predicate": "biolink:related_to",
+                    "subject": "MONDO:0024331",
+                    "object": "NCBIGene:4694",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DisGeNET"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "MyDisease.info API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": [
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C1445953"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C1445953-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C1845977"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C1845977-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C1847515"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C1847515-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C1849488"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C1849488-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C3811653"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C3811653-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C4021759"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C4021759-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "OMIM:301020"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "OMIM:301020-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C1836038"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C1836038-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C1839603"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C1839603-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C1853743"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C1853743-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C1861403"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C1861403-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C1963184"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C1963184-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C2677650"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C2677650-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0015930"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0015930-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0100224"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0100224-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C4022748"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C4022748-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C1167918"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C1167918-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C4554036"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C4554036-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0015544"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0015544-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0019209"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0019209-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C4021546"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C4021546-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0023380"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0023380-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0949856"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0949856-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0004069"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0004069-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0004946"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0004946-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0004675"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0004675-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0004843"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0004843-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0003432"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0003432-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0085583"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0085583-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0232466"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0232466-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0424605"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0424605-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0004134"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0004134-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0026827"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0026827-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0042963"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0042963-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0020169"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0020169-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0020249"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0020249-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0020678"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0020678-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0234133"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0234133-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0009637"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0009637-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0002135"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0002135-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0009723"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0009723-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0151888"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0151888-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0554970"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0554970-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0557874"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0557874-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0241726"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0241726-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UMLS:C0270612"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "UMLS:C0270612-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0001941"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0001941-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0005341"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0005341-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0005030"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0005030-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0009723"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0009723-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0010788"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0010788-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0010789"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0010789-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0016056"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0016056-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0006040"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0006040-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0005559"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0005559-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0005560"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0005560-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0024331"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "NCBIGene:4694"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0024331-biolink:related_to-NCBIGene:4694"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "logs": [
+        {
+            "timestamp": "2021-05-13T02:49:07.608Z",
+            "level": "DEBUG",
+            "message": "BTE identified 2 QNodes from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.608Z",
+            "level": "DEBUG",
+            "message": "BTE identified 1 QEdges from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.608Z",
+            "level": "DEBUG",
+            "message": "BTE identified your query graph as a 1-depth query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.648Z",
+            "level": "DEBUG",
+            "message": "REDIS cache is not enabled.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.648Z",
+            "level": "DEBUG",
+            "message": "BTE is trying to find SmartAPI edges connecting from Gene to Disease with predicate undefined",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.649Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 smartapi edges corresponding to ab. These smartaip edges comes from 1 unique APIs. They are MyDisease.info API",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.649Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 bte edges for this batch.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.649Z",
+            "level": "DEBUG",
+            "message": "call-apis: Resolving ID feature is turned on",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.649Z",
+            "level": "DEBUG",
+            "message": "call-apis: Number of BTE Edges received is 1",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.770Z",
+            "level": "DEBUG",
+            "message": "call-apis: Succesfully made the following query: {\"url\":\"http://mydisease.info/v1/query\",\"params\":{\"fields\":\"disgenet.xrefs.umls\",\"size\":\"1000\"},\"data\":\"q=4694&scopes=disgenet.genes_related_to_disease.gene_id\",\"method\":\"post\",\"timeout\":50000}",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.789Z",
+            "level": "DEBUG",
+            "message": "call-apis: After transformation, BTE is able to retrieve 57 hits!",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.789Z",
+            "level": "DEBUG",
+            "message": "call-apis: Total number of results returned for this query is 57",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:07.876Z",
+            "level": "DEBUG",
+            "message": "call-apis: Query completes",
+            "code": null
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+test_triples/KP/Multiomics_Provider/Multiomics_Wellness_KP_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance"
+                },
+                "b": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "HMDB:HMDB10405"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:correlated_with"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance"
+                },
+                "b": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "HMDB:HMDB10405"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:correlated_with"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    },
+    "logs": [
+        {
+            "timestamp": "2021-05-13T02:41:45.173Z",
+            "level": "DEBUG",
+            "message": "BTE identified 2 QNodes from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:45.173Z",
+            "level": "DEBUG",
+            "message": "BTE identified 1 QEdges from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:45.173Z",
+            "level": "DEBUG",
+            "message": "BTE identified your query graph as a 1-depth query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:45.173Z",
+            "level": "DEBUG",
+            "message": "REDIS cache is not enabled.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:45.174Z",
+            "level": "DEBUG",
+            "message": "BTE is trying to find SmartAPI edges connecting from Carbohydrate,ProcessedMaterial,FoodComponent,EnvironmentalFoodContaminant,FoodAdditive,Nutrient,Macronutrient,Micronutrient,Vitamin,Metabolite,ChemicalExposure,ComplexChemicalExposure,ChemicalSubstance to Carbohydrate,ProcessedMaterial,FoodComponent,EnvironmentalFoodContaminant,FoodAdditive,Nutrient,Macronutrient,Micronutrient,Vitamin,Metabolite,ChemicalExposure,ComplexChemicalExposure,ChemicalSubstance with predicate undefined",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:45.174Z",
+            "level": "WARNING",
+            "message": "BTE didn't find any smartapi edges corresponding to ab",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:45.174Z",
+            "level": "WARNING",
+            "message": "BTE didn't find any bte edges for this batch. Your query terminates.",
+            "code": null
+        }
+    ]
+}

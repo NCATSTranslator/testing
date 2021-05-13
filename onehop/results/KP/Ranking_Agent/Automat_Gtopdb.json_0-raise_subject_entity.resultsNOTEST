@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:ChemicalSubstance",
+    "object_category": "biolink:ChemicalSubstance",
+    "predicate": "biolink:has_part",
+    "subject": "DRUGBANK:DB09222",
+    "object": "gtpo:6750",
+    "location": "test_triples/KP/Ranking_Agent/Automat_Gtopdb.json",
+    "api_name": "Automat_Gtopdb.json",
+    "url": "https://automat.renci.org/gtopdb",
+    "query_opts": {}
+}

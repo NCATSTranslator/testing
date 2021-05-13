@@ -1,0 +1,89 @@
+test_triples/KP/Exposures_Provider/ICEES_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ActivityAndBehavior",
+                    "id": "umlscui:C0562508"
+                },
+                "b": {
+                    "category": "biolink:ActivityAndBehavior"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:correlated_with"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "terms and conditions": "The Translator Integrated Clinical and Environmental Exposures Service (ICEES) is providing you with Data that have been de-identified in accordance with 45 C.F.R. \u00a7\u00a7 164.514(a) and (b) and that UNC Health Care System (UNCHCS) is permitted to provide under 45 C.F.R. \u00a7 164.502(d)(2). Recipient agrees to notify UNCHCS via NC TraCS in the event that Recipient receives any identifiable data in error and to take such measures to return the identifiable data and/or destroy it at the direction of UNCHCS.\n\nRestrictions on Recipient\u2019s Use of Data. Recipient further agrees to use the data exclusively for the purposes and functionalities provided by the ICEES: cohort discovery; feature-rich cohort discovery; hypothesis-driven queries; and exploratory queries. Recipient agrees to use appropriate safeguards to protect the Data from misuse and unauthorized access or disclosure. Recipient will report to UNCHCS any unauthorized access, use, or disclosure of the Data not provided for by the Service of which Recipient becomes aware. Recipient will not attempt to identify the individuals whose information is contained in any Data transferred pursuant to this Service Agreement or attempt to contact those individuals. Recipient agrees not to sell the Data to any third party for any purpose. Recipient agrees not to disclose or publish the Data in any manner that would identify the Data as originating from UNCHCS. Finally, Recipient agrees to reasonably limit the number of queries to the Service per IP address within a given time interval, in order to prevent rapid \u2018attacks\u2019 on the Service.\n\nWe kindly request that users of this service provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from the use of ICEES. Attribution should include acknowledgement of the funder, the National Center for Advancing Translational Sciences, Biomedical Data Translator Program (awards OT3TR002020 and OT2TR002514) and Center for Translational Science Award Program (UL1TR002489). Please also acknowledge the Renaissance Computing Institute, UNC Health Care System, UNC Hospitals, and any affiliated team members who contributed to the work.\n",
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ActivityAndBehavior",
+                    "id": "umlscui:C0562508"
+                },
+                "b": {
+                    "category": "biolink:ActivityAndBehavior"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:correlated_with"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {
+                "umlscui:C0562508": {
+                    "category": [
+                        "biolink:A",
+                        "biolink:C",
+                        "biolink:T",
+                        "biolink:I",
+                        "biolink:V",
+                        "biolink:I",
+                        "biolink:T",
+                        "biolink:Y",
+                        "biolink:_",
+                        "biolink:A",
+                        "biolink:N",
+                        "biolink:D",
+                        "biolink:_",
+                        "biolink:B",
+                        "biolink:E",
+                        "biolink:H",
+                        "biolink:A",
+                        "biolink:V",
+                        "biolink:I",
+                        "biolink:O",
+                        "biolink:R"
+                    ]
+                }
+            },
+            "edges": {}
+        },
+        "results": []
+    },
+    "reasoner_id": "ICEES",
+    "tool_version": "4.0.0",
+    "datetime": "2021-05-05/13/21 02:40:43",
+    "n_results": 0,
+    "message_code": "OK",
+    "code_description": ""
+}

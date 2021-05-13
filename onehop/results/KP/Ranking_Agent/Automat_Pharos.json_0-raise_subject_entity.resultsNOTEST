@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:ChemicalSubstance",
+    "object_category": "biolink:Gene",
+    "predicate": "biolink:decreases_activity_of",
+    "subject": "CHEMBL.COMPOUND:CHEMBL2333026",
+    "object": "NCBIGene:327",
+    "location": "test_triples/KP/Ranking_Agent/Automat_Pharos.json",
+    "api_name": "Automat_Pharos.json",
+    "url": "https://automat.renci.org/pharos",
+    "query_opts": {}
+}

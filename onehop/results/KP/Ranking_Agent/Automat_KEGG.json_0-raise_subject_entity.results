@@ -1,0 +1,72 @@
+test_triples/KP/Ranking_Agent/Automat_KEGG.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "CHEBI:36145"
+                },
+                "b": {
+                    "category": "biolink:ChemicalSubstance"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:derives_into"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "id": [
+                        "CHEBI:36145"
+                    ],
+                    "category": [
+                        "biolink:ChemicalSubstance"
+                    ],
+                    "is_set": false,
+                    "constraints": null
+                },
+                "b": {
+                    "id": null,
+                    "category": [
+                        "biolink:ChemicalSubstance"
+                    ],
+                    "is_set": false,
+                    "constraints": null
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": [
+                        "biolink:derives_into"
+                    ],
+                    "relation": null,
+                    "constraints": null
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    },
+    "log_level": null
+}

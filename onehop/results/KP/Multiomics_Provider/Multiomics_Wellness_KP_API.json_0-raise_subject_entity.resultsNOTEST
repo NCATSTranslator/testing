@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:ChemicalSubstance",
+    "object_category": "biolink:ChemicalSubstance",
+    "predicate": "biolink:correlated_with",
+    "subject": "PUBCHEM:9939941",
+    "object": "HMDB:HMDB10405",
+    "location": "test_triples/KP/Multiomics_Provider/Multiomics_Wellness_KP_API.json",
+    "api_name": "Multiomics_Wellness_KP_API.json",
+    "url": "https://api.bte.ncats.io/v1/smartapi/4974ebbf2c1ae31a25a7a7b2d9e4b0d4",
+    "query_opts": {}
+}

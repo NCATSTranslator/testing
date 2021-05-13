@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:IndividualOrganism",
+    "object_category": "biolink:Occurrent",
+    "predicate": "biolink:participates_in",
+    "subject": "NCBITaxon:694009",
+    "object": "GO:0051607",
+    "location": "test_triples/KP/Exposures_Provider/CAM-KP_API.json",
+    "api_name": "CAM-KP_API.json",
+    "url": "https://stars-app.renci.org/cam-kp",
+    "query_opts": {}
+}

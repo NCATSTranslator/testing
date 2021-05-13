@@ -1,0 +1,130 @@
+test_triples/KP/Multiomics_Provider/Drug_Response_KP_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Gene"
+                },
+                "b": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "PUBCHEM:644215"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:gene_has_variant_that_contributes_to_drug_response_association"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Gene"
+                },
+                "b": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "PUBCHEM:644215"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:gene_has_variant_that_contributes_to_drug_response_association"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    },
+    "logs": [
+        {
+            "timestamp": "2021-05-13T02:41:55.545Z",
+            "level": "DEBUG",
+            "message": "BTE identified 2 QNodes from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.545Z",
+            "level": "DEBUG",
+            "message": "BTE identified 1 QEdges from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.545Z",
+            "level": "DEBUG",
+            "message": "BTE identified your query graph as a 1-depth query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.547Z",
+            "level": "DEBUG",
+            "message": "REDIS cache is not enabled.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.547Z",
+            "level": "DEBUG",
+            "message": "BTE is trying to find SmartAPI edges connecting from Carbohydrate,ProcessedMaterial,FoodComponent,EnvironmentalFoodContaminant,FoodAdditive,Nutrient,Macronutrient,Micronutrient,Vitamin,Metabolite,ChemicalExposure,ComplexChemicalExposure,ChemicalSubstance to Gene with predicate undefined",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.547Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 smartapi edges corresponding to ab. These smartaip edges comes from 1 unique APIs. They are Drug Response KP API",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.547Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 bte edges for this batch.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.547Z",
+            "level": "DEBUG",
+            "message": "call-apis: Resolving ID feature is turned on",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.547Z",
+            "level": "DEBUG",
+            "message": "call-apis: Number of BTE Edges received is 1",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.559Z",
+            "level": "ERROR",
+            "message": "call-apis: Failed to make to following query: {\"url\":\"https://biothings.ncats.io/drug_response_kp/query\",\"params\":{\"fields\":\"association.context.disease.mondo,subject.NCBIGene,association.effect_size,association.pvalue\",\"q\":\"object.PUBCHEM:PUBCHEM:644215 AND association.effect_size:<0 AND association.pvalue:<0.05\",\"size\":\"1000\",\"sort\":\"association.pvalue\"},\"method\":\"get\",\"timeout\":50000}. The error is Error: Request failed with status code 400",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.559Z",
+            "level": "DEBUG",
+            "message": "call-apis: Total number of results returned for this query is 0",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.559Z",
+            "level": "DEBUG",
+            "message": "call-apis: Query completes",
+            "code": null
+        }
+    ]
+}

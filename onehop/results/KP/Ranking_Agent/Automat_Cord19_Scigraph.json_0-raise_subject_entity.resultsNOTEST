@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:ChemicalSubstance",
+    "object_category": "biolink:Gene",
+    "predicate": "biolink:related_to",
+    "subject": "CHEBI:52214",
+    "object": "NCBIGene:367",
+    "location": "test_triples/KP/Ranking_Agent/Automat_Cord19_Scigraph.json",
+    "api_name": "Automat_Cord19_Scigraph.json",
+    "url": "https://automat.renci.org/cord19-scigraph",
+    "query_opts": {}
+}

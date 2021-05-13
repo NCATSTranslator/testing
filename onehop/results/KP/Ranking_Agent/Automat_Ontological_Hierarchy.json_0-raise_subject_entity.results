@@ -1,0 +1,1382 @@
+test_triples/KP/Ranking_Agent/Automat_Ontological_Hierarchy.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:AnatomicalEntity",
+                    "id": "UBERON:0035769"
+                },
+                "b": {
+                    "category": "biolink:AnatomicalEntity"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:subclass_of"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "id": [
+                        "UBERON:0035769"
+                    ],
+                    "category": [
+                        "biolink:AnatomicalEntity"
+                    ],
+                    "is_set": false,
+                    "constraints": null
+                },
+                "b": {
+                    "id": null,
+                    "category": [
+                        "biolink:AnatomicalEntity"
+                    ],
+                    "is_set": false,
+                    "constraints": null
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": [
+                        "biolink:subclass_of"
+                    ],
+                    "relation": null,
+                    "constraints": null
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {
+                "UBERON:0010001": {
+                    "name": "cell cluster organ",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "cell cluster organ"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0010001"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0010000": {
+                    "name": "multicellular anatomical structure",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "multicellular anatomical structure"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0010000"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0010314": {
+                    "name": "structure with developmental contribution from neural crest",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "structure with developmental contribution from neural crest"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0010314"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0035769": {
+                    "name": "mesenteric ganglion",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "mesenteric ganglion"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0035769"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0010313": {
+                    "name": "neural crest-derived structure",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "neural crest-derived structure"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0010313"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0034922": {
+                    "name": "cell cluster",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "cell cluster"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0034922"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0004121": {
+                    "name": "ectoderm-derived structure",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "ectoderm-derived structure"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0004121"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0000062": {
+                    "name": "organ",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "organ"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "NCIT:C13018",
+                                "UBERON:0000062",
+                                "UMLS:C0178784"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0000061": {
+                    "name": "anatomical structure",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "anatomical structure"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0000061",
+                                "MESH:D000825"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0001062": {
+                    "name": "anatomical entity",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "anatomical entity"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "NCIT:C12219",
+                                "UBERON:0001062",
+                                "UMLS:C1515976"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0003338": {
+                    "name": "ganglion of peripheral nervous system",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "ganglion of peripheral nervous system"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0003338"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0000045": {
+                    "name": "ganglion",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "ganglion"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "NCIT:C12719",
+                                "UMLS:C0017067",
+                                "MESH:D005724",
+                                "UBERON:0000045"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0003964": {
+                    "name": "prevertebral ganglion",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "prevertebral ganglion"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0003964"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0000465": {
+                    "name": "material anatomical entity",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "material anatomical entity"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UBERON:0000465"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                },
+                "UBERON:0001806": {
+                    "name": "sympathetic ganglion",
+                    "attributes": [
+                        {
+                            "name": "name",
+                            "type": "NA",
+                            "value": "sympathetic ganglion"
+                        },
+                        {
+                            "name": "equivalent_identifiers",
+                            "type": "NA",
+                            "value": [
+                                "UMLS:C0017071",
+                                "UBERON:0001806",
+                                "NCIT:C12467"
+                            ]
+                        }
+                    ],
+                    "category": [
+                        "biolink:NamedThing",
+                        "biolink:OrganismalEntity",
+                        "biolink:BiologicalEntity",
+                        "biolink:AnatomicalEntity"
+                    ]
+                }
+            },
+            "edges": {
+                "c9df00d35c2794f03ddd27c7c613c036": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209383.0633876
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0004121"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0004121"
+                },
+                "201ad73fc22ac0ead00cd96c61229833": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209383.5840604
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0000062"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0000062"
+                },
+                "bc8e572eccab81b0696827561870f112": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209387.8336864
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0010000"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0010000"
+                },
+                "922d9217a14f75b735ef3f19462e8089": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209383.2213113
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0010313"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0010313"
+                },
+                "d7aecf2cb8e21d0336f0e1528108eee1": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209382.8669813
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0000061"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0000061"
+                },
+                "61195b98721d44bf5c33ce13d90ee3c7": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209385.8974423
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0003338"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0003338"
+                },
+                "04f0220dee7881aeb6af94b62c1b73db": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209382.1363342
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0000465"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0000465"
+                },
+                "6e053c51ea4b7332080f902e822ac396": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209387.6968935
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0003964"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0003964"
+                },
+                "c1127d78e2efad8244dc4a4a36a02481": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209383.5292315
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0010314"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0010314"
+                },
+                "5d1366f7fc106a696dcb0abf25ebb888": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209386.6177187
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0000045"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0000045"
+                },
+                "ecc236f62c8fb033adf2ada46ce419f9": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209385.3920286
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0001062"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0001062"
+                },
+                "60b087fe2744aeb2f444a1ad634b769c": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209388.094477
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0010001"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0010001"
+                },
+                "53d7df1b1c46bb20fd40a465dd770d94": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209386.2743967
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0001806"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0001806"
+                },
+                "bd11e8ac02b6973a938afd6c917ca4c0": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "UBERON:0035769",
+                    "attributes": [
+                        {
+                            "name": "relation_label",
+                            "type": "NA",
+                            "value": "subclass of"
+                        },
+                        {
+                            "name": "ctime",
+                            "type": "NA",
+                            "value": 1612209388.2048898
+                        },
+                        {
+                            "name": "provided_by",
+                            "type": "NA",
+                            "value": "uberongraph.term_get_ancestors"
+                        },
+                        {
+                            "name": "target_id",
+                            "type": "NA",
+                            "value": "UBERON:0034922"
+                        },
+                        {
+                            "name": "source_id",
+                            "type": "NA",
+                            "value": "UBERON:0035769"
+                        },
+                        {
+                            "name": "source_database",
+                            "type": "NA",
+                            "value": "uberongraph"
+                        },
+                        {
+                            "name": "relation",
+                            "type": "NA",
+                            "value": "rdfs:subClassOf"
+                        },
+                        {
+                            "name": "publications",
+                            "type": "EDAM:data_0971",
+                            "value": []
+                        }
+                    ],
+                    "object": "UBERON:0034922"
+                }
+            }
+        },
+        "results": [
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "04f0220dee7881aeb6af94b62c1b73db"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0000465"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "922d9217a14f75b735ef3f19462e8089"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0010313"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "60b087fe2744aeb2f444a1ad634b769c"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0010001"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "c9df00d35c2794f03ddd27c7c613c036"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0004121"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "61195b98721d44bf5c33ce13d90ee3c7"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0003338"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "c1127d78e2efad8244dc4a4a36a02481"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0010314"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "5d1366f7fc106a696dcb0abf25ebb888"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0000045"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "d7aecf2cb8e21d0336f0e1528108eee1"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0000061"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "6e053c51ea4b7332080f902e822ac396"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0003964"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "201ad73fc22ac0ead00cd96c61229833"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0000062"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "ecc236f62c8fb033adf2ada46ce419f9"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0001062"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "bc8e572eccab81b0696827561870f112"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0010000"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "53d7df1b1c46bb20fd40a465dd770d94"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0001806"
+                        }
+                    ]
+                }
+            },
+            {
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "bd11e8ac02b6973a938afd6c917ca4c0"
+                        }
+                    ]
+                },
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "UBERON:0035769"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "UBERON:0034922"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "log_level": null
+}

@@ -1,0 +1,60 @@
+test_triples/KP/Standards_Reference_Implementation_Team/SRI_Reference_Knowledge_Graph_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Gene",
+                    "id": "ENSEMBL:ENSG00000175344"
+                },
+                "b": {
+                    "category": "biolink:BiologicalProcessOrActivity"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:actively_involved_in"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "id": "ENSEMBL:ENSG00000175344",
+                    "category": "biolink:Gene",
+                    "is_set": false
+                },
+                "b": {
+                    "id": null,
+                    "category": "biolink:BiologicalProcessOrActivity",
+                    "is_set": false
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:actively_involved_in",
+                    "relation": null
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}

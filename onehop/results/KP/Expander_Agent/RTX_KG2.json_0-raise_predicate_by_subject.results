@@ -1,0 +1,35 @@
+test_triples/KP/Expander_Agent/RTX_KG2.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:RelationshipType",
+                    "id": "RO:0002630"
+                },
+                "b": {
+                    "category": "biolink:OntologyClass"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:related_to"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 404
+{
+    "detail": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.",
+    "status": 404,
+    "title": "Not Found",
+    "type": "about:blank"
+}

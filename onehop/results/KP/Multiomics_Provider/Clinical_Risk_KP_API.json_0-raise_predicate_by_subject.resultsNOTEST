@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:Disease",
+    "object_category": "biolink:Disease",
+    "predicate": "biolink:associated_with_increased_risk_for",
+    "subject": "MONDO:0005247",
+    "object": "MONDO:0002046",
+    "location": "test_triples/KP/Multiomics_Provider/Clinical_Risk_KP_API.json",
+    "api_name": "Clinical_Risk_KP_API.json",
+    "url": "https://api.bte.ncats.io/v1/smartapi/1bef5ecbb0b9aee90023ce9faa2c8974",
+    "query_opts": {}
+}

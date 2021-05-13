@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:RelationshipType",
+    "object_category": "biolink:OntologyClass",
+    "predicate": "biolink:subclass_of",
+    "subject": "RO:0002630",
+    "object": "biolink:negatively_regulates",
+    "location": "test_triples/KP/Expander_Agent/RTX_KG2.json",
+    "api_name": "RTX_KG2.json",
+    "url": "https://arax.ncats.io/kg2/api/rtxkg2/v1.0/ui/",
+    "query_opts": {}
+}

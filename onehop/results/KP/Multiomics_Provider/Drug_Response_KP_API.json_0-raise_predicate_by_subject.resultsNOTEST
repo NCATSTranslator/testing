@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:Gene",
+    "object_category": "biolink:ChemicalSubstance",
+    "predicate": "biolink:gene_has_variant_that_contributes_to_drug_response_association",
+    "subject": "NCBIGENE:2186",
+    "object": "PUBCHEM:644215",
+    "location": "test_triples/KP/Multiomics_Provider/Drug_Response_KP_API.json",
+    "api_name": "Drug_Response_KP_API.json",
+    "url": "https://api.bte.ncats.io/v1/smartapi/adf20dd6ff23dfe18e8e012bde686e31",
+    "query_opts": {}
+}

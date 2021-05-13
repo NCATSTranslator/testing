@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:Drug",
+    "object_category": "biolink:Disease",
+    "predicate": "biolink:treats",
+    "subject": "DRUGBANK:DB00394",
+    "object": "OMIM:246300",
+    "location": "test_triples/KP/Clinical_Data_Provider/OpenPredict.json",
+    "api_name": "OpenPredict.json",
+    "url": "https://openpredict.semanticscience.org",
+    "query_opts": {}
+}

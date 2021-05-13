@@ -1,0 +1,100 @@
+test_triples/KP/Multiomics_Provider/Drug_Response_KP_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Gene",
+                    "id": "NCBIGENE:2186"
+                },
+                "b": {
+                    "category": "biolink:ChemicalSubstance"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:gene_has_variant_that_contributes_to_drug_response_association"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Gene",
+                    "id": "NCBIGENE:2186"
+                },
+                "b": {
+                    "category": "biolink:ChemicalSubstance"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:gene_has_variant_that_contributes_to_drug_response_association"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    },
+    "logs": [
+        {
+            "timestamp": "2021-05-13T02:41:55.071Z",
+            "level": "DEBUG",
+            "message": "BTE identified 2 QNodes from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.071Z",
+            "level": "DEBUG",
+            "message": "BTE identified 1 QEdges from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.071Z",
+            "level": "DEBUG",
+            "message": "BTE identified your query graph as a 1-depth query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.071Z",
+            "level": "DEBUG",
+            "message": "REDIS cache is not enabled.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.072Z",
+            "level": "DEBUG",
+            "message": "BTE is trying to find SmartAPI edges connecting from Gene to Carbohydrate,ProcessedMaterial,FoodComponent,EnvironmentalFoodContaminant,FoodAdditive,Nutrient,Macronutrient,Micronutrient,Vitamin,Metabolite,ChemicalExposure,ComplexChemicalExposure,ChemicalSubstance with predicate undefined",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.072Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 smartapi edges corresponding to ab. These smartaip edges comes from 1 unique APIs. They are Drug Response KP API",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:55.072Z",
+            "level": "WARNING",
+            "message": "BTE didn't find any bte edges for this batch. Your query terminates.",
+            "code": null
+        }
+    ]
+}

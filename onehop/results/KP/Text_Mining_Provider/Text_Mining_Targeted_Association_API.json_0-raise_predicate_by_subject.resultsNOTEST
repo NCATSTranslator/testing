@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:ChemicalSubstance",
+    "object_category": "biolink:GeneOrGeneProduct",
+    "predicate": "biolink:negatively_regulates_entity_to_entity",
+    "subject": "CHEBI:3215",
+    "object": "PR:000031567",
+    "location": "test_triples/KP/Text_Mining_Provider/Text_Mining_Targeted_Association_API.json",
+    "api_name": "Text_Mining_Targeted_Association_API.json",
+    "url": "https://api.bte.ncats.io/v1/smartapi/978fe380a147a8641caf72320862697b",
+    "query_opts": {}
+}

@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:Gene",
+    "object_category": "biolink:OrganismTaxon",
+    "predicate": "biolink:in_taxon",
+    "subject": "UniProtKB:A3KCJ9",
+    "object": "NCBITaxon:401406",
+    "location": "test_triples/KP/Ranking_Agent/Automat_Viral_Proteome.json",
+    "api_name": "Automat_Viral_Proteome.json",
+    "url": "https://automat.renci.org/viral-proteome",
+    "query_opts": {}
+}

@@ -1,0 +1,467 @@
+test_triples/KP/Service_Provider/Ontology_Lookup_Service_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease",
+                    "id": "DOID:14566"
+                },
+                "b": {
+                    "category": "biolink:Disease"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:superclass_of"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease",
+                    "id": "DOID:14566"
+                },
+                "b": {
+                    "category": "biolink:Disease"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:superclass_of"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {
+                "MONDO:0004992": {
+                    "category": "biolink:Disease",
+                    "name": "cancer",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0004992",
+                                "DOID:162",
+                                "DOID:0050686",
+                                "DOID:0050687",
+                                "UMLS:C0006826",
+                                "name:cancer",
+                                "name:Malignant Neoplasms",
+                                "MESH:D009371",
+                                "EFO:0000311",
+                                "GARD:11960"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 1,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 0,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [
+                                "a"
+                            ],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0005070": {
+                    "category": "biolink:Disease",
+                    "name": "neoplasm (disease)",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0005070",
+                                "DOID:14566",
+                                "UMLS:CN236628",
+                                "UMLS:C0027651",
+                                "name:neoplasm (disease)",
+                                "name:Neoplasms",
+                                "MESH:D009369",
+                                "EFO:0000616",
+                                "HP:0002664"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 3,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0005165": {
+                    "category": "biolink:Disease",
+                    "name": "benign neoplasm",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0005165",
+                                "DOID:0060084",
+                                "DOID:0060085",
+                                "DOID:0060072",
+                                "UMLS:C0086692",
+                                "name:benign neoplasm",
+                                "name:Benign Neoplasm",
+                                "EFO:0002422"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 1,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 0,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [
+                                "a"
+                            ],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0000611": {
+                    "category": "biolink:Disease",
+                    "name": "pre-malignant neoplasm",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0000611",
+                                "DOID:0060071",
+                                "name:pre-malignant neoplasm"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 1,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 0,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [
+                                "a"
+                            ],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                }
+            },
+            "edges": {
+                "MONDO:0005070-biolink:superclass_of-MONDO:0004992": {
+                    "predicate": "biolink:superclass_of",
+                    "subject": "MONDO:0005070",
+                    "object": "MONDO:0004992",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DO"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "Ontology Lookup Service API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        },
+                        {
+                            "name": "description",
+                            "value": [
+                                "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis."
+                            ],
+                            "type": "bts:description"
+                        }
+                    ]
+                },
+                "MONDO:0005070-biolink:superclass_of-MONDO:0005165": {
+                    "predicate": "biolink:superclass_of",
+                    "subject": "MONDO:0005070",
+                    "object": "MONDO:0005165",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DO"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "Ontology Lookup Service API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        },
+                        {
+                            "name": "description",
+                            "value": [
+                                "A disease of cellular proliferation that results in abnormal growths in the body which lack the ability to metastasize."
+                            ],
+                            "type": "bts:description"
+                        }
+                    ]
+                },
+                "MONDO:0005070-biolink:superclass_of-MONDO:0000611": {
+                    "predicate": "biolink:superclass_of",
+                    "subject": "MONDO:0005070",
+                    "object": "MONDO:0000611",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DO"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "Ontology Lookup Service API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        },
+                        {
+                            "name": "description",
+                            "value": [
+                                "A disease of cellular proliferation that results in abnormal growths in the body, which do not invade or destroy the surrounding tissue but, given enough time, will transform into a cancer."
+                            ],
+                            "type": "bts:description"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": [
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0005070"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "MONDO:0004992"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0005070-biolink:superclass_of-MONDO:0004992"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0005070"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "MONDO:0005165"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0005070-biolink:superclass_of-MONDO:0005165"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0005070"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "MONDO:0000611"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0005070-biolink:superclass_of-MONDO:0000611"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "logs": [
+        {
+            "timestamp": "2021-05-13T02:49:46.653Z",
+            "level": "DEBUG",
+            "message": "BTE identified 2 QNodes from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:46.653Z",
+            "level": "DEBUG",
+            "message": "BTE identified 1 QEdges from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:46.653Z",
+            "level": "DEBUG",
+            "message": "BTE identified your query graph as a 1-depth query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:46.755Z",
+            "level": "DEBUG",
+            "message": "REDIS cache is not enabled.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:46.755Z",
+            "level": "DEBUG",
+            "message": "BTE is trying to find SmartAPI edges connecting from Disease to Disease with predicate undefined",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:46.756Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 smartapi edges corresponding to ab. These smartaip edges comes from 1 unique APIs. They are Ontology Lookup Service API",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:46.756Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 bte edges for this batch.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:46.756Z",
+            "level": "DEBUG",
+            "message": "call-apis: Resolving ID feature is turned on",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:46.756Z",
+            "level": "DEBUG",
+            "message": "call-apis: Number of BTE Edges received is 1",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:47.227Z",
+            "level": "DEBUG",
+            "message": "call-apis: Succesfully made the following query: {\"url\":\"https://www.ebi.ac.uk/ols/api/ontologies/doid/children\",\"params\":{\"id\":\"DOID:14566\"},\"method\":\"get\",\"timeout\":50000}",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:47.228Z",
+            "level": "DEBUG",
+            "message": "call-apis: After transformation, BTE is able to retrieve 3 hits!",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:47.228Z",
+            "level": "DEBUG",
+            "message": "call-apis: Total number of results returned for this query is 3",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:47.340Z",
+            "level": "DEBUG",
+            "message": "call-apis: Query completes",
+            "code": null
+        }
+    ]
+}

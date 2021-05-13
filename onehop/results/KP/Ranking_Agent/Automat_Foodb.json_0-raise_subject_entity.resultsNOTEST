@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:OrganismTaxon",
+    "object_category": "biolink:ChemicalSubstance",
+    "predicate": "biolink:related_to",
+    "subject": "NCBITaxon:105667",
+    "object": "CHEMBL.COMPOUND:CHEMBL1866455",
+    "location": "test_triples/KP/Ranking_Agent/Automat_Foodb.json",
+    "api_name": "Automat_Foodb.json",
+    "url": "https://automat.renci.org/foodb",
+    "query_opts": {}
+}

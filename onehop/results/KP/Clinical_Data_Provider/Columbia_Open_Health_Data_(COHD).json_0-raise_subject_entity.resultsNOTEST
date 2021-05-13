@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:ChemicalSubstance",
+    "object_category": "biolink:ChemicalSubstance",
+    "predicate": "biolink:correlated_with",
+    "subject": "PUBCHEM.COMPOUND:208898",
+    "object": "PUBCHEM.COMPOUND:135565674",
+    "location": "test_triples/KP/Clinical_Data_Provider/Columbia_Open_Health_Data_(COHD).json",
+    "api_name": "Columbia_Open_Health_Data_(COHD).json",
+    "url": "http://tr-kp-clinical.ncats.io/api",
+    "query_opts": {}
+}

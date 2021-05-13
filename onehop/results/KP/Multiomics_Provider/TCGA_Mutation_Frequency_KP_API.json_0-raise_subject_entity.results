@@ -1,0 +1,136 @@
+test_triples/KP/Multiomics_Provider/TCGA_Mutation_Frequency_KP_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease",
+                    "id": "MONDO:0005138"
+                },
+                "b": {
+                    "category": "biolink:Gene"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:gene_has_variant_that_contributes_to_disease_association"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease",
+                    "id": "MONDO:0005138"
+                },
+                "b": {
+                    "category": "biolink:Gene"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:gene_has_variant_that_contributes_to_disease_association"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    },
+    "logs": [
+        {
+            "timestamp": "2021-05-13T02:41:53.347Z",
+            "level": "DEBUG",
+            "message": "BTE identified 2 QNodes from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.347Z",
+            "level": "DEBUG",
+            "message": "BTE identified 1 QEdges from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.347Z",
+            "level": "DEBUG",
+            "message": "BTE identified your query graph as a 1-depth query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.377Z",
+            "level": "DEBUG",
+            "message": "REDIS cache is not enabled.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.377Z",
+            "level": "DEBUG",
+            "message": "BTE is trying to find SmartAPI edges connecting from Disease to Gene with predicate undefined",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.378Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 smartapi edges corresponding to ab. These smartaip edges comes from 1 unique APIs. They are TCGA Mutation Frequency KP API",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.379Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 bte edges for this batch.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.379Z",
+            "level": "DEBUG",
+            "message": "call-apis: Resolving ID feature is turned on",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.379Z",
+            "level": "DEBUG",
+            "message": "call-apis: Number of BTE Edges received is 1",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.393Z",
+            "level": "DEBUG",
+            "message": "call-apis: Succesfully made the following query: {\"url\":\"https://biothings.ncats.io/tcga_mut_freq_kp/query\",\"params\":{\"fields\":\"association.freq_by_sample,subject.SYMBOL\",\"q\":\"object.id:\\\"MONDO:0005138\\\" AND association.freq_by_sample:>0.1\",\"size\":\"1000\",\"sort\":\"-association.freq_by_sample\"},\"method\":\"get\",\"timeout\":50000}",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.396Z",
+            "level": "DEBUG",
+            "message": "call-apis: After transformation, BTE is able to retrieve 0 hits!",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.396Z",
+            "level": "DEBUG",
+            "message": "call-apis: Total number of results returned for this query is 0",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:53.396Z",
+            "level": "DEBUG",
+            "message": "call-apis: Query completes",
+            "code": null
+        }
+    ]
+}

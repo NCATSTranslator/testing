@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:Gene",
+    "object_category": "biolink:BiologicalProcess",
+    "predicate": "biolink:actively_involved_in",
+    "subject": "NCBIGene:3949",
+    "object": "GO:0006629",
+    "location": "test_triples/KP/Ranking_Agent/Automat_Human_GOA.json",
+    "api_name": "Automat_Human_GOA.json",
+    "url": "https://automat.renci.org/human-goa",
+    "query_opts": {}
+}

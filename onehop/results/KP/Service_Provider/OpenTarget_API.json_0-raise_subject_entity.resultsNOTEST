@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:Gene",
+    "object_category": "biolink:ChemicalSubstance",
+    "predicate": "biolink:related_to",
+    "subject": "ENSEMBL:ENSG00000088832",
+    "object": "CHEBI:68478",
+    "location": "test_triples/KP/Service_Provider/OpenTarget_API.json",
+    "api_name": "OpenTarget_API.json",
+    "url": "https://api.bte.ncats.io/v1/smartapi/542ba165e1b4227854cf7c0a8addcc79",
+    "query_opts": {}
+}

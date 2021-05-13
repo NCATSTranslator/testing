@@ -1,0 +1,136 @@
+test_triples/KP/Service_Provider/mydisease.info_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease",
+                    "id": "UMLS:CN201332"
+                },
+                "b": {
+                    "category": "biolink:Gene"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:related_to"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease",
+                    "id": "UMLS:CN201332"
+                },
+                "b": {
+                    "category": "biolink:Gene"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:related_to"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    },
+    "logs": [
+        {
+            "timestamp": "2021-05-13T02:49:20.720Z",
+            "level": "DEBUG",
+            "message": "BTE identified 2 QNodes from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.720Z",
+            "level": "DEBUG",
+            "message": "BTE identified 1 QEdges from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.720Z",
+            "level": "DEBUG",
+            "message": "BTE identified your query graph as a 1-depth query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.738Z",
+            "level": "DEBUG",
+            "message": "REDIS cache is not enabled.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.738Z",
+            "level": "DEBUG",
+            "message": "BTE is trying to find SmartAPI edges connecting from Disease to Gene with predicate undefined",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.739Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 smartapi edges corresponding to ab. These smartaip edges comes from 1 unique APIs. They are MyDisease.info API",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.739Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 bte edges for this batch.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.739Z",
+            "level": "DEBUG",
+            "message": "call-apis: Resolving ID feature is turned on",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.739Z",
+            "level": "DEBUG",
+            "message": "call-apis: Number of BTE Edges received is 1",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.767Z",
+            "level": "DEBUG",
+            "message": "call-apis: Succesfully made the following query: {\"url\":\"http://mydisease.info/v1/query\",\"params\":{\"fields\":\"disgenet.genes_related_to_disease\"},\"data\":\"q=CN201332&scopes=mondo.xrefs.umls, disgenet.xrefs.umls\",\"method\":\"post\",\"timeout\":50000}",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.767Z",
+            "level": "DEBUG",
+            "message": "call-apis: After transformation, BTE is able to retrieve 0 hits!",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.767Z",
+            "level": "DEBUG",
+            "message": "call-apis: Total number of results returned for this query is 0",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:20.767Z",
+            "level": "DEBUG",
+            "message": "call-apis: Query completes",
+            "code": null
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:Gene",
+    "object_category": "biolink:GeneFamily",
+    "predicate": "biolink:part_of",
+    "subject": "NCBIGene:728882",
+    "object": "HGNC.FAMILY:1993",
+    "location": "test_triples/KP/Ranking_Agent/Automat_HGNC.json",
+    "api_name": "Automat_HGNC.json",
+    "url": "https://automat.renci.org/hgnc",
+    "query_opts": {}
+}

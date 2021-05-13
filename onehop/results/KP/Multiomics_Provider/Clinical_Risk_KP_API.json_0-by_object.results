@@ -1,0 +1,100 @@
+test_triples/KP/Multiomics_Provider/Clinical_Risk_KP_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease"
+                },
+                "b": {
+                    "category": "biolink:Disease",
+                    "id": "MONDO:0002046"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:associated_with_increased_risk_for"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease"
+                },
+                "b": {
+                    "category": "biolink:Disease",
+                    "id": "MONDO:0002046"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:associated_with_increased_risk_for"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    },
+    "logs": [
+        {
+            "timestamp": "2021-05-13T02:41:57.209Z",
+            "level": "DEBUG",
+            "message": "BTE identified 2 QNodes from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:57.209Z",
+            "level": "DEBUG",
+            "message": "BTE identified 1 QEdges from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:57.209Z",
+            "level": "DEBUG",
+            "message": "BTE identified your query graph as a 1-depth query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:57.227Z",
+            "level": "DEBUG",
+            "message": "REDIS cache is not enabled.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:57.227Z",
+            "level": "DEBUG",
+            "message": "BTE is trying to find SmartAPI edges connecting from Disease to Disease with predicate undefined",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:57.227Z",
+            "level": "WARNING",
+            "message": "BTE didn't find any smartapi edges corresponding to ab",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:41:57.227Z",
+            "level": "WARNING",
+            "message": "BTE didn't find any bte edges for this batch. Your query terminates.",
+            "code": null
+        }
+    ]
+}

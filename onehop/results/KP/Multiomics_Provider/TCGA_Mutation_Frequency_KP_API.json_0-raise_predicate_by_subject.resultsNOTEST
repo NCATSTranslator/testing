@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:Disease",
+    "object_category": "biolink:Gene",
+    "predicate": "biolink:gene_has_variant_that_contributes_to_disease_association",
+    "subject": "MONDO:0005097",
+    "object": "NCBIGENE:2312",
+    "location": "test_triples/KP/Multiomics_Provider/TCGA_Mutation_Frequency_KP_API.json",
+    "api_name": "TCGA_Mutation_Frequency_KP_API.json",
+    "url": "https://api.bte.ncats.io/v1/smartapi/5219cefb9d2b8d5df08c3a956fdd20f3",
+    "query_opts": {}
+}

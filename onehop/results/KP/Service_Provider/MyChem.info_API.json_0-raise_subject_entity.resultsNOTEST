@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:ChemicalSubstance",
+    "object_category": "biolink:Gene",
+    "predicate": "biolink:metabolic_processing_affected_by",
+    "subject": "DRUGBANK:DB09061",
+    "object": "NCBIGene:1543",
+    "location": "test_triples/KP/Service_Provider/MyChem.info_API.json",
+    "api_name": "MyChem.info_API.json",
+    "url": "https://api.bte.ncats.io/v1/smartapi/8f08d1446e0bb9c2b323713ce83e2bd3",
+    "query_opts": {}
+}

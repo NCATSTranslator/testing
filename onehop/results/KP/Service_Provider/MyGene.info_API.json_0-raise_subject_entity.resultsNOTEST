@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:Gene",
+    "object_category": "biolink:MolecularActivity",
+    "predicate": "biolink:enables",
+    "subject": "NCBIGene:285381",
+    "object": "GO:0046872",
+    "location": "test_triples/KP/Service_Provider/MyGene.info_API.json",
+    "api_name": "MyGene.info_API.json",
+    "url": "https://api.bte.ncats.io/v1/smartapi/59dce17363dce279d389100834e43648",
+    "query_opts": {}
+}

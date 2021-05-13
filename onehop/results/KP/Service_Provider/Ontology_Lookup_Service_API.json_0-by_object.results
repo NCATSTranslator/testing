@@ -1,0 +1,455 @@
+test_triples/KP/Service_Provider/Ontology_Lookup_Service_API.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease"
+                },
+                "b": {
+                    "category": "biolink:Disease",
+                    "id": "MONDO:0002087"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:superclass_of"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease"
+                },
+                "b": {
+                    "category": "biolink:Disease",
+                    "id": "MONDO:0002087"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:superclass_of"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {
+                "MONDO:0002087": {
+                    "category": "biolink:Disease",
+                    "name": "peritoneum cancer",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0002087",
+                                "DOID:1725",
+                                "UMLS:C0153467",
+                                "UMLS:C0153466",
+                                "name:peritoneum cancer",
+                                "name:Malignant tumor of peritoneum"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 3,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 0,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [
+                                "a"
+                            ],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0002113": {
+                    "category": "biolink:Disease",
+                    "name": "peritoneal carcinoma",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0002113",
+                                "DOID:1791",
+                                "UMLS:C1514428",
+                                "name:peritoneal carcinoma"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0005512": {
+                    "category": "biolink:Disease",
+                    "name": "malignant peritoneal mesothelioma",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0005512",
+                                "DOID:1788",
+                                "UMLS:C0346109",
+                                "UMLS:C0854886",
+                                "name:malignant peritoneal mesothelioma",
+                                "EFO:0005567",
+                                "ORPHANET:168811"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                },
+                "MONDO:0003017": {
+                    "category": "biolink:Disease",
+                    "name": "malignant peritoneal solitary fibrous tumor",
+                    "attributes": [
+                        {
+                            "name": "equivalent_identifiers",
+                            "value": [
+                                "MONDO:0003017",
+                                "DOID:4490",
+                                "name:malignant peritoneal solitary fibrous tumor"
+                            ],
+                            "type": "biolink:id"
+                        },
+                        {
+                            "name": "num_source_nodes",
+                            "value": 0,
+                            "type": "bts:num_source_nodes"
+                        },
+                        {
+                            "name": "num_target_nodes",
+                            "value": 1,
+                            "type": "bts:num_target_nodes"
+                        },
+                        {
+                            "name": "source_qg_nodes",
+                            "value": [],
+                            "type": "bts:source_qg_nodes"
+                        },
+                        {
+                            "name": "target_qg_nodes",
+                            "value": [
+                                "b"
+                            ],
+                            "type": "bts:target_qg_nodes"
+                        }
+                    ]
+                }
+            },
+            "edges": {
+                "MONDO:0002113-biolink:subclass_of-MONDO:0002087": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "MONDO:0002113",
+                    "object": "MONDO:0002087",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DO"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "Ontology Lookup Service API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        },
+                        {
+                            "name": "description",
+                            "value": [
+                                "A carcinoma that is located_in the inside of the abdomen."
+                            ],
+                            "type": "bts:description"
+                        }
+                    ]
+                },
+                "MONDO:0005512-biolink:subclass_of-MONDO:0002087": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "MONDO:0005512",
+                    "object": "MONDO:0002087",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DO"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "Ontology Lookup Service API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        },
+                        {
+                            "name": "description",
+                            "value": [
+                                "A peritoneum cancer that develops from cells of the mesothelium and is located_in the peritoneum."
+                            ],
+                            "type": "bts:description"
+                        }
+                    ]
+                },
+                "MONDO:0003017-biolink:subclass_of-MONDO:0002087": {
+                    "predicate": "biolink:subclass_of",
+                    "subject": "MONDO:0003017",
+                    "object": "MONDO:0002087",
+                    "attributes": [
+                        {
+                            "name": "provided_by",
+                            "value": [
+                                "DO"
+                            ],
+                            "type": "biolink:provided_by"
+                        },
+                        {
+                            "name": "api",
+                            "value": [
+                                "Ontology Lookup Service API"
+                            ],
+                            "type": "bts:api"
+                        },
+                        {
+                            "name": "publications",
+                            "value": [],
+                            "type": "biolink:publication"
+                        },
+                        {
+                            "name": "description",
+                            "value": null,
+                            "type": "bts:description"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": [
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0002113"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "MONDO:0002087"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0002113-biolink:subclass_of-MONDO:0002087"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0005512"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "MONDO:0002087"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0005512-biolink:subclass_of-MONDO:0002087"
+                        }
+                    ]
+                }
+            },
+            {
+                "node_bindings": {
+                    "a": [
+                        {
+                            "id": "MONDO:0003017"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "id": "MONDO:0002087"
+                        }
+                    ]
+                },
+                "edge_bindings": {
+                    "ab": [
+                        {
+                            "id": "MONDO:0003017-biolink:subclass_of-MONDO:0002087"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "logs": [
+        {
+            "timestamp": "2021-05-13T02:49:44.403Z",
+            "level": "DEBUG",
+            "message": "BTE identified 2 QNodes from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.403Z",
+            "level": "DEBUG",
+            "message": "BTE identified 1 QEdges from your query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.403Z",
+            "level": "DEBUG",
+            "message": "BTE identified your query graph as a 1-depth query graph",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.426Z",
+            "level": "DEBUG",
+            "message": "REDIS cache is not enabled.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.426Z",
+            "level": "DEBUG",
+            "message": "BTE is trying to find SmartAPI edges connecting from Disease to Disease with predicate undefined",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.426Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 smartapi edges corresponding to ab. These smartaip edges comes from 1 unique APIs. They are Ontology Lookup Service API",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.426Z",
+            "level": "DEBUG",
+            "message": "BTE found 1 bte edges for this batch.",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.426Z",
+            "level": "DEBUG",
+            "message": "call-apis: Resolving ID feature is turned on",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.426Z",
+            "level": "DEBUG",
+            "message": "call-apis: Number of BTE Edges received is 1",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.901Z",
+            "level": "DEBUG",
+            "message": "call-apis: Succesfully made the following query: {\"url\":\"https://www.ebi.ac.uk/ols/api/ontologies/doid/children\",\"params\":{\"id\":\"DOID:1725\"},\"method\":\"get\",\"timeout\":50000}",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.902Z",
+            "level": "DEBUG",
+            "message": "call-apis: After transformation, BTE is able to retrieve 3 hits!",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.902Z",
+            "level": "DEBUG",
+            "message": "call-apis: Total number of results returned for this query is 3",
+            "code": null
+        },
+        {
+            "timestamp": "2021-05-13T02:49:44.920Z",
+            "level": "DEBUG",
+            "message": "call-apis: Query completes",
+            "code": null
+        }
+    ]
+}

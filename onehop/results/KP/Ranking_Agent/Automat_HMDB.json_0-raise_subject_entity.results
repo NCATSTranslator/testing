@@ -1,0 +1,72 @@
+test_triples/KP/Ranking_Agent/Automat_HMDB.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:ChemicalSubstance",
+                    "id": "CHEBI:38338"
+                },
+                "b": {
+                    "category": "biolink:Gene"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:interacts_with"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "id": [
+                        "CHEBI:38338"
+                    ],
+                    "category": [
+                        "biolink:ChemicalSubstance"
+                    ],
+                    "is_set": false,
+                    "constraints": null
+                },
+                "b": {
+                    "id": null,
+                    "category": [
+                        "biolink:Gene"
+                    ],
+                    "is_set": false,
+                    "constraints": null
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": [
+                        "biolink:interacts_with"
+                    ],
+                    "relation": null,
+                    "constraints": null
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    },
+    "log_level": null
+}

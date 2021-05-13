@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:GeneFamily",
+    "object_category": "biolink:GeneFamily",
+    "predicate": "biolink:part_of",
+    "subject": "PANTHER.FAMILY:PTHR34921:SF1",
+    "object": "PANTHER.FAMILY:PTHR34921",
+    "location": "test_triples/KP/Ranking_Agent/Automat_Panther.json",
+    "api_name": "Automat_Panther.json",
+    "url": "https://automat.renci.org/panther",
+    "query_opts": {}
+}

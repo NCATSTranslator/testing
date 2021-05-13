@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:CellularComponent",
+    "object_category": "biolink:Gene",
+    "predicate": "biolink:expresses",
+    "subject": "GO:0044309",
+    "object": "NCBIGene:83857",
+    "location": "test_triples/KP/Ranking_Agent/Automat_Hetio.json",
+    "api_name": "Automat_Hetio.json",
+    "url": "https://automat.renci.org/hetio",
+    "query_opts": {}
+}

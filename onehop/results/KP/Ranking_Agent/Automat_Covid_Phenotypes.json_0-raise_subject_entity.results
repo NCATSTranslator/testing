@@ -1,0 +1,72 @@
+test_triples/KP/Ranking_Agent/Automat_Covid_Phenotypes.json
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "category": "biolink:Disease",
+                    "id": "MONDO:0020753"
+                },
+                "b": {
+                    "category": "biolink:PhenotypicFeature"
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": "biolink:has_phenotype"
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    }
+}
+Status Code: 200
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "a": {
+                    "id": [
+                        "MONDO:0020753"
+                    ],
+                    "category": [
+                        "biolink:Disease"
+                    ],
+                    "is_set": false,
+                    "constraints": null
+                },
+                "b": {
+                    "id": null,
+                    "category": [
+                        "biolink:PhenotypicFeature"
+                    ],
+                    "is_set": false,
+                    "constraints": null
+                }
+            },
+            "edges": {
+                "ab": {
+                    "subject": "a",
+                    "object": "b",
+                    "predicate": [
+                        "biolink:has_phenotype"
+                    ],
+                    "relation": null,
+                    "constraints": null
+                }
+            }
+        },
+        "knowledge_graph": {
+            "nodes": {},
+            "edges": {}
+        },
+        "results": []
+    },
+    "log_level": null
+}

@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:Gene",
+    "object_category": "biolink:OrganismTaxon",
+    "predicate": "biolink:in_taxon",
+    "subject": "UniProtKB:Q8JPQ9",
+    "object": "NCBITaxon:796210",
+    "location": "test_triples/KP/Ranking_Agent/Automat_IntAct.json",
+    "api_name": "Automat_IntAct.json",
+    "url": "https://automat.renci.org/intact",
+    "query_opts": {}
+}

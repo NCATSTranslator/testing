@@ -1,0 +1,11 @@
+Error generating results: No request generated?{
+    "subject_category": "biolink:GeneOrGeneProduct",
+    "object_category": "biolink:AnatomicalEntity",
+    "predicate": "biolink:related_to",
+    "subject": "PR:000029351",
+    "object": "UBERON:0005156",
+    "location": "test_triples/KP/Ranking_Agent/Automat_Textmining_KP.json",
+    "api_name": "Automat_Textmining_KP.json",
+    "url": "https://automat.renci.org/textminingkp",
+    "query_opts": {}
+}

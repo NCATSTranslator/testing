@@ -7,7 +7,7 @@
             "object_category": "biolink:Gene",
             "predicate": "biolink:metabolic_processing_affected_by",
             "subject": "DRUGBANK:DB09061",
-            "object": "NCBIGENE:1543"
+            "object": "NCBIGene:1543"
         },
         {
             "subject_category": "biolink:Gene",
@@ -21,7 +21,7 @@
             "object_category": "biolink:Gene",
             "predicate": "biolink:physically_interacts_with",
             "subject": "DRUGBANK:DB01159",
-            "object": "NCBIGENE:3783"
+            "object": "NCBIGene:3783"
         },
         {
             "subject_category": "biolink:Gene",

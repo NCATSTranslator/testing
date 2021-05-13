@@ -3,6 +3,7 @@ import os
 import json
 from collections import defaultdict
 from pytest_harvest import get_session_results_dct
+import test_onehops
 
 def pytest_sessionfinish(session):
     """ Gather all results and save them to a csv.
@@ -25,18 +26,21 @@ def pytest_sessionfinish(session):
                 outname = '/'.join(lparts)
             else:
                 outname = rfname
-            with open(outname,'w') as outf:
-                try:
+            try:
+                with open(outname,'w') as outf:
                     outf.write(rb['location'])
                     outf.write('\n')
                     json.dump(rb['request'],outf,indent=4)
                     outf.write(f'\nStatus Code: {rb["response"]["status_code"]}\n')
                     json.dump(rb['response']['response_json'],outf,indent=4)
-                except:
+            except:
+                #This means that there was no generated request.  But we don't need to make a big deal about it.
+                with open(outname+"NOTEST",'w') as outf:
                     outf.write('Error generating results: No request generated?')
                     json.dump(rb['case'],outf,indent=4)
 
 def pytest_addoption(parser):
+    parser.addoption("--teststyle", action="store", default='all', help='Which Test to Run?')
     parser.addoption("--one", action="store_true", help="Only use first edge from each KP file")
     parser.addoption("--triple_source", action="store", default='test_triples/KP', help="Directory or file from which to retrieve triples")
     parser.addoption("--ARA_source", action="store",default='test_triples/ARA',  help="Directory or file from which to retrieve ARA Config")
@@ -82,6 +86,13 @@ def generate_TRAPI_KP_tests(metafunc):
                     break
     if "KP_TRAPI_case" in metafunc.fixturenames:
         metafunc.parametrize('KP_TRAPI_case',edges,ids=idlist)
+        teststyle = metafunc.config.getoption('teststyle')
+        if teststyle == 'all':
+            metafunc.parametrize("trapi_creator", [test_onehops.by_subject, test_onehops.by_object,
+                                               test_onehops.raise_subject_entity, test_onehops.raise_object_by_subject,
+                                               test_onehops.raise_predicate_by_subject])
+        else:
+            metafunc.parametrize("trapi_creator", [getattr(test_onehops, teststyle)])
     return edges
 
 #Once the smartapi tests are up, we'll want to pass them in here as well

@@ -2,6 +2,8 @@ import pytest
 import requests
 from bmt import Toolkit
 from reasoner_validator import validate_Message, ValidationError
+import ontology_kp
+from copy import deepcopy
 
 #Toolkit takes a couple of seconds to initialize, so don't want it per-test
 #note also that we are explictly controlling which version of biolink we are using.
@@ -107,6 +109,18 @@ def raise_object_by_subject(request):
     message = create_one_hop_message(transformed_request, look_up_subject=False)
     return message, 'object', 'b'
 
+def raise_subject_entity(request):
+    """Given a know triple create a TRAPI message that uses the parent of the original entity and looks up the object"""
+    subject_cat = request['subject_category']
+    subject = request['subject']
+    parent_subject = ontology_kp.get_parent(subject, subject_cat)
+    if parent_subject is None:
+        print('No Parent: ',subject)
+        return None
+    mod_request = deepcopy(request)
+    mod_request['subject'] = parent_subject
+    message = create_one_hop_message(mod_request, look_up_subject=False)
+    return message, 'object', 'b'
 
 ##
 ## End TRAPI creating functions
@@ -168,7 +182,7 @@ def execute_TRAPI_lookup(case,creator,rbag):
     return response_message
 
 
-@pytest.mark.parametrize("trapi_creator", [by_subject, by_object, inverse_by_new_subject, raise_object_by_subject, raise_predicate_by_subject])
+#@pytest.mark.parametrize("trapi_creator", [by_subject, by_object, raise_subject_entity, raise_object_by_subject, raise_predicate_by_subject])
 def test_TRAPI_KPs(KP_TRAPI_case,trapi_creator,results_bag):
     """Generic Test for TRAPI KPs. The KP_TRAPI_case fixture is created in conftest.py by looking at the test_triples
     These get successively fed to test_TRAPI.  This function is further parameterized by trapi_creator, which knows
@@ -179,7 +193,7 @@ def test_TRAPI_KPs(KP_TRAPI_case,trapi_creator,results_bag):
     """
     execute_TRAPI_lookup(KP_TRAPI_case,trapi_creator,results_bag)
 
-@pytest.mark.parametrize("trapi_creator", [by_subject, by_object, inverse_by_new_subject, raise_object_by_subject, raise_predicate_by_subject])
+@pytest.mark.parametrize("trapi_creator", [by_subject, by_object, raise_subject_entity, raise_object_by_subject, raise_predicate_by_subject])
 def test_TRAPI_ARAs(ARA_TRAPI_case, trapi_creator, results_bag):
     """Generic Test for ARA TRAPI.  It does the same thing as the KP trapi, calling an ARA that should be pulling
     data from the KP.

@@ -76,6 +76,8 @@ def get_parent(curie,entity_type):
         query_entity = curie
     else:
         query_entity = convert_to_preferred(curie,preferred_prefixes)
+    if query_entity is None:
+        return None
     preferred_parent = get_ontology_parent(query_entity,entity_type)
     original_parent_prefix = preferred_parent.split(':')[0]
     if original_parent_prefix == input_prefix:
@@ -84,4 +86,5 @@ def get_parent(curie,entity_type):
 
 if __name__=='__main__':
     #print(get_parent('PUBCHEM.COMPOUND:208898','biolink:ChemicalSubstance'))
-    print(get_parent('DRUGBANK:DB00394','biolink:ChemicalSubstance'))
+    #print(get_parent('DRUGBANK:DB00394','biolink:ChemicalSubstance'))
+    print(get_parent('CHEMBL.COMPOUND:CHEMBL2333026','biolink:ChemicalSubstance'))

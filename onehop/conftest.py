@@ -26,14 +26,14 @@ def pytest_sessionfinish(session):
                 outname = '/'.join(lparts)
             else:
                 outname = rfname
-            try:
+            if 'request' in rb:
                 with open(outname,'w') as outf:
                     outf.write(rb['location'])
                     outf.write('\n')
                     json.dump(rb['request'],outf,indent=4)
                     outf.write(f'\nStatus Code: {rb["response"]["status_code"]}\n')
                     json.dump(rb['response']['response_json'],outf,indent=4)
-            except:
+            else:
                 #This means that there was no generated request.  But we don't need to make a big deal about it.
                 with open(outname+"NOTEST",'w') as outf:
                     outf.write('Error generating results: No request generated?')

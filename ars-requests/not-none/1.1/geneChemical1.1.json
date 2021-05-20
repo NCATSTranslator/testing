@@ -1,0 +1,27 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e01": {
+                    "object": "n0",
+                    "subject": "n1"
+                }
+            },
+            "nodes": {
+                "n0": {
+                    "categories": [
+                        "biolink:ChemicalSubstance"
+                    ]
+                },
+                "n1": {
+                    "categories": [
+                        "biolink:Gene"
+                    ],
+                    "ids": [
+                        "HGNC:4593"
+                    ]
+                }
+            }
+        }
+    }
+}

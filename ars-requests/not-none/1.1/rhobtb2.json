@@ -27,8 +27,7 @@
                         "biolink:decreases_synthesis_of",
                         "biolink:increases_degradation_of",
                         "biolink:disrupts",
-                        "biolink:negatively_regulates_entity_to_entity", 
-                        "biolink:related_to"
+                        "biolink:negatively_regulates_entity_to_entity"
                     ]
                 }
             }

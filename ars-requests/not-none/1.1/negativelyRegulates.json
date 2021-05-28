@@ -5,7 +5,7 @@
                 "e01": {
                     "object": "n0",
                     "subject": "n1",
-                    "predicates":["biolink:entity_negatively_regulates_entity"]
+                    "predicates":["biolink:negatively_regulates_entity_to_entity"]
                 }
             },
             "nodes": {

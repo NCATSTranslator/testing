@@ -1,0 +1,34 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                 "n0": {
+                    
+                    "ids": [
+                        "HGNC:6284"
+                    ],
+		    "categories":["biolink:Gene"]
+                },"n1": {
+                    "categories": [
+                        "biolink:Disease"
+                    ]
+                },
+                "n2": {
+                    "categories": [
+                        "biolink:PhenotypicFeature"
+                    ]
+                }
+            },
+            "edges": {
+                "e0": {
+                    "subject": "n0",
+                    "object": "n1"
+                },
+                "e1": {
+                    "subject": "n1",
+                    "object": "n2"
+                }
+            }
+        }
+    }
+}

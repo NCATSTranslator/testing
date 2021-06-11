@@ -1,5 +1,5 @@
 {
-    "morphineTarget.json":["HGNC:8156"],
-    "edsPhenotypes.json":["HP:0001382","OMIM:MTHU004643"],
-    "akuCause.json":["MESH:D006713","DRUGBANK:DB08327"]
+    "morphineTarget-1.1.json":["HGNC:8156"],
+    "edsPhenotypes-1.1.json":["HP:0001382","OMIM:MTHU004643"],
+    "akuCause-1.1.json":["MESH:D006713","DRUGBANK:DB08327"]
 }

@@ -1,0 +1,1 @@
+{"message": {"query_graph": {"nodes": {"n0": {"ids": ["UMLS:C0221347"], "categories": ["biolink:PhenotypicFeature"]}, "n1": {"categories": ["biolink:NamedThing"]}}, "edges": {"e01": {"subject": "n0", "object": "n1"}}}}}

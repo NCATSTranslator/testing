@@ -1,0 +1,1 @@
+{"message": {"query_graph": {"nodes": {"n00": {"ids": ["CHEBI:17303"], "categories": ["biolink:ChemicalSubstance"]}, "n01": {"categories": ["biolink:Gene"]}}, "edges": {"e00": {"subject": "n00", "object": "n01", "predicates": ["biolink:physically_interacts_with"]}}}}}

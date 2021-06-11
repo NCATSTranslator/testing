@@ -1,0 +1,1 @@
+{"message": {"query_graph": {"edges": {"e01": {"object": "n0", "subject": "n1", "predicates": ["biolink:has_phenotype"]}}, "nodes": {"n0": {"ids": ["MONDO:0007114"], "categories": ["biolink:Disease"]}, "n1": {"categories": ["biolink:PhenotypicFeature"]}}}}}

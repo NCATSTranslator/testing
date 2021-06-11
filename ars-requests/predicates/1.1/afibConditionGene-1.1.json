@@ -1,0 +1,1 @@
+{"message": {"query_graph": {"edges": {"e00": {"subject": "n00", "object": "n01", "predicates": ["biolink:condition_associated_with_gene"]}}, "nodes": {"n00": {"ids": ["EFO:0000275"], "categories": ["biolink:Disease"]}, "n01": {"categories": ["biolink:Gene"]}}}}}

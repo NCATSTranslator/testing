@@ -1,0 +1,43 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n0": {
+                    "ids": [
+                        "MONDO:0007743"
+                    ],
+                    "categories": [
+                        "biolink:Disease"
+                    ]
+                },
+                "n1": {
+		             "categories":[
+                         "biolink:Gene"
+                        ]
+                },
+                "n2": {
+
+                    "ids":[
+                        "CHEBI:31859"
+                    ],
+                    "categories":[
+                        "biolink:ChemicalSubstance"
+                       ]
+
+               }
+            },
+            "edges": {
+                "e0": {
+                    "subject": "n0",
+                    "object": "n1"
+
+                },
+                "e1": {
+                    "subject": "n2",
+                    "object": "n1"
+                }
+
+            }
+        }
+    }
+}

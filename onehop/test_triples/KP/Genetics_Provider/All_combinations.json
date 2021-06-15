@@ -4,10 +4,10 @@
     "edges": [
         {
             "subject_category": "biolink:Gene",
-            "object_category": "biolink:PhenotypicFeature",
+            "object_category": "biolink:DiseaseOrPhenotypicFeature",
             "predicate": "biolink:gene_associated_with_condition",
-            "subject": "NCBIGene:388364",
-            "object": "EFO:0004339"
+            "subject": "NCBIGene:5468",
+            "object": "MONDO:0005148"
         },
         {
             "subject_category": "biolink:Gene",

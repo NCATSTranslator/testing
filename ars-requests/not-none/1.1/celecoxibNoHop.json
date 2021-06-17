@@ -1,0 +1,29 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n0": {
+                    "ids":["PUBCHEM.COMPOUND:2662"],
+                    "categories":[
+                        "biolink:ChemicalSubstance"
+                       ]
+                },
+                "n1": {
+                    
+                    "categories":[
+                        "biolink:Gene"
+                       ],
+                       "ids":["HGNC:9604"]
+
+               }
+            },
+            "edges": {
+                "e0": {
+                    "subject": "n0",
+                    "object": "n1"
+
+                }
+            }
+        }
+    }
+}

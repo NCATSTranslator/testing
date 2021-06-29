@@ -1,0 +1,28 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n0": {
+                    "ids": [
+                        "PUBCHEM.COMPOUND:40466924"
+                    ],
+                    "categories": [
+                        "biolink:ChemicalSubstance"
+                    ]
+                },
+                "n1": {
+		             "categories":[
+                         "biolink:Disease"
+                        ]
+                }
+            },
+            "edges": {
+                "e0": {
+                    "subject": "n0",
+                    "object": "n1",
+                    "predicates":["biolink:causes","biolink:causes_adverse_event"]
+                }
+            }
+        }
+    }
+}

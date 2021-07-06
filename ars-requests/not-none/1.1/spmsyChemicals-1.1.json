@@ -1,1 +1,21 @@
-{"message": {"query_graph": {"nodes": {"n0": {"ids": ["UniProtKB:P52788"], "categories": ["biolink:Gene"]}, "n1": {"categories": ["biolink:ChemicalSubstance"]}}, "edges": {"e01": {"subject": "n0", "object": "n1"}}}}}
+{
+	"message": {
+		"query_graph": {
+			"nodes": {
+				"n0": {
+					"ids": ["NCBIGene:6611"],
+					"categories":["biolink:Gene"]
+				},
+				"n1": {
+					"categories": ["biolink:ChemicalSubstance"]
+                }
+			},
+			"edges": {
+				"e01": {
+					"subject": "n0",
+                    "object": "n1"
+                }
+			}
+		}
+	}
+}

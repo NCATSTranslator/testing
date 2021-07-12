@@ -1,0 +1,37 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n0": {
+                    "ids":["UniProtKB:P15692","UniProtKB:P05121"],
+		             "categories":[
+                         "biolink:GeneOrGeneProduct"
+                        ]
+                },
+                "n1": {
+                    "categories":[
+                        "biolink:ChemicalSubstance"
+                       ]
+               },
+                
+                "n2": {
+                    "ids":["MONDO:0005296"],
+		             "categories":[
+                         "biolink:Disease"
+                        ]
+                }
+            },
+            "edges": {
+                "e0": {
+                    "subject": "n0",
+                    "object": "n1"
+                },
+                "e1": {
+                    "subject": "n2",
+                    "object": "n1"
+                }
+
+            }
+        }
+    }
+}

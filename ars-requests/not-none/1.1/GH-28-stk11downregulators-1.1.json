@@ -8,8 +8,7 @@
                     "predicates": [
                         [
                             "biolink:prevents",
-                            "biolink:negatively_regulates",
-                            "biolink:decreases_secretion_of",
+                            "biolink:negatively_regulates_entity",
                             "biolink:decreases_secretion_of",
                             "biolink:decreases_transport_of",
                             "biolink:decreases_activity_of",
@@ -17,13 +16,7 @@
                             "biolink:decreases_expression_of",
                             "biolink:increases_degradation_of",
                             "biolink:entity_negatively_regulates_entity",
-                            "biolink:disrupts",
-                            "biolink:directly_negatively_regulates",
-                            "biolink:inhibits",
-                            "biolink:inhibitor",
-                            "biolink:channel_blocker",
-                            "biolink:disrupts",
-                            "biolink:may_inhibit_effect_of"
+                            "biolink:disrupts"
                         ]
                     ]
                 }

@@ -1,0 +1,45 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e01": {
+                    "object": "n0",
+                    "subject": "n1",
+                    "predicates": [
+                        [
+                            "biolink:prevents",
+                            "biolink:negatively_regulates",
+                            "biolink:decreases_secretion_of",
+                            "biolink:decreases_secretion_of",
+                            "biolink:decreases_transport_of",
+                            "biolink:decreases_activity_of",
+                            "biolink:decreases_synthesis_of",
+                            "biolink:decreases_expression_of",
+                            "biolink:increases_degradation_of",
+                            "biolink:entity_negatively_regulates_entity",
+                            "biolink:disrupts",
+                            "biolink:directly_negatively_regulates",
+                            "biolink:inhibits",
+                            "biolink:inhibitor",
+                            "biolink:channel_blocker",
+                            "biolink:disrupts",
+                            "biolink:may_inhibit_effect_of"
+                        ]
+                    ]
+                }
+            },
+            "nodes": {
+                "n0": {
+                    "ids": [
+                        "HGNC:11389"
+                    ]
+                },
+                "n1": {
+                    "categories": [
+                        "biolink:ChemicalSubstance"
+                    ]
+                }
+            }
+        }
+    }
+}

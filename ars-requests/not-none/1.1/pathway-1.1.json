@@ -1,1 +1,0 @@
-{"message": {"query_graph": {"nodes": {"n0": {"ids": ["NCBIGENE:1017"], "categories": ["biolink:Gene"]}, "n1": {"categories": ["biolink:Pathway"]}}, "edges": {"e01": {"subject": "n0", "object": "n1"}}}}}

@@ -3,12 +3,12 @@
 		"query_graph": {
 			"nodes": {
 				"n0": {
-					"id": "NCBIGene:1017",
-					"category":"biolink:Gene"
+					"ids": ["NCBIGene:1017"],
+					"categories":["biolink:Gene"]
 				},
 				"n1": {
                     
-					"category": "biolink:Pathway"
+					"categories": ["biolink:Pathway"]
                 }
 			},
 			"edges": {

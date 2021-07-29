@@ -1,0 +1,44 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n0": {
+                    "ids": [
+                        "MONDO:0004975"
+                    ],
+                    "categories": [
+                        "biolink:Disease"
+                    ]
+                },
+                "n1": {
+		             "categories":[
+                    
+                        
+                         "biolink:BiologicalProcessOrActivity"
+                        ]
+                },
+                "n2": {
+                    "ids":["PUBCHEM.COMPOUND:1935"],
+                    "categories":[
+                        "biolink:ChemicalSubstance"
+                       ]
+               }
+
+            },
+            "edges": {
+                "e0": {
+                    "subject": "n0",
+                    "object": "n1",
+                    "predicates":["biolink:related_to"]
+
+                },
+                "e1": {
+                    "subject": "n2",
+                    "object": "n1",
+                    "predicates":["biolink:related_to"]
+
+                }
+            }
+        }
+    }
+}

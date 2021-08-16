@@ -1,0 +1,29 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n0": {
+                    "ids": [
+                        "HP:0002013"
+                    ],
+                    "categories": [
+                        "biolink:DiseaseOrPhenotypicFeature"
+                    ]
+                },
+                "n1": {
+		             "categories":[
+                         "biolink:ChemicalEntity"
+                        ]
+                }
+            },
+            "edges": {
+                "e0": {
+                    "subject": "n0",
+                    "object": "n1",
+                    "predicates":["biolink:related_to"]
+
+                }
+            }
+        }
+    }
+}

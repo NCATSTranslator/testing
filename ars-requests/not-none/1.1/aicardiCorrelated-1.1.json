@@ -1,1 +1,17 @@
-{"message": {"query_graph": {"nodes": {"n0": {"ids": ["MONDO:0014007"], "categories": ["biolink:Disease"]}, "n1": {"categories": ["biolink:Disease"]}}, "edges": {"e01": {"subject": "n0", "object": "n1", "predicates": ["biolink:correlated_with"]}}}}}
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": { "ids": ["MONDO:0014007"], "categories": ["biolink:Disease"] },
+        "n1": { "categories": ["biolink:Disease"] }
+      },
+      "edges": {
+        "e01": {
+          "subject": "n0",
+          "object": "n1",
+          "predicates": ["biolink:correlated_with"]
+        }
+      }
+    }
+  }
+}

@@ -16,7 +16,7 @@
                     "categories": [
                         "biolink:Gene"
                     ],
-                    "is_set": false
+                    "is_set": true
                 },
                 "n2": {
                     "categories": [

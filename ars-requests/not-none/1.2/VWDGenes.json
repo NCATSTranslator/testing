@@ -1,0 +1,30 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e00": {
+                    "subject": "n00",
+                    "object": "n01",
+                    "predicates": [
+                        "biolink:genetic_association"
+                    ]
+                }
+            },
+            "nodes": {
+                "n00": {
+                    "categories": [
+                        "biolink:Gene"
+                    ]
+                },
+                "n01": {
+                    "categories": [
+                        "biolink:Disease"
+                    ],
+                    "ids": [
+                        "MONDO:0019565"
+                    ]
+                }
+            }
+        }
+    }
+}

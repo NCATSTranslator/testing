@@ -1,0 +1,30 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e00": {
+                    "subject": "n00",
+                    "object": "n01",
+                    "predicates": [
+                        "biolink:has_real_world_evidence_of_association_with"
+                    ]
+                }
+            },
+            "nodes": {
+                "n00": {
+                    "categories": [
+                        "biolink:SmallMolecule"
+                    ]
+                },
+                "n01": {
+                    "categories": [
+                        "biolink:Disease"
+                    ],
+                    "ids": [
+                        "NCIT:C26791"
+                    ]
+                }
+            }
+        }
+    }
+}

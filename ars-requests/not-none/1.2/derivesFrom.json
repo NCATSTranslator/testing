@@ -1,0 +1,30 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e00": {
+                    "subject": "n00",
+                    "object": "n01",
+                    "predicates": [
+                        "biolink:derives_from"
+                    ]
+                }
+            },
+            "nodes": {
+                "n00": {
+                    "categories": [
+                        "biolink:ChemicalEntity"
+                    ]
+                },
+                "n01": {
+                    "categories": [
+                        "biolink:ChemicalEntity"
+                    ],
+                    "ids": [
+                        "PUBCHEM.COMPOUND:6140"
+                    ]
+                }
+            }
+        }
+    }
+}

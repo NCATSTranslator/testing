@@ -1,0 +1,31 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e00": {
+                    "subject": "n00",
+                    "object": "n01",
+                    "predicates": [
+                        "biolink:subclass_of"
+                    ]
+                }
+            },
+            "nodes": {
+                "n00": {
+                   
+                    "ids": [
+                        "MONDO:0005737"
+                    ],
+                    "categories": [
+                        "biolink:Disease"
+                    ]
+                },
+                "n01": {
+                    "categories": [
+                        "biolink:Disease"
+                    ]
+                }
+            }
+        }
+    }
+}

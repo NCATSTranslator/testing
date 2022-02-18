@@ -1,0 +1,29 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e00": {
+                    "subject": "n0",
+                    "object": "n1"
+                }
+            },
+            "nodes": {
+                "n0": {                   
+                    "ids": [
+       "HP:0001984",
+   "UMLS:C1396243",
+   "HP:0002038",
+   "HP:0001984",
+   "OMIM:MTHU007049",
+   "UMLS:C1839531"
+                    ]
+                },
+                "n1": {
+                    "categories": [
+                        "biolink:NamedThing"
+                    ]
+                }
+            }
+        }
+    }
+}

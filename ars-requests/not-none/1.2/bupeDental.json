@@ -1,0 +1,31 @@
+{
+    "message": {
+      "query_graph": {
+        "edges": {
+          "e00": {
+            "subject": "n00",
+              "object": "n01",
+          "predicates":["biolink:related_to"]
+          },
+          "e01": {
+            "subject": "n01",
+              "object": "n02",
+          "predicates":["biolink:related_to"]
+          }
+        },
+        "nodes": {
+          "n00": {
+            "ids": ["PUBCHEM.COMPOUND:644073"],
+            "categories": ["biolink:ChemicalEntity"]
+          },
+          "n01": {
+              "categories": ["biolink:BiologicalProcessOrActivity","biolink:Gene","biolink:Pathway"]
+          },
+          "n02": {
+            "ids": ["MONDO:0002325"],
+            "categories": ["biolink:DiseaseOrPhenotypicFeature"]
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+{
+    "message": {
+      "query_graph": {
+        "edges": {
+          "e00": {
+            "subject": "n00",
+              "object": "n01",
+          "predicates":["biolink:causes"]
+          }
+        },
+        "nodes": {
+          "n00": {
+              "categories": ["biolink:DiseaseOrPhenotypicFeature"]
+          },
+          "n01": {
+            "ids": ["MONDO:0002325"],
+            "categories": ["biolink:DiseaseOrPhenotypicFeature"]
+          }
+        }
+      }
+    }
+  }

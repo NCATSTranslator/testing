@@ -1,0 +1,22 @@
+{
+    "message": {
+      "query_graph": {
+        "edges": {
+          "e00": {
+            "subject": "n01",
+              "object": "n00",
+          "predicates":["biolink:location_of"]
+          }
+        },  
+        "nodes": {
+          "n00": {
+            "ids": ["NCBIGene:5354"],
+            "categories": ["biolink:Disease"]
+          },
+          "n01": {
+              "categories": ["biolink:Cell"]
+          }
+        }
+      }
+    }
+  }

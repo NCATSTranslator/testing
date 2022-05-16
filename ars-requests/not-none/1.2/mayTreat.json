@@ -1,0 +1,33 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e01": {
+                    "object": "n0",
+                    "subject": "n1",
+                    "predicates": [
+                        "biolink:treats",
+                        "biolink:disrupts",
+                        "biolink:prevents",
+                        "biolink:affects"
+                    ]
+                }
+            },
+            "nodes": {
+                "n0": {
+                    "ids": [
+                        "PUBCHEM.COMPOUND:2083"
+                    ],
+                    "categories": [
+                        "biolink:ChemicalEntity"
+                    ]
+                },
+                "n1": {
+                    "categories": [
+                        "biolink:Disease"
+                    ]
+                }
+            }
+        }
+    }
+}

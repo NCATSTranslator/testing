@@ -20,7 +20,7 @@
                         "HP:0011015"
                     ],
                     "categories": [
-                        "biolink:PhenotypePhenotype"
+                        "biolink:PhenotypicFeature"
                     ]
                 },
                 "n01": {

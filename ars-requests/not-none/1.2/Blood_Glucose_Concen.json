@@ -1,0 +1,34 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e00": {
+                    "subject": "n01",
+                    "object": "n00",
+                    "predicates": [
+                        "biolink:treats",
+                        "biolink:disrupts",
+                        "biolink:prevents",
+                        "biolink:affects"
+                    ]
+                }
+            },
+            "nodes": {
+                "n00": {
+                   
+                    "ids": [
+                        "HP:0011015"
+                    ],
+                    "categories": [
+                        "biolink:PhenotypePhenotype"
+                    ]
+                },
+                "n01": {
+                    "categories": [
+                        "biolink:SmallMolecule"
+                    ]
+                }
+            }
+        }
+    }
+}

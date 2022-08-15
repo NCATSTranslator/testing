@@ -1,0 +1,32 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n0": {
+                    "ids": [
+                        "MONDO:0005300"
+
+                    ],
+                    "categories": [
+                        "biolink:Disease"
+                    ],
+                    "name": "chronic kidney disease"
+                },
+                "n1": {
+		             "categories":[
+                         "biolink:ChemicalEntity"
+                        ]
+                }
+            },
+            "edges": {
+                "e0": {
+                    "knowledge_type": "inferred",
+                    "subject": "n1",
+                    "object": "n0",
+                    "predicates":[
+                        "biolink:treats"]
+                }
+            }
+        }
+    }
+}

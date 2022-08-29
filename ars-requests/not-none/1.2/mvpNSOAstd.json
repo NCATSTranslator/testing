@@ -1,0 +1,30 @@
+{
+    "message": {
+        "query_graph": {
+            "nodes": {
+                "n0": {
+                    "ids": [
+                      "MONDO:0043156"
+                    ],
+                    "categories": [
+                      "biolink:Disease"
+                    ],
+                    "name": "nephrotic syndrome ocular anomalies"
+                },
+                "n1": {
+		             "categories":[
+                         "biolink:ChemicalEntity"
+                        ]
+                }
+            },
+            "edges": {
+                "e0": {
+                    "subject": "n1",
+                    "object": "n0",
+                    "predicates":[
+                        "biolink:treats"]
+                }
+            }
+        }
+    }
+}

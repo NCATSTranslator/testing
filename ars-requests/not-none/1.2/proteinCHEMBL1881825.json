@@ -1,0 +1,22 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e00": {
+                    "subject":   "n00",
+                    "object":	"n01",
+                    "predicates": ["biolink:directly_physically_interacts_with"]
+                }
+            },
+            "nodes": {
+                "n00": {
+                    "ids":        ["CHEMBL.COMPOUND:CHEMBL2107834"]
+                },
+                "n01": {
+                    "categories":  ["biolink:Gene", "biolink:Protein"]
+                }
+            }
+        
+        }
+    }
+}

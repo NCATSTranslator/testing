@@ -1,0 +1,32 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+              "contributes_to": {
+                "subject": "gene",
+                "object": "disease",
+                "predicates": [
+                  "biolink:contributes_to"
+                ]
+              }
+            },
+            "nodes": {
+              "gene": {
+                "categories": [
+                  "biolink:Gene",
+                  "biolink:Protein",
+                  "biolink:SequenceVariant"
+                ]
+              },
+              "disease": {
+                "ids": [
+                  "MONDO:0010679"
+                ],
+                "categories": [
+                  "biolink:Disease"
+                ]
+              }
+            }
+          }
+    }
+}

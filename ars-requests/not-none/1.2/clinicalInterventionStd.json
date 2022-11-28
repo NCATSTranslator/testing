@@ -1,0 +1,30 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+              "ameliorates": {
+                "subject": "ClinicalIntervention",
+                "object": "disease",
+                "predicates": [
+                  "biolink:ameliorates"
+                ]
+              }
+            },
+            "nodes": {
+              "ClinicalIntervention": {
+                "categories": [
+                  "biolink:ClinicalIntervention"
+                ]
+              },
+              "disease": {
+                "ids": [
+                  "MONDO:0021783"
+                ],
+                "categories": [
+                  "biolink:Disease"
+                ]
+              }
+            }
+          }
+    }
+}

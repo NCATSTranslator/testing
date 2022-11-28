@@ -15,7 +15,8 @@
                 "categories": [
                   "biolink:Gene",
                   "biolink:Protein",
-                  "biolink:SequenceVariant"
+                  "biolink:SequenceVariant",
+                  "biolink:BiologicalProcessOrActivity"
                 ]
               },
               "disease": {

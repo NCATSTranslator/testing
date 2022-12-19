@@ -1,0 +1,33 @@
+{
+    "message": {
+      "query_graph": {
+        "nodes": {
+          "chementity-node": {
+            "categories": ["biolink:ChemicalEntity"]
+          },
+          "cox2": {
+            "ids": ["NCBIGene:4513"]
+          }
+        },
+        "edges": {
+          "e01": {
+            "subject": "chementity-node",
+            "object": "cox2",
+            "predicates": [
+              "biolink:affects"
+            ],
+            "qualifier_constraints": [
+              {
+                "qualifier_set": [
+                  {
+                    "qualifier_type_id": "biolink:object_direction_qualifier",
+                    "qualifier_value": "decreased"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }

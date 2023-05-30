@@ -8,6 +8,11 @@ Materials and tools for testing Translator components
 pip install -r requirements.txt
 ```
 
+## Install pre-commit for JSON formatting
+```
+pre-commit install
+```
+
 ## Run tests
 
 ```bash

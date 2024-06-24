@@ -1,0 +1,15 @@
+{
+    "automat_ctd": "https://automat.renci.org/ctd/query",
+    "strider": "https://strider.renci.org/query",
+    "molepro": "https://translator.broadinstitute.org/molepro/trapi/v1.1/query",
+    "arax": "https://arax.ncats.io/api/arax/v1.1/query",
+    "text_mining": "https://api.bte.ncats.io/v1/smartapi/978fe380a147a8641caf72320862697b/query/",
+    "improving1.0": "https://evidara.healthdatascience.cloud/api/v1/query",
+    "improving1.1": "https://ia.healthdatascience.cloud/api/v1.1/query",
+    "bte": "https://api.bte.ncats.io/v1/query/",
+    "cohd1.0": "https://cohd.io/api/1.0.0/translator/query",
+    "cohd1.1": "https://cohd.io/api/1.1.0/translator/query",
+    "chp1.1": "http://chp.thayer.dartmouth.edu/query/",
+    "chp1.0": "http://chp.thayer.dartmouth.edu/v1.0/query/",
+    "cam": "https://cam-kp-api-dev.renci.org/query"
+}

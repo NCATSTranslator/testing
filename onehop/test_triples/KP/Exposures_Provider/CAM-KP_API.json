@@ -34,10 +34,10 @@
 	    "subject_category": "biolink:OrganismalEntity",
             "object_category": "biolink:MolecularEntity",
             "predicate": "biolink:interacts_with",
-            "subject": "GO:0019908",
-            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-2220958"
+            "subject": "NCBIGENE:1025",
+            "object": "GO:0140513"
 	},
-	{
+    {
 	    "subject_category": "biolink:Protein",
             "object_category": "biolink:Protein",
             "predicate": "biolink:interacts_with",
@@ -49,21 +49,14 @@
             "object_category": "biolink:Protein",
             "predicate": "biolink:molecularly_interacts_with",
             "subject": "UniProtKB:Q06187",
-            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-2029115"
+            "object": "NCBIGENE:7410"
 	},
-        {
-            "subject_category": "biolink:Protein",
-            "object_category": "biolink:Protein",
-            "predicate": "biolink:molecularly_interacts_with",
-            "subject": "UniProtKB:Q06187",
-            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-2029115"
-        },
 	{
 	    "subject_category": "biolink:BiologicalEntity",
             "object_category": "biolink:NamedThing",
             "predicate": "biolink:physically_interacts_with",
             "subject": "GO:1902911",
-            "object": "http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-9672040"
+            "object": "GO:0150005"
 	}
     ]
 }
